@@ -1,0 +1,6452 @@
+[
+    {
+        "Description (Remarks)": "Sequential number for identifying discharges.",
+        "Field Label": "Discharge Sequential Number",
+        "From": "1",
+        "Ln": "",
+        "SEGMENT": "Common Detail",
+        "Size": "14",
+        "To": "14",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Continuation Type",
+        "Field Label": "Continuation Indicator",
+        "From": "15",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "15",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "The records sequence within the discharge",
+        "Field Label": "Record Sequence Number",
+        "From": "16",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "18",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Number of Records in the Discharge",
+        "Field Label": "Record Sequence Count",
+        "From": "19",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "21",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 1",
+        "From": "22",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "68",
+        "To": "89",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date of Birth (YYYYMM)",
+        "Field Label": "Patient's Birth Date (DOB)",
+        "From": "90",
+        "Ln": "",
+        "SEGMENT": "Patient Segment",
+        "Size": "6",
+        "To": "95",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 2",
+        "From": "96",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "97",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Calculated Age",
+        "Field Label": "Age",
+        "From": "98",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "100",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Where Age=0; Calculated Age in Days",
+        "Field Label": "Age in Days ",
+        "From": "101",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "103",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Patient's Sex; M, F, or U",
+        "Field Label": "Patient Sex",
+        "From": "104",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "104",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Patient's Race Code",
+        "Field Label": "Patient Race",
+        "From": "105",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "106",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Patient's Ethnicity Code",
+        "Field Label": "Patient Ethnicity",
+        "From": "107",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "107",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 3",
+        "From": "108",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "36",
+        "To": "143",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Patient's City",
+        "Field Label": "Patient City",
+        "From": "144",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "15",
+        "To": "158",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Patient State",
+        "Field Label": "Patient State",
+        "From": "159",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "160",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Patient Zip Code",
+        "Field Label": "Patient Zip Code",
+        "From": "161",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "5",
+        "To": "165",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 4",
+        "From": "166",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "169",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Patient County Code",
+        "Field Label": "Patient County Code",
+        "From": "170",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "171",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Region Code",
+        "Field Label": "SPARCS Region Code",
+        "From": "172",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "173",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Indicates Newborn Discharge",
+        "Field Label": "Newborn Flag",
+        "From": "174",
+        "Ln": "",
+        "SEGMENT": "Newborn Segment",
+        "Size": "1",
+        "To": "174",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Facility Identifier (PFI)",
+        "Field Label": "Facility Identifier",
+        "From": "175",
+        "Ln": "",
+        "SEGMENT": "Facility Segment",
+        "Size": "6",
+        "To": "180",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "PFI Check Digit",
+        "Field Label": "Facility Identifier Check Digit",
+        "From": "181",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "181",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Facility Name",
+        "Field Label": "Facility Name",
+        "From": "182",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "70",
+        "To": "251",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Health Service Area",
+        "Field Label": "Health Service Area",
+        "From": "252",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "252",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Hospital County",
+        "Field Label": "Facility County",
+        "From": "253",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "254",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Operating Certificate Number",
+        "Field Label": "Operating Certificate Number",
+        "From": "255",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "261",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "National Provider ID",
+        "Field Label": "National Provider ID",
+        "From": "262",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "271",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Attending Physician ID",
+        "Field Label": "Attending Provider License Number",
+        "From": "272",
+        "Ln": "",
+        "SEGMENT": "Physician Segment",
+        "Size": "8",
+        "To": "279",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Operating Physician ID",
+        "Field Label": "Operating Physician License Number",
+        "From": "280",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "287",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Physician ID",
+        "Field Label": "Other Provider License Number",
+        "From": "288",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "295",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Payor Classification ",
+        "Field Label": "Source of Payment Typology 1",
+        "From": "296",
+        "Ln": "1",
+        "SEGMENT": "Payor Segment",
+        "Size": "5",
+        "To": "300",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Payor Classification ",
+        "Field Label": "Source of Payment Typology 2",
+        "From": "301",
+        "Ln": "2",
+        "SEGMENT": "",
+        "Size": "5",
+        "To": "305",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Payor Classification ",
+        "Field Label": "Source of Payment Typology 3",
+        "From": "306",
+        "Ln": "3",
+        "SEGMENT": "",
+        "Size": "5",
+        "To": "310",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Type of Insurance",
+        "Field Label": "Source of Payment 1",
+        "From": "311",
+        "Ln": "1",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "311",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Tpye of Insurance; X-12 codes",
+        "Field Label": "Claim filing Indicator 1",
+        "From": "312",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "313",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "NIAC ID Number for Insurance Company",
+        "Field Label": "Payor ID Number 1",
+        "From": "314",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "321",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Insurance Company's ID for Facility",
+        "Field Label": "Billing National Provider Identification 1",
+        "From": "322",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "13",
+        "To": "334",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Insurance",
+        "Field Label": "Source of Payment 2",
+        "From": "335",
+        "Ln": "2",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "335",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Tpye of Insurance; X-12 codes",
+        "Field Label": "Claim filing Indicator 2",
+        "From": "336",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "337",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "NIAC ID Number for Insurance Company",
+        "Field Label": "Payor ID Number 2",
+        "From": "338",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "345",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Insurance Company's ID for Facility",
+        "Field Label": "Billing National Provider Identification 2",
+        "From": "346",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "13",
+        "To": "358",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Insurance",
+        "Field Label": "Source of Payment 3",
+        "From": "359",
+        "Ln": "3",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "359",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Tpye of Insurance; X-12 codes",
+        "Field Label": "Claim filing Indicator 3",
+        "From": "360",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "361",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "NIAC ID Number for Insurance Company",
+        "Field Label": "Payor ID Number 3",
+        "From": "362",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "369",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Insurance Company's ID for Facility",
+        "Field Label": "Billing National Provider Identification 3",
+        "From": "370",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "13",
+        "To": "382",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Insurance",
+        "Field Label": "Source of Payment 4",
+        "From": "383",
+        "Ln": "4",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "383",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Tpye of Insurance; X-12 codes",
+        "Field Label": "Claim filing Indicator 4",
+        "From": "384",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "385",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "NIAC ID Number for Insurance Company",
+        "Field Label": "Payor ID Number 4",
+        "From": "386",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "393",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Insurance Company's ID for Facility",
+        "Field Label": "Billing National Provider Identification 4",
+        "From": "394",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "13",
+        "To": "406",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Insurance",
+        "Field Label": "Source of Payment 5",
+        "From": "407",
+        "Ln": "5",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "407",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Tpye of Insurance; X-12 codes",
+        "Field Label": "Claim filing Indicator 5",
+        "From": "408",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "409",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "NIAC ID Number for Insurance Company",
+        "Field Label": "Payor ID Number 5",
+        "From": "410",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "417",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Insurance Company's ID for Facility",
+        "Field Label": "Billing National Provider Identification 5",
+        "From": "418",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "13",
+        "To": "430",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Insurance",
+        "Field Label": "Source of Payment 6",
+        "From": "431",
+        "Ln": "6",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "431",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Tpye of Insurance; X-12 codes",
+        "Field Label": "Claim filing Indicator 6",
+        "From": "432",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "433",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "NIAC ID Number for Insurance Company",
+        "Field Label": "Payor ID Number 6",
+        "From": "434",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "441",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Insurance Company's ID for Facility",
+        "Field Label": "Billing National Provider Identification 6",
+        "From": "442",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "13",
+        "To": "454",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Primary Reimbursement",
+        "Field Label": "Primary Expected Reimbursement",
+        "From": "455",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "456",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Medicaid Rate Code",
+        "Field Label": "Medicaid Rate Code",
+        "From": "457",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "460",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Log Number",
+        "Field Label": "Log Number",
+        "From": "461",
+        "Ln": "",
+        "SEGMENT": "Data Collection Segment",
+        "Size": "6",
+        "To": "466",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Transaction Code",
+        "Field Label": "Transaction Code",
+        "From": "467",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "467",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Processed Date (YYYYMMDD)",
+        "Field Label": "Date Processed",
+        "From": "468",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "475",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Data Collector",
+        "Field Label": "SPARCS Collector Code",
+        "From": "476",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "478",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Claim Type (I, A, E or O)",
+        "Field Label": "Claim Type",
+        "From": "479",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "479",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "File Type(Complete/Incomplete)",
+        "Field Label": "Source File Type",
+        "From": "480",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "480",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Residence Indicator",
+        "Field Label": "Residence Indicator",
+        "From": "481",
+        "Ln": "",
+        "SEGMENT": "Miscellaneous Segment",
+        "Size": "1",
+        "To": "481",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Operating Time",
+        "Field Label": "Procedure Time",
+        "From": "482",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "484",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Accident Hour",
+        "Field Label": "Accident Hour",
+        "From": "485",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "486",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "ED Indicator",
+        "Field Label": "Emergency Department (ED) Indicator",
+        "From": "487",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "487",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Claim From Date (YYYYMM)",
+        "Field Label": "Statement From Date",
+        "From": "488",
+        "Ln": "",
+        "SEGMENT": "Treatment Segment",
+        "Size": "6",
+        "To": "493",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 5",
+        "From": "494",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "495",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Claim Through Date (YYYYMM)",
+        "Field Label": "Statement Thru Date",
+        "From": "496",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "501",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 6",
+        "From": "502",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "503",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date of Admission (YYYYMM)",
+        "Field Label": "Admission Date / Start of Care Date",
+        "From": "504",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "509",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 7",
+        "From": "510",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "511",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Admit Day-of-Week",
+        "Field Label": "Admit Weekday",
+        "From": "512",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "514",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Hour of Admission",
+        "Field Label": "Admission Hour",
+        "From": "515",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "516",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Date of Discharge (YYYYMM)",
+        "Field Label": "Dischage Date",
+        "From": "517",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "522",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 8",
+        "From": "523",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "524",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Discharge Day-of-Week",
+        "Field Label": "Discharge Weekday",
+        "From": "525",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "527",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Hour of Discharge",
+        "Field Label": "Discharge Hour",
+        "From": "528",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "529",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Same-day Discharge Indicator",
+        "Field Label": "Same-day Discharge Indicator",
+        "From": "530",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "530",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Discharge Disposition",
+        "Field Label": "Patient Status",
+        "From": "531",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "532",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Bill",
+        "Field Label": "Type of Bill",
+        "From": "533",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "535",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Service Class",
+        "Field Label": "Service Category Group",
+        "From": "536",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "536",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Diagnosis Code at Time of Visit",
+        "Field Label": "Admitting Diagnosis Code",
+        "From": "537",
+        "Ln": "",
+        "SEGMENT": "Diagnosis Segment",
+        "Size": "7",
+        "To": "543",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Principal Diagnosis",
+        "Field Label": "Principal Diagnosis Code",
+        "From": "544",
+        "Ln": "1",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "550",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Other Diagnosis Code 1",
+        "From": "551",
+        "Ln": "2",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "557",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Diagnosis Code 2",
+        "From": "558",
+        "Ln": "3",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "564",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Diagnosis Code 3",
+        "From": "565",
+        "Ln": "4",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "571",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Diagnosis Code 4",
+        "From": "572",
+        "Ln": "5",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "578",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Diagnosis Code 5",
+        "From": "579",
+        "Ln": "6",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "585",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Diagnosis Code 6",
+        "From": "586",
+        "Ln": "7",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "592",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Diagnosis Code 7",
+        "From": "593",
+        "Ln": "8",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "599",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Diagnosis Code 8",
+        "From": "600",
+        "Ln": "9",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "606",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Diagnosis Code 9",
+        "From": "607",
+        "Ln": "10",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "613",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Diagnosis Code 10",
+        "From": "614",
+        "Ln": "11",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "620",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Diagnosis Code 11",
+        "From": "621",
+        "Ln": "12",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "627",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Diagnosis Code 12",
+        "From": "628",
+        "Ln": "13",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "634",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Diagnosis Code 13",
+        "From": "635",
+        "Ln": "14",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "641",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Diagnosis Code 14",
+        "From": "642",
+        "Ln": "15",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "648",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Diagnosis Code 15",
+        "From": "649",
+        "Ln": "16",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "655",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Diagnosis Code 16",
+        "From": "656",
+        "Ln": "17",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "662",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Diagnosis Code 17",
+        "From": "663",
+        "Ln": "18",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "669",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Diagnosis Code 18",
+        "From": "670",
+        "Ln": "19",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "676",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Diagnosis Code 19",
+        "From": "677",
+        "Ln": "20",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "683",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Diagnosis Code 20",
+        "From": "684",
+        "Ln": "21",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "690",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Diagnosis Code 21",
+        "From": "691",
+        "Ln": "22",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "697",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Diagnosis Code 22",
+        "From": "698",
+        "Ln": "23",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "704",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Diagnosis Code 23",
+        "From": "705",
+        "Ln": "24",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "711",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Diagnosis Code 24",
+        "From": "712",
+        "Ln": "25",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "718",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "CCS Diagnosis Category",
+        "Field Label": "Clinical Classification Software (CCS) Diagnosis Category",
+        "From": "719",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "721",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Accident Type Code",
+        "Field Label": "Accident Related Code",
+        "From": "722",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "723",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Accident Date (YYYYMM)",
+        "Field Label": "Accident Related Date",
+        "From": "724",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "729",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 9",
+        "From": "730",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "731",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "Cause of Injury E-Code",
+        "Field Label": "External Cause of Injury ",
+        "From": "732",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "738",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Place of Injury E-Code",
+        "Field Label": "Place of Injury Code",
+        "From": "739",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "745",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Principal Procedure",
+        "Field Label": "Principal Procedure Code  ",
+        "From": "746",
+        "Ln": "",
+        "SEGMENT": "Procedure Segment",
+        "Size": "4",
+        "To": "749",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Procedure Occurred (YYYYMM)",
+        "Field Label": "Principal Procedure Date ",
+        "From": "750",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "755",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 10",
+        "From": "756",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "757",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "Indicates if Procedure occurred before, on, or after Date of Admission",
+        "Field Label": "Pre-admit procedure indicator 1",
+        "From": "758",
+        "Ln": "1",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "758",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Principal Procedure",
+        "Field Label": "Other Procedure Code 1 ",
+        "From": "759",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "762",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Procedure Occurred (YYYYMM)",
+        "Field Label": "Other Procedure Date 1",
+        "From": "763",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "768",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 11",
+        "From": "769",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "770",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "Indicates if Procedure occurred before, on, or after Date of Admission",
+        "Field Label": "Pre-admit procedure indicator 2",
+        "From": "771",
+        "Ln": "2",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "771",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Principal Procedure",
+        "Field Label": "Other Procedure Code 2",
+        "From": "772",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "775",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Procedure Occurred (YYYYMM)",
+        "Field Label": "Other Procedure Date 2",
+        "From": "776",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "781",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 12",
+        "From": "782",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "783",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "Indicates if Procedure occurred before, on, or after Date of Admission",
+        "Field Label": "Pre-admit procedure indicator 3",
+        "From": "784",
+        "Ln": "3",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "784",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Principal Procedure",
+        "Field Label": "Other Procedure Code 3",
+        "From": "785",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "788",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Procedure Occurred (YYYYMM)",
+        "Field Label": "Other Procedure Date 3",
+        "From": "789",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "794",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 13",
+        "From": "795",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "796",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "Indicates if Procedure occurred before, on, or after Date of Admission",
+        "Field Label": "Pre-admit procedure indicator 4",
+        "From": "797",
+        "Ln": "4",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "797",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Principal Procedure",
+        "Field Label": "Other Procedure Code 4",
+        "From": "798",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "801",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Procedure Occurred (YYYYMM)",
+        "Field Label": "Other Procedure Date 4",
+        "From": "802",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "807",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 14",
+        "From": "808",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "809",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "Indicates if Procedure occurred before, on, or after Date of Admission",
+        "Field Label": "Pre-admit procedure indicator 5",
+        "From": "810",
+        "Ln": "5",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "810",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Principal Procedure",
+        "Field Label": "Other Procedure Code 5",
+        "From": "811",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "814",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Procedure Occurred (YYYYMM)",
+        "Field Label": "Other Procedure Date 5",
+        "From": "815",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "820",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 15",
+        "From": "821",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "822",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "Indicates if Procedure occurred before, on, or after Date of Admission",
+        "Field Label": "Pre-admit procedure indicator 6",
+        "From": "823",
+        "Ln": "6",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "823",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Principal Procedure",
+        "Field Label": "Other Procedure Code 6",
+        "From": "824",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "827",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Procedure Occurred (YYYYMM)",
+        "Field Label": "Other Procedure Date 6",
+        "From": "828",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "833",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 16",
+        "From": "834",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "835",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "Indicates if Procedure occurred before, on, or after Date of Admission",
+        "Field Label": "Pre-admit procedure indicator 7",
+        "From": "836",
+        "Ln": "7",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "836",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Principal Procedure",
+        "Field Label": "Other Procedure Code 7",
+        "From": "837",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "840",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Procedure Occurred (YYYYMM)",
+        "Field Label": "Other Procedure Date 7",
+        "From": "841",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "846",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 17",
+        "From": "847",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "848",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "Indicates if Procedure occurred before, on, or after Date of Admission",
+        "Field Label": "Pre-admit procedure indicator 8",
+        "From": "849",
+        "Ln": "8",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "849",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Principal Procedure",
+        "Field Label": "Other Procedure Code 8",
+        "From": "850",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "853",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Procedure Occurred (YYYYMM)",
+        "Field Label": "Other Procedure Date 8",
+        "From": "854",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "859",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 18",
+        "From": "860",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "861",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "Indicates if Procedure occurred before, on, or after Date of Admission",
+        "Field Label": "Pre-admit procedure indicator 9",
+        "From": "862",
+        "Ln": "9",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "862",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Principal Procedure",
+        "Field Label": "Other Procedure Code 9",
+        "From": "863",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "866",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Procedure Occurred (YYYYMM)",
+        "Field Label": "Other Procedure Date 9",
+        "From": "867",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "872",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 19",
+        "From": "873",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "874",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "Indicates if Procedure occurred before, on, or after Date of Admission",
+        "Field Label": "Pre-admit procedure indicator 10",
+        "From": "875",
+        "Ln": "10",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "875",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Principal Procedure",
+        "Field Label": "Other Procedure Code 10",
+        "From": "876",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "879",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Procedure Occurred (YYYYMM)",
+        "Field Label": "Other Procedure Date 10",
+        "From": "880",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "885",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 20",
+        "From": "886",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "887",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "Indicates if Procedure occurred before, on, or after Date of Admission",
+        "Field Label": "Pre-admit procedure indicator 11",
+        "From": "888",
+        "Ln": "11",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "888",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Principal Procedure",
+        "Field Label": "Other Procedure Code 11",
+        "From": "889",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "892",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Procedure Occurred (YYYYMM)",
+        "Field Label": "Other Procedure Date 11",
+        "From": "893",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "898",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 21",
+        "From": "899",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "900",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "Indicates if Procedure occurred before, on, or after Date of Admission",
+        "Field Label": "Pre-admit procedure indicator 12",
+        "From": "901",
+        "Ln": "12",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "901",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Principal Procedure",
+        "Field Label": "Other Procedure Code 12",
+        "From": "902",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "905",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Procedure Occurred (YYYYMM)",
+        "Field Label": "Other Procedure Date 12",
+        "From": "906",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "911",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 22",
+        "From": "912",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "913",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "Indicates if Procedure occurred before, on, or after Date of Admission",
+        "Field Label": "Pre-admit procedure indicator 13",
+        "From": "914",
+        "Ln": "13",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "914",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Principal Procedure",
+        "Field Label": "Other Procedure Code 13",
+        "From": "915",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "918",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Procedure Occurred (YYYYMM)",
+        "Field Label": "Other Procedure Date 13",
+        "From": "919",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "924",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 23",
+        "From": "925",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "926",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "Indicates if Procedure occurred before, on, or after Date of Admission",
+        "Field Label": "Pre-admit procedure indicator 14",
+        "From": "927",
+        "Ln": "14",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "927",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Principal Procedure",
+        "Field Label": "Other Procedure Code 14",
+        "From": "928",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "931",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Procedure Occurred (YYYYMM)",
+        "Field Label": "Other Procedure Date 14",
+        "From": "932",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "937",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 24",
+        "From": "938",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "939",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "Indicates if Procedure occurred before, on, or after Date of Admission",
+        "Field Label": "Pre-admit procedure indicator 15",
+        "From": "940",
+        "Ln": "15",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "940",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "CCS Procedure Category",
+        "Field Label": "Clinical Classification Software (CCS) Procedure Category",
+        "From": "941",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "943",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Method of Anesthesia",
+        "Field Label": "Method of Anesthesia Used",
+        "From": "944",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "945",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "ICD Age Warning",
+        "Field Label": "Age Warning Flag",
+        "From": "946",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "946",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Procedure Date Warning",
+        "Field Label": "Procedure Date Warning Flag",
+        "From": "947",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "947",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Method of Coding Used; i.e. ICD-9, ICD-10, etc.",
+        "Field Label": "Procedure Coding Method",
+        "From": "948",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "948",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Grouping Claim Processed Flag",
+        "Field Label": "Grouping Claim Processed Flag",
+        "From": "949",
+        "Ln": "",
+        "SEGMENT": "DRG Segment",
+        "Size": "2",
+        "To": "950",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Claim Processed Warnings/Messages",
+        "Field Label": "Claim Processed Warnings/Messages",
+        "From": "951",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "960",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Number of Visits",
+        "Field Label": "Number of Visits",
+        "From": "961",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "963",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "APG Version Used",
+        "Field Label": "APG Version Used",
+        "From": "964",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "12",
+        "To": "975",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "APG List Return Code",
+        "Field Label": "APG List Return Code",
+        "From": "976",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "977",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "APG List Error Location",
+        "Field Label": "APG List Error Location",
+        "From": "978",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "980",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Item ID number",
+        "Field Label": "Item ID number",
+        "From": "981",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "983",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Error Return Code",
+        "Field Label": "Error Return Code",
+        "From": "984",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "986",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Claim APG Payment",
+        "Field Label": "Claim APG Payment",
+        "From": "987",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "994",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Claim Transition Visit APG Payment",
+        "Field Label": "Claim Transition Visit APG Payment",
+        "From": "995",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1002",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Claim Existing Payment",
+        "Field Label": "Claim Existing Payment",
+        "From": "1003",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1010",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Claim Blended Payment",
+        "Field Label": "Claim Blended Payment",
+        "From": "1011",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1018",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Claim Add-on Payment",
+        "Field Label": "Claim Add-on Payment",
+        "From": "1019",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1026",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Total Claim Payment",
+        "Field Label": "Total Claim Payment",
+        "From": "1027",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1034",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Claim Non-transition Payment",
+        "Field Label": "Claim Non-transition Payment",
+        "From": "1035",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1042",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Claim Adjusted APG Weight",
+        "Field Label": "Claim Adjusted APG Weight",
+        "From": "1043",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "9",
+        "To": "1051",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Total Claim Full APG Weight",
+        "Field Label": "Total Claim Full APG Weight",
+        "From": "1052",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "9",
+        "To": "1060",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Claim Payment",
+        "Field Label": "Claim Payment",
+        "From": "1061",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1068",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "AMI Warning Flag",
+        "Field Label": "AMI Warning Flag",
+        "From": "1069",
+        "Ln": "",
+        "SEGMENT": "AMI Segment",
+        "Size": "1",
+        "To": "1069",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Heart Rate on Arrival",
+        "Field Label": "Heart Rate on Arrival",
+        "From": "1070",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "1072",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Systolic BP on Arrival",
+        "Field Label": "Systolic BP on Arrival",
+        "From": "1073",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "1075",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Diastolic BP on Arrival",
+        "Field Label": "Diastolic BP on Arrival",
+        "From": "1076",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "1078",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "AIDS Flag",
+        "Field Label": "AIDS / HIV Flag",
+        "From": "1079",
+        "Ln": "",
+        "SEGMENT": "HIPAA Segment",
+        "Size": "1",
+        "To": "1079",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Abortion Flag",
+        "Field Label": "Abortion Flag",
+        "From": "1080",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1080",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Total Charges",
+        "Field Label": "Total Charges",
+        "From": "1081",
+        "Ln": "",
+        "SEGMENT": "Charges Segment",
+        "Size": "12",
+        "To": "1092",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Ancillary Total Charges",
+        "Field Label": "Ancillary Total Charges",
+        "From": "1093",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "1102",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Total Non-Covered Charges",
+        "Field Label": "Total Non-Covered Charges",
+        "From": "1103",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "12",
+        "To": "1114",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Ancillary Non-Covered Charges",
+        "Field Label": "Total Non-Covered Ancillary Charges",
+        "From": "1115",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "1124",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 1",
+        "From": "1125",
+        "Ln": "1",
+        "SEGMENT": "Service Segment",
+        "Size": "4",
+        "To": "1128",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Revenue Type 1",
+        "From": "1129",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1129",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "CPT-4/HCPCS Code",
+        "Field Label": "HCPCS/CPT Procedure Code 1",
+        "From": "1130",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "5",
+        "To": "1134",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Code Modifier 1",
+        "Field Label": "Procedure Modifier Code #1 - 1",
+        "From": "1135",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1136",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Code Modifier 2",
+        "Field Label": "Procedure Modifier Code #2 - 1",
+        "From": "1137",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1138",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Service Charge 1",
+        "From": "1139",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "1148",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Unit Type 1",
+        "From": "1149",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1150",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Unit Quantity 1",
+        "From": "1151",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1158",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge 1",
+        "From": "1159",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "1168",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Service From Date",
+        "Field Label": "Service Date 1",
+        "From": "1169",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1174",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 25",
+        "From": "1175",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1176",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Indicates if Procedure occurred before, on, or after Date of Admission",
+        "Field Label": "Pre-visit Indicator 1",
+        "From": "1177",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1177",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line item number",
+        "Field Label": "Line item number 1",
+        "From": "1178",
+        "Ln": "R",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "1180",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Visit ID",
+        "Field Label": "Visit ID 1",
+        "From": "1181",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "1183",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Lines in Visit",
+        "Field Label": "Lines in Visit 1",
+        "From": "1184",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "1186",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Visit Date",
+        "Field Label": "Visit Date 1",
+        "From": "1187",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1192",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 26",
+        "From": "1193",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1194",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Visit Processed Flag",
+        "Field Label": "Visit Processed Flag 1",
+        "From": "1195",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1195",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Visit Processed Warnings/ Messages",
+        "Field Label": "Visit Processed Warnings/ Messages 1",
+        "From": "1196",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "1205",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Overall Visit Type",
+        "Field Label": "Overall Visit Type 1",
+        "From": "1206",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1207",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Medical Visit Diagnosis",
+        "Field Label": "Medical Visit Diagnosis 1",
+        "From": "1208",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1214",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Final APG Assignment",
+        "Field Label": "Final APG Assignment 1",
+        "From": "1215",
+        "Ln": "S",
+        "SEGMENT": "",
+        "Size": "5",
+        "To": "1219",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Final APG Type",
+        "Field Label": "Final APG Type 1",
+        "From": "1220",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1221",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Final APG Category",
+        "Field Label": "Final APG Category 1",
+        "From": "1222",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1223",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Multiple Significant Procedure (SP) Discounting Flag",
+        "Field Label": "Multiple Significant Procedure (SP) Discounting Flag 1",
+        "From": "1224",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1224",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Repeat Ancillary Discounting Flag",
+        "Field Label": "Repeat Ancillary Discounting Flag 1",
+        "From": "1225",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1225",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Bilateral Discounting Flag",
+        "Field Label": "Bilateral Discounting Flag 1",
+        "From": "1226",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1226",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Terminated Procedure Discounting Flag",
+        "Field Label": "Terminated Procedure Discounting Flag 1",
+        "From": "1227",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1227",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line Item Unassigned Flag",
+        "Field Label": "Line Item Unassigned Flag 1",
+        "From": "1228",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1229",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Packaged Per Diem Flag",
+        "Field Label": "Packaged Per Diem Flag 1",
+        "From": "1230",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1230",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Packaging Flag",
+        "Field Label": "Packaging Flag 1",
+        "From": "1231",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1231",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Same Significant Procedure (SP) Consolidation Flag",
+        "Field Label": "Same Significant Procedure (SP) Consolidation Flag 1",
+        "From": "1232",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1232",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Clinical Significant Procedure (SP) Consolidation Flag",
+        "Field Label": "Clinical Significant Procedure (SP) Consolidation Flag 1",
+        "From": "1233",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1233",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line Item Action Flag",
+        "Field Label": "Line Item Action Flag 1",
+        "From": "1234",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1235",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Item ID number",
+        "Field Label": "Service Item ID number 1",
+        "From": "1236",
+        "Ln": "Y",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "1238",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line Item APG Payment",
+        "Field Label": "Line Item APG Payment 1",
+        "From": "1239",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1246",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Existing Payment",
+        "Field Label": "Line Item Existing Payment 1",
+        "From": "1247",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1254",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Blended Payment",
+        "Field Label": "Line Item Blended Payment 1",
+        "From": "1255",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1262",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Add-on Payment",
+        "Field Label": "Line Item Add-on Payment 1",
+        "From": "1263",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1270",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Total Payment",
+        "Field Label": "Line Item Total Payment 1",
+        "From": "1271",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1278",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Blend Percent",
+        "Field Label": "Line Item Blend Percent 1",
+        "From": "1279",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "5",
+        "To": "1283",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Adjusted APG Weight",
+        "Field Label": "Line Item Adjusted APG Weight 1",
+        "From": "1284",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "9",
+        "To": "1292",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Full APG Weight",
+        "Field Label": "Line Item Full APG Weight 1",
+        "From": "1293",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "9",
+        "To": "1301",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Payment Percent",
+        "Field Label": "Line Item Payment Percent 1",
+        "From": "1302",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1307",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Payment Action",
+        "Field Label": "Line Item Payment Action 1",
+        "From": "1308",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1309",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line Item Paid Units",
+        "Field Label": "Line Item Paid Units 1",
+        "From": "1310",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1316",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line Item Payment Adjustment Flag",
+        "Field Label": "Line Item Payment Adjustment Flag 1",
+        "From": "1317",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1318",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Visit APG Payment",
+        "Field Label": "Visit APG Payment 1",
+        "From": "1319",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1326",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Transition APG Payment",
+        "Field Label": "Visit Transition APG Payment 1",
+        "From": "1327",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1334",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Existing Payment",
+        "Field Label": "Visit Existing Payment 1",
+        "From": "1335",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1342",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Blended Payment",
+        "Field Label": "Visit Blended Payment 1",
+        "From": "1343",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1350",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Add-on Payment",
+        "Field Label": "Visit Add-on Payment 1",
+        "From": "1351",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1358",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Payment",
+        "Field Label": "Visit Payment 1",
+        "From": "1359",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1366",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Non-transition Payment",
+        "Field Label": "Visit Non-transition Payment 1",
+        "From": "1367",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1374",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Adjusted APG Weight",
+        "Field Label": "Visit Adjusted APG Weight 1",
+        "From": "1375",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "9",
+        "To": "1383",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Full APG Weight",
+        "Field Label": "Visit Full APG Weight 1",
+        "From": "1384",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "9",
+        "To": "1392",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 2",
+        "From": "1393",
+        "Ln": "2",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "1396",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Revenue Type 2",
+        "From": "1397",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1397",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "CPT-4/HCPCS Code",
+        "Field Label": "HCPCS/CPT Procedure Code 2",
+        "From": "1398",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "5",
+        "To": "1402",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Code Modifier 1",
+        "Field Label": "Procedure Modifier Code #1 - 2",
+        "From": "1403",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1404",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Code Modifier 2",
+        "Field Label": "Procedure Modifier Code #2 - 2",
+        "From": "1405",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1406",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Service Charge 2",
+        "From": "1407",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "1416",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Unit Type 2",
+        "From": "1417",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1418",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Unit Quantity 2",
+        "From": "1419",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1426",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge 2",
+        "From": "1427",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "1436",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Service From Date",
+        "Field Label": "Service Date 2",
+        "From": "1437",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1442",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 27",
+        "From": "1443",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1444",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Indicates if Procedure occurred before, on, or after Date of Admission",
+        "Field Label": "Pre-visit Indicator 2",
+        "From": "1445",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1445",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line item number",
+        "Field Label": "Line item number 2",
+        "From": "1446",
+        "Ln": "R",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "1448",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Visit ID",
+        "Field Label": "Visit ID 2",
+        "From": "1449",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "1451",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Lines in Visit",
+        "Field Label": "Lines in Visit 2",
+        "From": "1452",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "1454",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Visit Date",
+        "Field Label": "Visit Date 2",
+        "From": "1455",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1460",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 28",
+        "From": "1461",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1462",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Visit Processed Flag",
+        "Field Label": "Visit Processed Flag 2",
+        "From": "1463",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1463",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Visit Processed Warnings/ Messages",
+        "Field Label": "Visit Processed Warnings/ Messages 2",
+        "From": "1464",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "1473",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Overall Visit Type",
+        "Field Label": "Overall Visit Type 2",
+        "From": "1474",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1475",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Medical Visit Diagnosis",
+        "Field Label": "Medical Visit Diagnosis 2",
+        "From": "1476",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1482",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Final APG Assignment",
+        "Field Label": "Final APG Assignment 2",
+        "From": "1483",
+        "Ln": "S",
+        "SEGMENT": "",
+        "Size": "5",
+        "To": "1487",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Final APG Type",
+        "Field Label": "Final APG Type 2",
+        "From": "1488",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1489",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Final APG Category",
+        "Field Label": "Final APG Category 2",
+        "From": "1490",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1491",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Multiple Significant Procedure (SP) Discounting Flag",
+        "Field Label": "Multiple Significant Procedure (SP) Discounting Flag 2",
+        "From": "1492",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1492",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Repeat Ancillary Discounting Flag",
+        "Field Label": "Repeat Ancillary Discounting Flag 2",
+        "From": "1493",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1493",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Bilateral Discounting Flag",
+        "Field Label": "Bilateral Discounting Flag 2",
+        "From": "1494",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1494",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Terminated Procedure Discounting Flag",
+        "Field Label": "Terminated Procedure Discounting Flag 2",
+        "From": "1495",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1495",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line Item Unassigned Flag",
+        "Field Label": "Line Item Unassigned Flag 2",
+        "From": "1496",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1497",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Packaged Per Diem Flag",
+        "Field Label": "Packaged Per Diem Flag 2",
+        "From": "1498",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1498",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Packaging Flag",
+        "Field Label": "Packaging Flag 2",
+        "From": "1499",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1499",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Same Significant Procedure (SP) Consolidation Flag",
+        "Field Label": "Same Significant Procedure (SP) Consolidation Flag 2",
+        "From": "1500",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1500",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Clinical Significant Procedure (SP) Consolidation Flag",
+        "Field Label": "Clinical Significant Procedure (SP) Consolidation Flag 2",
+        "From": "1501",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1501",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line Item Action Flag",
+        "Field Label": "Line Item Action Flag 2",
+        "From": "1502",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1503",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Item ID number",
+        "Field Label": "Service Item ID number 2",
+        "From": "1504",
+        "Ln": "Y",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "1506",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line Item APG Payment",
+        "Field Label": "Line Item APG Payment 2",
+        "From": "1507",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1514",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Existing Payment",
+        "Field Label": "Line Item Existing Payment 2",
+        "From": "1515",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1522",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Blended Payment",
+        "Field Label": "Line Item Blended Payment 2",
+        "From": "1523",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1530",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Add-on Payment",
+        "Field Label": "Line Item Add-on Payment 2",
+        "From": "1531",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1538",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Total Payment",
+        "Field Label": "Line Item Total Payment 2",
+        "From": "1539",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1546",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Blend Percent",
+        "Field Label": "Line Item Blend Percent 2",
+        "From": "1547",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "5",
+        "To": "1551",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Adjusted APG Weight",
+        "Field Label": "Line Item Adjusted APG Weight 2",
+        "From": "1552",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "9",
+        "To": "1560",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Full APG Weight",
+        "Field Label": "Line Item Full APG Weight 2",
+        "From": "1561",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "9",
+        "To": "1569",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Payment Percent",
+        "Field Label": "Line Item Payment Percent 2",
+        "From": "1570",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1575",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Payment Action",
+        "Field Label": "Line Item Payment Action 2",
+        "From": "1576",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1577",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line Item Paid Units",
+        "Field Label": "Line Item Paid Units 2",
+        "From": "1578",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1584",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line Item Payment Adjustment Flag",
+        "Field Label": "Line Item Payment Adjustment Flag 2",
+        "From": "1585",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1586",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Visit APG Payment",
+        "Field Label": "Visit APG Payment 2",
+        "From": "1587",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1594",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Transition APG Payment",
+        "Field Label": "Visit Transition APG Payment 2",
+        "From": "1595",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1602",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Existing Payment",
+        "Field Label": "Visit Existing Payment 2",
+        "From": "1603",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1610",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Blended Payment",
+        "Field Label": "Visit Blended Payment 2",
+        "From": "1611",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1618",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Add-on Payment",
+        "Field Label": "Visit Add-on Payment 2",
+        "From": "1619",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1626",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Payment",
+        "Field Label": "Visit Payment 2",
+        "From": "1627",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1634",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Non-transition Payment",
+        "Field Label": "Visit Non-transition Payment 2",
+        "From": "1635",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1642",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Adjusted APG Weight",
+        "Field Label": "Visit Adjusted APG Weight 2",
+        "From": "1643",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "9",
+        "To": "1651",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Full APG Weight",
+        "Field Label": "Visit Full APG Weight 2",
+        "From": "1652",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "9",
+        "To": "1660",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 3",
+        "From": "1661",
+        "Ln": "3",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "1664",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Revenue Type 3",
+        "From": "1665",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1665",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "CPT-4/HCPCS Code",
+        "Field Label": "HCPCS/CPT Procedure Code 3",
+        "From": "1666",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "5",
+        "To": "1670",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Code Modifier 1",
+        "Field Label": "Procedure Modifier Code #1 - 3",
+        "From": "1671",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1672",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Code Modifier 2",
+        "Field Label": "Procedure Modifier Code #2 - 3",
+        "From": "1673",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1674",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Service Charge 3",
+        "From": "1675",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "1684",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Unit Type 3",
+        "From": "1685",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1686",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Unit Quantity 3",
+        "From": "1687",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1694",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge 3",
+        "From": "1695",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "1704",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Service From Date",
+        "Field Label": "Service Date 3",
+        "From": "1705",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1710",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 29",
+        "From": "1711",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1712",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Indicates if Procedure occurred before, on, or after Date of Admission",
+        "Field Label": "Pre-visit Indicator 3",
+        "From": "1713",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1713",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line item number",
+        "Field Label": "Line item number 3",
+        "From": "1714",
+        "Ln": "R",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "1716",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Visit ID",
+        "Field Label": "Visit ID 3",
+        "From": "1717",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "1719",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Lines in Visit",
+        "Field Label": "Lines in Visit 3",
+        "From": "1720",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "1722",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Visit Date",
+        "Field Label": "Visit Date 3",
+        "From": "1723",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1728",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 30",
+        "From": "1729",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1730",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Visit Processed Flag",
+        "Field Label": "Visit Processed Flag 3",
+        "From": "1731",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1731",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Visit Processed Warnings/ Messages",
+        "Field Label": "Visit Processed Warnings/ Messages 3",
+        "From": "1732",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "1741",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Overall Visit Type",
+        "Field Label": "Overall Visit Type 3",
+        "From": "1742",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1743",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Medical Visit Diagnosis",
+        "Field Label": "Medical Visit Diagnosis 3",
+        "From": "1744",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1750",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Final APG Assignment",
+        "Field Label": "Final APG Assignment 3",
+        "From": "1751",
+        "Ln": "S",
+        "SEGMENT": "",
+        "Size": "5",
+        "To": "1755",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Final APG Type",
+        "Field Label": "Final APG Type 3",
+        "From": "1756",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1757",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Final APG Category",
+        "Field Label": "Final APG Category 3",
+        "From": "1758",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1759",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Multiple Significant Procedure (SP) Discounting Flag",
+        "Field Label": "Multiple Significant Procedure (SP) Discounting Flag 3",
+        "From": "1760",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1760",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Repeat Ancillary Discounting Flag",
+        "Field Label": "Repeat Ancillary Discounting Flag 3",
+        "From": "1761",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1761",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Bilateral Discounting Flag",
+        "Field Label": "Bilateral Discounting Flag 3",
+        "From": "1762",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1762",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Terminated Procedure Discounting Flag",
+        "Field Label": "Terminated Procedure Discounting Flag 3",
+        "From": "1763",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1763",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line Item Unassigned Flag",
+        "Field Label": "Line Item Unassigned Flag 3",
+        "From": "1764",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1765",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Packaged Per Diem Flag",
+        "Field Label": "Packaged Per Diem Flag 3",
+        "From": "1766",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1766",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Packaging Flag",
+        "Field Label": "Packaging Flag 3",
+        "From": "1767",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1767",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Same Significant Procedure (SP) Consolidation Flag",
+        "Field Label": "Same Significant Procedure (SP) Consolidation Flag 3",
+        "From": "1768",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1768",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Clinical Significant Procedure (SP) Consolidation Flag",
+        "Field Label": "Clinical Significant Procedure (SP) Consolidation Flag 3",
+        "From": "1769",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1769",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line Item Action Flag",
+        "Field Label": "Line Item Action Flag 3",
+        "From": "1770",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1771",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Item ID number",
+        "Field Label": "Service Item ID number 3",
+        "From": "1772",
+        "Ln": "Y",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "1774",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line Item APG Payment",
+        "Field Label": "Line Item APG Payment 3",
+        "From": "1775",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1782",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Existing Payment",
+        "Field Label": "Line Item Existing Payment 3",
+        "From": "1783",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1790",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Blended Payment",
+        "Field Label": "Line Item Blended Payment 3",
+        "From": "1791",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1798",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Add-on Payment",
+        "Field Label": "Line Item Add-on Payment 3",
+        "From": "1799",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1806",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Total Payment",
+        "Field Label": "Line Item Total Payment 3",
+        "From": "1807",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1814",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Blend Percent",
+        "Field Label": "Line Item Blend Percent 3",
+        "From": "1815",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "5",
+        "To": "1819",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Adjusted APG Weight",
+        "Field Label": "Line Item Adjusted APG Weight 3",
+        "From": "1820",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "9",
+        "To": "1828",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Full APG Weight",
+        "Field Label": "Line Item Full APG Weight 3",
+        "From": "1829",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "9",
+        "To": "1837",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Payment Percent",
+        "Field Label": "Line Item Payment Percent 3",
+        "From": "1838",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1843",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Payment Action",
+        "Field Label": "Line Item Payment Action 3",
+        "From": "1844",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1845",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line Item Paid Units",
+        "Field Label": "Line Item Paid Units 3",
+        "From": "1846",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1852",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line Item Payment Adjustment Flag",
+        "Field Label": "Line Item Payment Adjustment Flag 3",
+        "From": "1853",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1854",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Visit APG Payment",
+        "Field Label": "Visit APG Payment 3",
+        "From": "1855",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1862",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Transition APG Payment",
+        "Field Label": "Visit Transition APG Payment 3",
+        "From": "1863",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1870",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Existing Payment",
+        "Field Label": "Visit Existing Payment 3",
+        "From": "1871",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1878",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Blended Payment",
+        "Field Label": "Visit Blended Payment 3",
+        "From": "1879",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1886",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Add-on Payment",
+        "Field Label": "Visit Add-on Payment 3",
+        "From": "1887",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1894",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Payment",
+        "Field Label": "Visit Payment 3",
+        "From": "1895",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1902",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Non-transition Payment",
+        "Field Label": "Visit Non-transition Payment 3",
+        "From": "1903",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1910",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Adjusted APG Weight",
+        "Field Label": "Visit Adjusted APG Weight 3",
+        "From": "1911",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "9",
+        "To": "1919",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Full APG Weight",
+        "Field Label": "Visit Full APG Weight 3",
+        "From": "1920",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "9",
+        "To": "1928",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 4",
+        "From": "1929",
+        "Ln": "4",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "1932",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Revenue Type 4",
+        "From": "1933",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1933",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "CPT-4/HCPCS Code",
+        "Field Label": "HCPCS/CPT Procedure Code 4",
+        "From": "1934",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "5",
+        "To": "1938",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Code Modifier 1",
+        "Field Label": "Procedure Modifier Code #1 - 4",
+        "From": "1939",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1940",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Code Modifier 2",
+        "Field Label": "Procedure Modifier Code #2 - 4",
+        "From": "1941",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1942",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Service Charge 4",
+        "From": "1943",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "1952",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Unit Type 4",
+        "From": "1953",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1954",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Unit Quantity 4",
+        "From": "1955",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "1962",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge 4",
+        "From": "1963",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "1972",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Service From Date",
+        "Field Label": "Service Date 4",
+        "From": "1973",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1978",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 31",
+        "From": "1979",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1980",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Indicates if Procedure occurred before, on, or after Date of Admission",
+        "Field Label": "Pre-visit Indicator 4",
+        "From": "1981",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1981",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line item number",
+        "Field Label": "Line item number 4",
+        "From": "1982",
+        "Ln": "R",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "1984",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Visit ID",
+        "Field Label": "Visit ID 4",
+        "From": "1985",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "1987",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Lines in Visit",
+        "Field Label": "Lines in Visit 4",
+        "From": "1988",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "1990",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Visit Date",
+        "Field Label": "Visit Date 4",
+        "From": "1991",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1996",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 32",
+        "From": "1997",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1998",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Visit Processed Flag",
+        "Field Label": "Visit Processed Flag 4",
+        "From": "1999",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1999",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Visit Processed Warnings/ Messages",
+        "Field Label": "Visit Processed Warnings/ Messages 4",
+        "From": "2000",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "2009",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Overall Visit Type",
+        "Field Label": "Overall Visit Type 4",
+        "From": "2010",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2011",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Medical Visit Diagnosis",
+        "Field Label": "Medical Visit Diagnosis 4",
+        "From": "2012",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "2018",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Final APG Assignment",
+        "Field Label": "Final APG Assignment 4",
+        "From": "2019",
+        "Ln": "S",
+        "SEGMENT": "",
+        "Size": "5",
+        "To": "2023",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Final APG Type",
+        "Field Label": "Final APG Type 4",
+        "From": "2024",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2025",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Final APG Category",
+        "Field Label": "Final APG Category 4",
+        "From": "2026",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2027",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Multiple Significant Procedure (SP) Discounting Flag",
+        "Field Label": "Multiple Significant Procedure (SP) Discounting Flag 4",
+        "From": "2028",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2028",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Repeat Ancillary Discounting Flag",
+        "Field Label": "Repeat Ancillary Discounting Flag 4",
+        "From": "2029",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2029",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Bilateral Discounting Flag",
+        "Field Label": "Bilateral Discounting Flag 4",
+        "From": "2030",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2030",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Terminated Procedure Discounting Flag",
+        "Field Label": "Terminated Procedure Discounting Flag 4",
+        "From": "2031",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2031",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line Item Unassigned Flag",
+        "Field Label": "Line Item Unassigned Flag 4",
+        "From": "2032",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2033",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Packaged Per Diem Flag",
+        "Field Label": "Packaged Per Diem Flag 4",
+        "From": "2034",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2034",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Packaging Flag",
+        "Field Label": "Packaging Flag 4",
+        "From": "2035",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2035",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Same Significant Procedure (SP) Consolidation Flag",
+        "Field Label": "Same Significant Procedure (SP) Consolidation Flag 4",
+        "From": "2036",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2036",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Clinical Significant Procedure (SP) Consolidation Flag",
+        "Field Label": "Clinical Significant Procedure (SP) Consolidation Flag 4",
+        "From": "2037",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2037",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line Item Action Flag",
+        "Field Label": "Line Item Action Flag 4",
+        "From": "2038",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2039",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Item ID number",
+        "Field Label": "Service Item ID number 4",
+        "From": "2040",
+        "Ln": "Y",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "2042",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line Item APG Payment",
+        "Field Label": "Line Item APG Payment 4",
+        "From": "2043",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2050",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Existing Payment",
+        "Field Label": "Line Item Existing Payment 4",
+        "From": "2051",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2058",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Blended Payment",
+        "Field Label": "Line Item Blended Payment 4",
+        "From": "2059",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2066",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Add-on Payment",
+        "Field Label": "Line Item Add-on Payment 4",
+        "From": "2067",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2074",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Total Payment",
+        "Field Label": "Line Item Total Payment 4",
+        "From": "2075",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2082",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Blend Percent",
+        "Field Label": "Line Item Blend Percent 4",
+        "From": "2083",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "5",
+        "To": "2087",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Adjusted APG Weight",
+        "Field Label": "Line Item Adjusted APG Weight 4",
+        "From": "2088",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "9",
+        "To": "2096",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Full APG Weight",
+        "Field Label": "Line Item Full APG Weight 4",
+        "From": "2097",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "9",
+        "To": "2105",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Payment Percent",
+        "Field Label": "Line Item Payment Percent 4",
+        "From": "2106",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "2111",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Payment Action",
+        "Field Label": "Line Item Payment Action 4",
+        "From": "2112",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2113",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line Item Paid Units",
+        "Field Label": "Line Item Paid Units 4",
+        "From": "2114",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "2120",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line Item Payment Adjustment Flag",
+        "Field Label": "Line Item Payment Adjustment Flag 4",
+        "From": "2121",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2122",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Visit APG Payment",
+        "Field Label": "Visit APG Payment 4",
+        "From": "2123",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2130",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Transition APG Payment",
+        "Field Label": "Visit Transition APG Payment 4",
+        "From": "2131",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2138",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Existing Payment",
+        "Field Label": "Visit Existing Payment 4",
+        "From": "2139",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2146",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Blended Payment",
+        "Field Label": "Visit Blended Payment 4",
+        "From": "2147",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2154",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Add-on Payment",
+        "Field Label": "Visit Add-on Payment 4",
+        "From": "2155",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2162",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Payment",
+        "Field Label": "Visit Payment 4",
+        "From": "2163",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2170",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Non-transition Payment",
+        "Field Label": "Visit Non-transition Payment 4",
+        "From": "2171",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2178",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Adjusted APG Weight",
+        "Field Label": "Visit Adjusted APG Weight 4",
+        "From": "2179",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "9",
+        "To": "2187",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Full APG Weight",
+        "Field Label": "Visit Full APG Weight 4",
+        "From": "2188",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "9",
+        "To": "2196",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 5",
+        "From": "2197",
+        "Ln": "5",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "2200",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Revenue Type 5",
+        "From": "2201",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2201",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "CPT-4/HCPCS Code",
+        "Field Label": "HCPCS/CPT Procedure Code 5",
+        "From": "2202",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "5",
+        "To": "2206",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Code Modifier 1",
+        "Field Label": "Procedure Modifier Code #1 - 5",
+        "From": "2207",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2208",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Code Modifier 2",
+        "Field Label": "Procedure Modifier Code #2 - 5",
+        "From": "2209",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2210",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Service Charge 5",
+        "From": "2211",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "2220",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Unit Type 5",
+        "From": "2221",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2222",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Unit Quantity 5",
+        "From": "2223",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2230",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge 5",
+        "From": "2231",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "2240",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Service From Date",
+        "Field Label": "Service Date 5",
+        "From": "2241",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "2246",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 33",
+        "From": "2247",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2248",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Indicates if Procedure occurred before, on, or after Date of Admission",
+        "Field Label": "Pre-visit Indicator 5",
+        "From": "2249",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2249",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line item number",
+        "Field Label": "Line item number 5",
+        "From": "2250",
+        "Ln": "R",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "2252",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Visit ID",
+        "Field Label": "Visit ID 5",
+        "From": "2253",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "2255",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Lines in Visit",
+        "Field Label": "Lines in Visit 5",
+        "From": "2256",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "2258",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Visit Date",
+        "Field Label": "Visit Date 5",
+        "From": "2259",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "2264",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 34",
+        "From": "2265",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2266",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Visit Processed Flag",
+        "Field Label": "Visit Processed Flag 5",
+        "From": "2267",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2267",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Visit Processed Warnings/ Messages",
+        "Field Label": "Visit Processed Warnings/ Messages 5",
+        "From": "2268",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "2277",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Overall Visit Type",
+        "Field Label": "Overall Visit Type 5",
+        "From": "2278",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2279",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Medical Visit Diagnosis",
+        "Field Label": "Medical Visit Diagnosis 5",
+        "From": "2280",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "2286",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Final APG Assignment",
+        "Field Label": "Final APG Assignment 5",
+        "From": "2287",
+        "Ln": "S",
+        "SEGMENT": "",
+        "Size": "5",
+        "To": "2291",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Final APG Type",
+        "Field Label": "Final APG Type 5",
+        "From": "2292",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2293",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Final APG Category",
+        "Field Label": "Final APG Category 5",
+        "From": "2294",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2295",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Multiple Significant Procedure (SP) Discounting Flag",
+        "Field Label": "Multiple Significant Procedure (SP) Discounting Flag 5",
+        "From": "2296",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2296",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Repeat Ancillary Discounting Flag",
+        "Field Label": "Repeat Ancillary Discounting Flag 5",
+        "From": "2297",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2297",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Bilateral Discounting Flag",
+        "Field Label": "Bilateral Discounting Flag 5",
+        "From": "2298",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2298",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Terminated Procedure Discounting Flag",
+        "Field Label": "Terminated Procedure Discounting Flag 5",
+        "From": "2299",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2299",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line Item Unassigned Flag",
+        "Field Label": "Line Item Unassigned Flag 5",
+        "From": "2300",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2301",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Packaged Per Diem Flag",
+        "Field Label": "Packaged Per Diem Flag 5",
+        "From": "2302",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2302",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Packaging Flag",
+        "Field Label": "Packaging Flag 5",
+        "From": "2303",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2303",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Same Significant Procedure (SP) Consolidation Flag",
+        "Field Label": "Same Significant Procedure (SP) Consolidation Flag 5",
+        "From": "2304",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2304",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Clinical Significant Procedure (SP) Consolidation Flag",
+        "Field Label": "Clinical Significant Procedure (SP) Consolidation Flag 5",
+        "From": "2305",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2305",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line Item Action Flag",
+        "Field Label": "Line Item Action Flag 5",
+        "From": "2306",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2307",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Item ID number",
+        "Field Label": "Service Item ID number 5",
+        "From": "2308",
+        "Ln": "Y",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "2310",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line Item APG Payment",
+        "Field Label": "Line Item APG Payment 5",
+        "From": "2311",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2318",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Existing Payment",
+        "Field Label": "Line Item Existing Payment 5",
+        "From": "2319",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2326",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Blended Payment",
+        "Field Label": "Line Item Blended Payment 5",
+        "From": "2327",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2334",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Add-on Payment",
+        "Field Label": "Line Item Add-on Payment 5",
+        "From": "2335",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2342",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Total Payment",
+        "Field Label": "Line Item Total Payment 5",
+        "From": "2343",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2350",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Blend Percent",
+        "Field Label": "Line Item Blend Percent 5",
+        "From": "2351",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "5",
+        "To": "2355",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Adjusted APG Weight",
+        "Field Label": "Line Item Adjusted APG Weight 5",
+        "From": "2356",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "9",
+        "To": "2364",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Full APG Weight",
+        "Field Label": "Line Item Full APG Weight 5",
+        "From": "2365",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "9",
+        "To": "2373",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Payment Percent",
+        "Field Label": "Line Item Payment Percent 5",
+        "From": "2374",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "2379",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Payment Action",
+        "Field Label": "Line Item Payment Action 5",
+        "From": "2380",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2381",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line Item Paid Units",
+        "Field Label": "Line Item Paid Units 5",
+        "From": "2382",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "2388",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line Item Payment Adjustment Flag",
+        "Field Label": "Line Item Payment Adjustment Flag 5",
+        "From": "2389",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2390",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Visit APG Payment",
+        "Field Label": "Visit APG Payment 5",
+        "From": "2391",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2398",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Transition APG Payment",
+        "Field Label": "Visit Transition APG Payment 5",
+        "From": "2399",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2406",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Existing Payment",
+        "Field Label": "Visit Existing Payment 5",
+        "From": "2407",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2414",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Blended Payment",
+        "Field Label": "Visit Blended Payment 5",
+        "From": "2415",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2422",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Add-on Payment",
+        "Field Label": "Visit Add-on Payment 5",
+        "From": "2423",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2430",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Payment",
+        "Field Label": "Visit Payment 5",
+        "From": "2431",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2438",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Non-transition Payment",
+        "Field Label": "Visit Non-transition Payment 5",
+        "From": "2439",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2446",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Adjusted APG Weight",
+        "Field Label": "Visit Adjusted APG Weight 5",
+        "From": "2447",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "9",
+        "To": "2455",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Full APG Weight",
+        "Field Label": "Visit Full APG Weight 5",
+        "From": "2456",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "9",
+        "To": "2464",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 6",
+        "From": "2465",
+        "Ln": "6",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "2468",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Revenue Type 6",
+        "From": "2469",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2469",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "CPT-4/HCPCS Code",
+        "Field Label": "HCPCS/CPT Procedure Code 6",
+        "From": "2470",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "5",
+        "To": "2474",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Code Modifier 1",
+        "Field Label": "Procedure Modifier Code #1 - 6",
+        "From": "2475",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2476",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Code Modifier 2",
+        "Field Label": "Procedure Modifier Code #2 - 6",
+        "From": "2477",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2478",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Service Charge 6",
+        "From": "2479",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "2488",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Unit Type 6",
+        "From": "2489",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2490",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Unit Quantity 6",
+        "From": "2491",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2498",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge 6",
+        "From": "2499",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "2508",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Service From Date",
+        "Field Label": "Service Date 6",
+        "From": "2509",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "2514",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 35",
+        "From": "2515",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2516",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Indicates if Procedure occurred before, on, or after Date of Admission",
+        "Field Label": "Pre-visit Indicator 6",
+        "From": "2517",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2517",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line item number",
+        "Field Label": "Line item number 6",
+        "From": "2518",
+        "Ln": "R",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "2520",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Visit ID",
+        "Field Label": "Visit ID 6",
+        "From": "2521",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "2523",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Lines in Visit",
+        "Field Label": "Lines in Visit 6",
+        "From": "2524",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "2526",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Visit Date",
+        "Field Label": "Visit Date 6",
+        "From": "2527",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "2532",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 36",
+        "From": "2533",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2534",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Visit Processed Flag",
+        "Field Label": "Visit Processed Flag 6",
+        "From": "2535",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2535",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Visit Processed Warnings/ Messages",
+        "Field Label": "Visit Processed Warnings/ Messages 6",
+        "From": "2536",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "2545",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Overall Visit Type",
+        "Field Label": "Overall Visit Type 6",
+        "From": "2546",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2547",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Medical Visit Diagnosis",
+        "Field Label": "Medical Visit Diagnosis 6",
+        "From": "2548",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "2554",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Final APG Assignment",
+        "Field Label": "Final APG Assignment 6",
+        "From": "2555",
+        "Ln": "S",
+        "SEGMENT": "",
+        "Size": "5",
+        "To": "2559",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Final APG Type",
+        "Field Label": "Final APG Type 6",
+        "From": "2560",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2561",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Final APG Category",
+        "Field Label": "Final APG Category 6",
+        "From": "2562",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2563",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Multiple Significant Procedure (SP) Discounting Flag",
+        "Field Label": "Multiple Significant Procedure (SP) Discounting Flag 6",
+        "From": "2564",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2564",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Repeat Ancillary Discounting Flag",
+        "Field Label": "Repeat Ancillary Discounting Flag 6",
+        "From": "2565",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2565",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Bilateral Discounting Flag",
+        "Field Label": "Bilateral Discounting Flag 6",
+        "From": "2566",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2566",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Terminated Procedure Discounting Flag",
+        "Field Label": "Terminated Procedure Discounting Flag 6",
+        "From": "2567",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2567",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line Item Unassigned Flag",
+        "Field Label": "Line Item Unassigned Flag 6",
+        "From": "2568",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2569",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Packaged Per Diem Flag",
+        "Field Label": "Packaged Per Diem Flag 6",
+        "From": "2570",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2570",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Packaging Flag",
+        "Field Label": "Packaging Flag 6",
+        "From": "2571",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2571",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Same Significant Procedure (SP) Consolidation Flag",
+        "Field Label": "Same Significant Procedure (SP) Consolidation Flag 6",
+        "From": "2572",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2572",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Clinical Significant Procedure (SP) Consolidation Flag",
+        "Field Label": "Clinical Significant Procedure (SP) Consolidation Flag 6",
+        "From": "2573",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2573",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line Item Action Flag",
+        "Field Label": "Line Item Action Flag 6",
+        "From": "2574",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2575",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Item ID number",
+        "Field Label": "Service Item ID number 6",
+        "From": "2576",
+        "Ln": "Y",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "2578",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line Item APG Payment",
+        "Field Label": "Line Item APG Payment 6",
+        "From": "2579",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2586",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Existing Payment",
+        "Field Label": "Line Item Existing Payment 6",
+        "From": "2587",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2594",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Blended Payment",
+        "Field Label": "Line Item Blended Payment 6",
+        "From": "2595",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2602",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Add-on Payment",
+        "Field Label": "Line Item Add-on Payment 6",
+        "From": "2603",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2610",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Total Payment",
+        "Field Label": "Line Item Total Payment 6",
+        "From": "2611",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2618",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Blend Percent",
+        "Field Label": "Line Item Blend Percent 6",
+        "From": "2619",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "5",
+        "To": "2623",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Adjusted APG Weight",
+        "Field Label": "Line Item Adjusted APG Weight 6",
+        "From": "2624",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "9",
+        "To": "2632",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Full APG Weight",
+        "Field Label": "Line Item Full APG Weight 6",
+        "From": "2633",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "9",
+        "To": "2641",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Payment Percent",
+        "Field Label": "Line Item Payment Percent 6",
+        "From": "2642",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "2647",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Payment Action",
+        "Field Label": "Line Item Payment Action 6",
+        "From": "2648",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2649",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line Item Paid Units",
+        "Field Label": "Line Item Paid Units 6",
+        "From": "2650",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "2656",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line Item Payment Adjustment Flag",
+        "Field Label": "Line Item Payment Adjustment Flag 6",
+        "From": "2657",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2658",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Visit APG Payment",
+        "Field Label": "Visit APG Payment 6",
+        "From": "2659",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2666",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Transition APG Payment",
+        "Field Label": "Visit Transition APG Payment 6",
+        "From": "2667",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2674",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Existing Payment",
+        "Field Label": "Visit Existing Payment 6",
+        "From": "2675",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2682",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Blended Payment",
+        "Field Label": "Visit Blended Payment 6",
+        "From": "2683",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2690",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Add-on Payment",
+        "Field Label": "Visit Add-on Payment 6",
+        "From": "2691",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2698",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Payment",
+        "Field Label": "Visit Payment 6",
+        "From": "2699",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2706",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Non-transition Payment",
+        "Field Label": "Visit Non-transition Payment 6",
+        "From": "2707",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2714",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Adjusted APG Weight",
+        "Field Label": "Visit Adjusted APG Weight 6",
+        "From": "2715",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "9",
+        "To": "2723",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Full APG Weight",
+        "Field Label": "Visit Full APG Weight 6",
+        "From": "2724",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "9",
+        "To": "2732",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 7",
+        "From": "2733",
+        "Ln": "7",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "2736",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Revenue Type 7",
+        "From": "2737",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2737",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "CPT-4/HCPCS Code",
+        "Field Label": "HCPCS/CPT Procedure Code 7",
+        "From": "2738",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "5",
+        "To": "2742",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Code Modifier 1",
+        "Field Label": "Procedure Modifier Code #1 - 7",
+        "From": "2743",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2744",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Code Modifier 2",
+        "Field Label": "Procedure Modifier Code #2 - 7",
+        "From": "2745",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2746",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Service Charge 7",
+        "From": "2747",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "2756",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Unit Type 7",
+        "From": "2757",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2758",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Unit Quantity 7",
+        "From": "2759",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2766",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge 7",
+        "From": "2767",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "2776",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Service From Date",
+        "Field Label": "Service Date 7",
+        "From": "2777",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "2782",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 37",
+        "From": "2783",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2784",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Indicates if Procedure occurred before, on, or after Date of Admission",
+        "Field Label": "Pre-visit Indicator 7",
+        "From": "2785",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2785",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line item number",
+        "Field Label": "Line item number 7",
+        "From": "2786",
+        "Ln": "R",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "2788",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Visit ID",
+        "Field Label": "Visit ID 7",
+        "From": "2789",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "2791",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Lines in Visit",
+        "Field Label": "Lines in Visit 7",
+        "From": "2792",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "2794",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Visit Date",
+        "Field Label": "Visit Date 7",
+        "From": "2795",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "2800",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 38",
+        "From": "2801",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2802",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Visit Processed Flag",
+        "Field Label": "Visit Processed Flag 7",
+        "From": "2803",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2803",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Visit Processed Warnings/ Messages",
+        "Field Label": "Visit Processed Warnings/ Messages 7",
+        "From": "2804",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "2813",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Overall Visit Type",
+        "Field Label": "Overall Visit Type 7",
+        "From": "2814",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2815",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Medical Visit Diagnosis",
+        "Field Label": "Medical Visit Diagnosis 7",
+        "From": "2816",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "2822",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Final APG Assignment",
+        "Field Label": "Final APG Assignment 7",
+        "From": "2823",
+        "Ln": "S",
+        "SEGMENT": "",
+        "Size": "5",
+        "To": "2827",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Final APG Type",
+        "Field Label": "Final APG Type 7",
+        "From": "2828",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2829",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Final APG Category",
+        "Field Label": "Final APG Category 7",
+        "From": "2830",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2831",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Multiple Significant Procedure (SP) Discounting Flag",
+        "Field Label": "Multiple Significant Procedure (SP) Discounting Flag 7",
+        "From": "2832",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2832",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Repeat Ancillary Discounting Flag",
+        "Field Label": "Repeat Ancillary Discounting Flag 7",
+        "From": "2833",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2833",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Bilateral Discounting Flag",
+        "Field Label": "Bilateral Discounting Flag 7",
+        "From": "2834",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2834",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Terminated Procedure Discounting Flag",
+        "Field Label": "Terminated Procedure Discounting Flag 7",
+        "From": "2835",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2835",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line Item Unassigned Flag",
+        "Field Label": "Line Item Unassigned Flag 7",
+        "From": "2836",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2837",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Packaged Per Diem Flag",
+        "Field Label": "Packaged Per Diem Flag 7",
+        "From": "2838",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2838",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Packaging Flag",
+        "Field Label": "Packaging Flag 7",
+        "From": "2839",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2839",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Same Significant Procedure (SP) Consolidation Flag",
+        "Field Label": "Same Significant Procedure (SP) Consolidation Flag 7",
+        "From": "2840",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2840",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Clinical Significant Procedure (SP) Consolidation Flag",
+        "Field Label": "Clinical Significant Procedure (SP) Consolidation Flag 7",
+        "From": "2841",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2841",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line Item Action Flag",
+        "Field Label": "Line Item Action Flag 7",
+        "From": "2842",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2843",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Item ID number",
+        "Field Label": "Service Item ID number 7",
+        "From": "2844",
+        "Ln": "Y",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "2846",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line Item APG Payment",
+        "Field Label": "Line Item APG Payment 7",
+        "From": "2847",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2854",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Existing Payment",
+        "Field Label": "Line Item Existing Payment 7",
+        "From": "2855",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2862",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Blended Payment",
+        "Field Label": "Line Item Blended Payment 7",
+        "From": "2863",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2870",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Add-on Payment",
+        "Field Label": "Line Item Add-on Payment 7",
+        "From": "2871",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2878",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Total Payment",
+        "Field Label": "Line Item Total Payment 7",
+        "From": "2879",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2886",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Blend Percent",
+        "Field Label": "Line Item Blend Percent 7",
+        "From": "2887",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "5",
+        "To": "2891",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Adjusted APG Weight",
+        "Field Label": "Line Item Adjusted APG Weight 7",
+        "From": "2892",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "9",
+        "To": "2900",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Full APG Weight",
+        "Field Label": "Line Item Full APG Weight 7",
+        "From": "2901",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "9",
+        "To": "2909",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Payment Percent",
+        "Field Label": "Line Item Payment Percent 7",
+        "From": "2910",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "2915",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Line Item Payment Action",
+        "Field Label": "Line Item Payment Action 7",
+        "From": "2916",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2917",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line Item Paid Units",
+        "Field Label": "Line Item Paid Units 7",
+        "From": "2918",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "2924",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Line Item Payment Adjustment Flag",
+        "Field Label": "Line Item Payment Adjustment Flag 7",
+        "From": "2925",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2926",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Visit APG Payment",
+        "Field Label": "Visit APG Payment 7",
+        "From": "2927",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2934",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Transition APG Payment",
+        "Field Label": "Visit Transition APG Payment 7",
+        "From": "2935",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2942",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Existing Payment",
+        "Field Label": "Visit Existing Payment 7",
+        "From": "2943",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2950",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Blended Payment",
+        "Field Label": "Visit Blended Payment 7",
+        "From": "2951",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2958",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Add-on Payment",
+        "Field Label": "Visit Add-on Payment 7",
+        "From": "2959",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2966",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Payment",
+        "Field Label": "Visit Payment 7",
+        "From": "2967",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2974",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Non-transition Payment",
+        "Field Label": "Visit Non-transition Payment 7",
+        "From": "2975",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2982",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Adjusted APG Weight",
+        "Field Label": "Visit Adjusted APG Weight 7",
+        "From": "2983",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "9",
+        "To": "2991",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Visit Full APG Weight",
+        "Field Label": "Visit Full APG Weight 7",
+        "From": "2992",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "9",
+        "To": "3000",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Reserved ",
+        "From": "3001",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "200",
+        "To": "3200",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Patient Control Number",
+        "From": "3201",
+        "Ln": "",
+        "SEGMENT": "Encrypted Identifers",
+        "Size": "44",
+        "To": "3244",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Medical Record Number",
+        "From": "3245",
+        "Ln": "",
+        "SEGMENT": "Patient Segment",
+        "Size": "44",
+        "To": "3288",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Unique Personal Identifier",
+        "From": "3289",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3310",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Enhanced Unique Personal Identifier",
+        "From": "3311",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "44",
+        "To": "3354",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Patient Date of Birth",
+        "From": "3355",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3376",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Patient's Address Line 1",
+        "From": "3377",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "44",
+        "To": "3420",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Patient's Address Line 2",
+        "From": "3421",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "44",
+        "To": "3464",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Patient Postal Service Zip Code  and Extension Code",
+        "From": "3465",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3486",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Statement From Date",
+        "From": "3487",
+        "Ln": "",
+        "SEGMENT": "Treatment Segment ",
+        "Size": "22",
+        "To": "3508",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Statement Thru Date",
+        "From": "3509",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3530",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Admission / Start of Care Date",
+        "From": "3531",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3552",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Discharge Date",
+        "From": "3553",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3574",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Accident Related Date",
+        "From": "3575",
+        "Ln": "",
+        "SEGMENT": "Diagnosis Segment",
+        "Size": "22",
+        "To": "3596",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Principal Procedure Date 1",
+        "From": "3597",
+        "Ln": "1",
+        "SEGMENT": "Procedure Segment",
+        "Size": "22",
+        "To": "3618",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Principal Procedure Date 2",
+        "From": "3619",
+        "Ln": "2",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3640",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Principal Procedure Date 3",
+        "From": "3641",
+        "Ln": "3",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3662",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Principal Procedure Date 4",
+        "From": "3663",
+        "Ln": "4",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3684",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Principal Procedure Date 5",
+        "From": "3685",
+        "Ln": "5",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3706",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Principal Procedure Date 6",
+        "From": "3707",
+        "Ln": "6",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3728",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Principal Procedure Date 7",
+        "From": "3729",
+        "Ln": "7",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3750",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Principal Procedure Date 8",
+        "From": "3751",
+        "Ln": "8",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3772",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Principal Procedure Date 9",
+        "From": "3773",
+        "Ln": "9",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3794",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Principal Procedure Date 10",
+        "From": "3795",
+        "Ln": "10",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3816",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Principal Procedure Date 11",
+        "From": "3817",
+        "Ln": "11",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3838",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Principal Procedure Date 12",
+        "From": "3839",
+        "Ln": "12",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3860",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Principal Procedure Date 13",
+        "From": "3861",
+        "Ln": "13",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3882",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Principal Procedure Date 14",
+        "From": "3883",
+        "Ln": "14",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3904",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Principal Procedure Date 15",
+        "From": "3905",
+        "Ln": "15",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3926",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Service Date 1",
+        "From": "3927",
+        "Ln": "1",
+        "SEGMENT": "Service Segment",
+        "Size": "22",
+        "To": "3948",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Visit Date 1",
+        "From": "3949",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3970",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Service Date 2",
+        "From": "3971",
+        "Ln": "2",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3992",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Visit Date 2",
+        "From": "3993",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4014",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Service Date 3",
+        "From": "4015",
+        "Ln": "3",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4036",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Visit Date 3",
+        "From": "4037",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4058",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Service Date 4",
+        "From": "4059",
+        "Ln": "4",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4080",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Visit Date 4",
+        "From": "4081",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4102",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Service Date 5",
+        "From": "4103",
+        "Ln": "5",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4124",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Visit Date 5",
+        "From": "4125",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4146",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Service Date 6",
+        "From": "4147",
+        "Ln": "6",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4168",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Visit Date 6",
+        "From": "4169",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4190",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Service Date 7",
+        "From": "4191",
+        "Ln": "7",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4212",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Visit Date 7",
+        "From": "4213",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4234",
+        "Type": ""
+    }
+]
