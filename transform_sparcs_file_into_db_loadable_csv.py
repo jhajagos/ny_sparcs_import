@@ -8,6 +8,7 @@ __author__ = 'janos'
 
 import csv
 import json
+import sys
 
 
 def main(sparcs_dat_file, sparcs_dat_file_json_structure):
@@ -30,12 +31,20 @@ def main(sparcs_dat_file, sparcs_dat_file_json_structure):
             starting_positions = [(int(sl["From"]) - 1, int(sl["Size"])) for sl in sparcs_layout]
             print(starting_positions)
 
+            i = 0
             row_to_write = []
             for line in fd:
                 for start_pos in starting_positions:
                     row_to_write += [line[start_pos[0]:start_pos[0] + start_pos[1]].strip()]
                 csv_writer.writerow(row_to_write)
 
+                i += 1
+                if i % 10000 == 0:
+                    print("Read %s lines" % i)
+
 
 if __name__ == "__main__":
-    main("/Volumes/untitled/LIMITEDOP12p1.DAT.sample.sample", "SPARCS OP Format_LIMITED.csv.json")
+    if len(sys.argv) == 1:
+        main("/Volumes/untitled/LIMITEDOP12p1.DAT.sample.sample", "SPARCS OP Format_LIMITED.csv.json")
+    else:
+        main(sys.argv[1], sys.argv[2])
