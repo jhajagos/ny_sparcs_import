@@ -9,7 +9,8 @@ def main(csv_file_name):
         r = csv.DictReader(f)
         list_of_dicts = []
         for row_dict in r:
-            row_dict.pop("")
+            if "" in row_dict:
+                row_dict.pop("")
             list_of_dicts += [row_dict]
 
     number_filler_fields = 1
@@ -24,3 +25,4 @@ def main(csv_file_name):
 
 if __name__ == "__main__":
     main("SPARCS OP Format_LIMITED.csv")
+    main("SPARCS OP Format_LIMITED continuation.csv")

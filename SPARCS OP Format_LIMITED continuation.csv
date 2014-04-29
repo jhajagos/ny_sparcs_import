@@ -1,0 +1,646 @@
+Class,Ln,Field Label,From,To,Size,Type,Description (Remarks)
+Link Info,,EDIT-DISCHARGE-NUM,1,14,14,NUM,Discharge Number
+,,EDIT-CONTINUATION-TYPE,15,15,1,NUM,Continuation Type
+,,EDIT-RECORD-SEQUENCE,16,18,3,NUM,Record Sequence
+,,EDIT-SEQUENCE-COUNT,19,21,3,NUM,Record Sequence Count
+,,Filler,22,52,31,,
+Service,8,Revenue Code,53,56,4,A/N,NUBC Revenue Code
+"8, 19, 30, 41, 52, 63, 74, 85,",,Type of Revenue Code,57,57,1,A/N,Revenue Type
+"96, 107, 118, 129, 140, 151,",,Procedure Code; CPT-4/HCPC,58,62,5,A/N,CPT-4/HCPCS Code
+"162, 173, 184, 195, 206, 217,",,Procedure Code Modifier 1,63,64,2,A/N,Code Modifier 1
+"228, 239, 250, 261, 272, 283,",,Procedure Code Modifier 2,65,66,2,A/N,Code Modifier 2
+"294, 305, 316, 327, 338, 349,",,Charge of Service,67,76,10,NUM,Total Charge 
+"360, 371, 382, 393, 404, 415,",,Type of Unit,77,78,2,A/N,Unit Type
+"426, 437, 448, 459, 470, 481,",,Quantity,79,86,8,NUM,Unit Quantity
+"492, 503, 514, 525, 536, 547,",,Non-Covered Charge of Service,87,96,10,NUM,Non-covered Charge
+"558, 569, 580, 591, 602, 613,",,Service From Date,97,102,6,A/N,Service From Date
+"624, 635, 646, 657, 668, 679,",,Filler,103,104,2,A/N,
+"690, 701, 712, 723, 734, 745,",,Pre-visit Procedure Indicator,105,105,1,A/N,"Indicates if Procedure occurred before, on, or after Date of Admission"
+"756, 767, 778, 789, 800, 811,",R,Line item number,106,108,3,A/N,Line item number
+"822, 833, 844, 855, 866, 877,",,Visit ID,109,111,3,A/N,Visit ID
+"888, 899, 910, 921, 932, 943,",,Lines in Visit,112,114,3,A/N,Lines in Visit
+"954, 965, 976, 987, 998",,Visit Date,115,120,6,A/N,Visit Date
+,,Filler,121,122,2,A/N,
+,,Visit Processed Flag,123,123,1,A/N,Visit Processed Flag
+,,Visit Processed Warnings/ Messages,124,133,10,A/N,Visit Processed Warnings/ Messages
+,,Overall Visit Type,134,135,2,A/N,Overall Visit Type
+,,Medical Visit Diagnosis,136,142,7,A/N,Medical Visit Diagnosis
+,S,Final APG Assignment,143,147,5,A/N,Final APG Assignment
+,,Final APG Type,148,149,2,A/N,Final APG Type
+,,Final APG Category,150,151,2,A/N,Final APG Category
+,,Multiple Significant Procedure (SP) Discounting Flag,152,152,1,A/N,Multiple Significant Procedure (SP) Discounting Flag
+,,Repeat Ancillary Discounting Flag,153,153,1,A/N,Repeat Ancillary Discounting Flag
+,,Bilateral Discounting Flag,154,154,1,A/N,Bilateral Discounting Flag
+,,Terminated Procedure Discounting Flag,155,155,1,A/N,Terminated Procedure Discounting Flag
+,,Line Item Unassigned Flag,156,157,2,A/N,Line Item Unassigned Flag
+,,Packaged Per Diem Flag,158,158,1,A/N,Packaged Per Diem Flag
+,,Packaging Flag,159,159,1,A/N,Packaging Flag
+,,Same Significant Procedure (SP) Consolidation Flag,160,160,1,A/N,Same Significant Procedure (SP) Consolidation Flag
+,,Clinical Significant Procedure (SP) Consolidation Flag,161,161,1,A/N,Clinical Significant Procedure (SP) Consolidation Flag
+,,Line Item Action Flag,162,163,2,A/N,Line Item Action Flag
+,Y,Item ID number,164,166,3,A/N,Item ID number
+,,Line Item APG Payment,167,174,8,NUM,Line Item APG Payment
+,,Line Item Existing Payment,175,182,8,NUM,Line Item Existing Payment
+,,Line Item Blended Payment,183,190,8,NUM,Line Item Blended Payment
+,,Line Item Add-on Payment,191,198,8,NUM,Line Item Add-on Payment
+,,Line Item Total Payment,199,206,8,NUM,Line Item Total Payment
+,,Line Item Blend Percent,207,211,5,NUM,Line Item Blend Percent
+,,Line Item Adjusted APG Weight,212,220,9,NUM,Line Item Adjusted APG Weight
+,,Line Item Full APG Weight,221,229,9,NUM,Line Item Full APG Weight
+,,Line Item Payment Percent,230,235,6,NUM,Line Item Payment Percent
+,,Line Item Payment Action,236,237,2,A/N,Line Item Payment Action
+,,Line Item Paid Units,238,244,7,A/N,Line Item Paid Units
+,,Line Item Payment Adjustment Flag,245,246,2,A/N,Line Item Payment Adjustment Flag
+,,Visit APG Payment,247,254,8,NUM,Visit APG Payment
+,,Visit Transition APG Payment,255,262,8,NUM,Visit Transition APG Payment
+,,Visit Existing Payment,263,270,8,NUM,Visit Existing Payment
+,,Visit Blended Payment,271,278,8,NUM,Visit Blended Payment
+,,Visit Add-on Payment,279,286,8,NUM,Visit Add-on Payment
+,,Visit Payment,287,294,8,NUM,Visit Payment
+,,Visit Non-transition Payment,295,302,8,NUM,Visit Non-transition Payment
+,,Visit Adjusted APG Weight,303,311,9,NUM,Visit Adjusted APG Weight
+,,Visit Full APG Weight,312,320,9,NUM,Visit Full APG Weight
+"9, 20, 31, 42, 53, 64, 75, 86,",9,Revenue Code,321,324,4,A/N,NUBC Revenue Code
+"97, 108, 119, 130, 141, 152,",,Type of Revenue Code,325,325,1,A/N,Revenue Type
+"163, 174, 185, 196, 207, 218,",,Procedure Code; CPT-4/HCPC,326,330,5,A/N,CPT-4/HCPCS Code
+"229, 240, 251, 262, 273, 284,",,Procedure Code Modifier 1,331,332,2,A/N,Code Modifier 1
+"295, 306, 317, 328, 339, 350,",,Procedure Code Modifier 2,333,334,2,A/N,Code Modifier 2
+"361, 372, 383, 394, 405, 416,",,Charge of Service,335,344,10,NUM,Total Charge 
+"427, 438, 449, 460, 471, 482,",,Type of Unit,345,346,2,A/N,Unit Type
+"493, 504, 515, 526, 537, 548,",,Quantity,347,354,8,NUM,Unit Quantity
+"559, 570, 581, 592, 603, 614,",,Non-Covered Charge of Service,355,364,10,NUM,Non-covered Charge
+"625, 636, 647, 658, 669, 680,",,Service From Date,365,370,6,A/N,Service From Date
+"691, 702, 713, 724, 735, 746,",,Filler,371,372,2,A/N,
+"757, 768, 779, 790, 801, 812,",,Pre-visit Procedure Indicator,373,373,1,A/N,"Indicates if Procedure occurred before, on, or after Date of Admission"
+"823, 834, 845, 856, 867, 878,",R,Line item number,374,376,3,A/N,Line item number
+"889, 900, 911, 922, 933, 944,",,Visit ID,377,379,3,A/N,Visit ID
+"955, 966, 977, 988, 999",,Lines in Visit,380,382,3,A/N,Lines in Visit
+,,Visit Date,383,388,6,A/N,Visit Date
+,,Filler,389,390,2,A/N,
+,,Visit Processed Flag,391,391,1,A/N,Visit Processed Flag
+,,Visit Processed Warnings/ Messages,392,401,10,A/N,Visit Processed Warnings/ Messages
+,,Overall Visit Type,402,403,2,A/N,Overall Visit Type
+,,Medical Visit Diagnosis,404,410,7,A/N,Medical Visit Diagnosis
+,S,Final APG Assignment,411,415,5,A/N,Final APG Assignment
+,,Final APG Type,416,417,2,A/N,Final APG Type
+,,Final APG Category,418,419,2,A/N,Final APG Category
+,,Multiple Significant Procedure (SP) Discounting Flag,420,420,1,A/N,Multiple Significant Procedure (SP) Discounting Flag
+,,Repeat Ancillary Discounting Flag,421,421,1,A/N,Repeat Ancillary Discounting Flag
+,,Bilateral Discounting Flag,422,422,1,A/N,Bilateral Discounting Flag
+,,Terminated Procedure Discounting Flag,423,423,1,A/N,Terminated Procedure Discounting Flag
+,,Line Item Unassigned Flag,424,425,2,A/N,Line Item Unassigned Flag
+,,Packaged Per Diem Flag,426,426,1,A/N,Packaged Per Diem Flag
+,,Packaging Flag,427,427,1,A/N,Packaging Flag
+,,Same Significant Procedure (SP) Consolidation Flag,428,428,1,A/N,Same Significant Procedure (SP) Consolidation Flag
+,,Clinical Significant Procedure (SP) Consolidation Flag,429,429,1,A/N,Clinical Significant Procedure (SP) Consolidation Flag
+,,Line Item Action Flag,430,431,2,A/N,Line Item Action Flag
+,Y,Item ID number,432,434,3,A/N,Item ID number
+,,Line Item APG Payment,435,442,8,NUM,Line Item APG Payment
+,,Line Item Existing Payment,443,450,8,NUM,Line Item Existing Payment
+,,Line Item Blended Payment,451,458,8,NUM,Line Item Blended Payment
+,,Line Item Add-on Payment,459,466,8,NUM,Line Item Add-on Payment
+,,Line Item Total Payment,467,474,8,NUM,Line Item Total Payment
+,,Line Item Blend Percent,475,479,5,NUM,Line Item Blend Percent
+,,Line Item Adjusted APG Weight,480,488,9,NUM,Line Item Adjusted APG Weight
+,,Line Item Full APG Weight,489,497,9,NUM,Line Item Full APG Weight
+,,Line Item Payment Percent,498,503,6,NUM,Line Item Payment Percent
+,,Line Item Payment Action,504,505,2,A/N,Line Item Payment Action
+,,Line Item Paid Units,506,512,7,A/N,Line Item Paid Units
+,,Line Item Payment Adjustment Flag,513,514,2,A/N,Line Item Payment Adjustment Flag
+,,Visit APG Payment,515,522,8,NUM,Visit APG Payment
+,,Visit Transition APG Payment,523,530,8,NUM,Visit Transition APG Payment
+,,Visit Existing Payment,531,538,8,NUM,Visit Existing Payment
+,,Visit Blended Payment,539,546,8,NUM,Visit Blended Payment
+,,Visit Add-on Payment,547,554,8,NUM,Visit Add-on Payment
+,,Visit Payment,555,562,8,NUM,Visit Payment
+,,Visit Non-transition Payment,563,570,8,NUM,Visit Non-transition Payment
+,,Visit Adjusted APG Weight,571,579,9,NUM,Visit Adjusted APG Weight
+,,Visit Full APG Weight,580,588,9,NUM,Visit Full APG Weight
+"10, 21, 32, 43, 54, 65, 76, 87,",10,Revenue Code,589,592,4,A/N,NUBC Revenue Code
+"98, 109, 120, 131, 142, 153,",,Type of Revenue Code,593,593,1,A/N,Revenue Type
+"164, 175, 186, 197, 208, 219,",,Procedure Code; CPT-4/HCPC,594,598,5,A/N,CPT-4/HCPCS Code
+"230, 241, 252, 263, 274, 285,",,Procedure Code Modifier 1,599,600,2,A/N,Code Modifier 1
+"296, 307, 318, 329, 340, 351,",,Procedure Code Modifier 2,601,602,2,A/N,Code Modifier 2
+"362, 373, 384, 395, 406, 417,",,Charge of Service,603,612,10,NUM,Total Charge 
+"428, 439, 450, 461, 472, 483,",,Type of Unit,613,614,2,A/N,Unit Type
+"494, 505, 516, 527, 538, 549,",,Quantity,615,622,8,NUM,Unit Quantity
+"560, 571, 582, 593, 604, 615,",,Non-Covered Charge of Service,623,632,10,NUM,Non-covered Charge
+"626, 637, 648, 659, 670, 681,",,Service From Date,633,638,6,A/N,Service From Date
+"692, 703, 714, 725, 736, 747,",,Filler,639,640,2,A/N,
+"758, 769, 780, 791, 802, 813,",,Pre-visit Procedure Indicator,641,641,1,A/N,"Indicates if Procedure occurred before, on, or after Date of Admission"
+"824, 835, 846, 857, 868, 879,",R,Line item number,642,644,3,A/N,Line item number
+"890, 901, 912, 923, 934, 945,",,Visit ID,645,647,3,A/N,Visit ID
+"956, 967, 978, 989",,Lines in Visit,648,650,3,A/N,Lines in Visit
+,,Visit Date,651,656,6,A/N,Visit Date
+,,Filler,657,658,2,A/N,
+,,Visit Processed Flag,659,659,1,A/N,Visit Processed Flag
+,,Visit Processed Warnings/ Messages,660,669,10,A/N,Visit Processed Warnings/ Messages
+,,Overall Visit Type,670,671,2,A/N,Overall Visit Type
+,,Medical Visit Diagnosis,672,678,7,A/N,Medical Visit Diagnosis
+,S,Final APG Assignment,679,683,5,A/N,Final APG Assignment
+,,Final APG Type,684,685,2,A/N,Final APG Type
+,,Final APG Category,686,687,2,A/N,Final APG Category
+,,Multiple Significant Procedure (SP) Discounting Flag,688,688,1,A/N,Multiple Significant Procedure (SP) Discounting Flag
+,,Repeat Ancillary Discounting Flag,689,689,1,A/N,Repeat Ancillary Discounting Flag
+,,Bilateral Discounting Flag,690,690,1,A/N,Bilateral Discounting Flag
+,,Terminated Procedure Discounting Flag,691,691,1,A/N,Terminated Procedure Discounting Flag
+,,Line Item Unassigned Flag,692,693,2,A/N,Line Item Unassigned Flag
+,,Packaged Per Diem Flag,694,694,1,A/N,Packaged Per Diem Flag
+,,Packaging Flag,695,695,1,A/N,Packaging Flag
+,,Same Significant Procedure (SP) Consolidation Flag,696,696,1,A/N,Same Significant Procedure (SP) Consolidation Flag
+,,Clinical Significant Procedure (SP) Consolidation Flag,697,697,1,A/N,Clinical Significant Procedure (SP) Consolidation Flag
+,,Line Item Action Flag,698,699,2,A/N,Line Item Action Flag
+,Y,Item ID number,700,702,3,A/N,Item ID number
+,,Line Item APG Payment,703,710,8,NUM,Line Item APG Payment
+,,Line Item Existing Payment,711,718,8,NUM,Line Item Existing Payment
+,,Line Item Blended Payment,719,726,8,NUM,Line Item Blended Payment
+,,Line Item Add-on Payment,727,734,8,NUM,Line Item Add-on Payment
+,,Line Item Total Payment,735,742,8,NUM,Line Item Total Payment
+,,Line Item Blend Percent,743,747,5,NUM,Line Item Blend Percent
+,,Line Item Adjusted APG Weight,748,756,9,NUM,Line Item Adjusted APG Weight
+,,Line Item Full APG Weight,757,765,9,NUM,Line Item Full APG Weight
+,,Line Item Payment Percent,766,771,6,NUM,Line Item Payment Percent
+,,Line Item Payment Action,772,773,2,A/N,Line Item Payment Action
+,,Line Item Paid Units,774,780,7,A/N,Line Item Paid Units
+,,Line Item Payment Adjustment Flag,781,782,2,A/N,Line Item Payment Adjustment Flag
+,,Visit APG Payment,783,790,8,NUM,Visit APG Payment
+,,Visit Transition APG Payment,791,798,8,NUM,Visit Transition APG Payment
+,,Visit Existing Payment,799,806,8,NUM,Visit Existing Payment
+,,Visit Blended Payment,807,814,8,NUM,Visit Blended Payment
+,,Visit Add-on Payment,815,822,8,NUM,Visit Add-on Payment
+,,Visit Payment,823,830,8,NUM,Visit Payment
+,,Visit Non-transition Payment,831,838,8,NUM,Visit Non-transition Payment
+,,Visit Adjusted APG Weight,839,847,9,NUM,Visit Adjusted APG Weight
+,,Visit Full APG Weight,848,856,9,NUM,Visit Full APG Weight
+"11, 22, 33, 44, 55, 66, 77, 88,",11,Revenue Code,857,860,4,A/N,NUBC Revenue Code
+"99, 110, 121, 132, 143, 154,",,Type of Revenue Code,861,861,1,A/N,Revenue Type
+"165, 176, 187, 198, 209, 220,",,Procedure Code; CPT-4/HCPC,862,866,5,A/N,CPT-4/HCPCS Code
+"231, 242, 253, 264, 275, 286,",,Procedure Code Modifier 1,867,868,2,A/N,Code Modifier 1
+"297, 308, 319, 330, 341, 352,",,Procedure Code Modifier 2,869,870,2,A/N,Code Modifier 2
+"363, 374, 385, 396, 407, 418,",,Charge of Service,871,880,10,NUM,Total Charge 
+"429, 440, 451, 462, 473, 484,",,Type of Unit,881,882,2,A/N,Unit Type
+"495, 506, 517, 528, 539, 550,",,Quantity,883,890,8,NUM,Unit Quantity
+"561, 572, 583, 594, 605, 616,",,Non-Covered Charge of Service,891,900,10,NUM,Non-covered Charge
+"627, 638, 649, 660, 671, 682,",,Service From Date,901,906,6,A/N,Service From Date
+"693, 704, 715, 726, 737, 748,",,Filler,907,908,2,A/N,
+"759, 770, 781, 792, 803, 814,",,Pre-visit Procedure Indicator,909,909,1,A/N,"Indicates if Procedure occurred before, on, or after Date of Admission"
+"825, 836, 847, 858, 869, 880,",R,Line item number,910,912,3,A/N,Line item number
+"891, 902, 913, 924, 935, 946,",,Visit ID,913,915,3,A/N,Visit ID
+"957, 968, 979, 990",,Lines in Visit,916,918,3,A/N,Lines in Visit
+,,Visit Date,919,924,6,A/N,Visit Date
+,,Filler,925,926,2,A/N,
+,,Visit Processed Flag,927,927,1,A/N,Visit Processed Flag
+,,Visit Processed Warnings/ Messages,928,937,10,A/N,Visit Processed Warnings/ Messages
+,,Overall Visit Type,938,939,2,A/N,Overall Visit Type
+,,Medical Visit Diagnosis,940,946,7,A/N,Medical Visit Diagnosis
+,S,Final APG Assignment,947,951,5,A/N,Final APG Assignment
+,,Final APG Type,952,953,2,A/N,Final APG Type
+,,Final APG Category,954,955,2,A/N,Final APG Category
+,,Multiple Significant Procedure (SP) Discounting Flag,956,956,1,A/N,Multiple Significant Procedure (SP) Discounting Flag
+,,Repeat Ancillary Discounting Flag,957,957,1,A/N,Repeat Ancillary Discounting Flag
+,,Bilateral Discounting Flag,958,958,1,A/N,Bilateral Discounting Flag
+,,Terminated Procedure Discounting Flag,959,959,1,A/N,Terminated Procedure Discounting Flag
+,,Line Item Unassigned Flag,960,961,2,A/N,Line Item Unassigned Flag
+,,Packaged Per Diem Flag,962,962,1,A/N,Packaged Per Diem Flag
+,,Packaging Flag,963,963,1,A/N,Packaging Flag
+,,Same Significant Procedure (SP) Consolidation Flag,964,964,1,A/N,Same Significant Procedure (SP) Consolidation Flag
+,,Clinical Significant Procedure (SP) Consolidation Flag,965,965,1,A/N,Clinical Significant Procedure (SP) Consolidation Flag
+,,Line Item Action Flag,966,967,2,A/N,Line Item Action Flag
+,Y,Item ID number,968,970,3,A/N,Item ID number
+,,Line Item APG Payment,971,978,8,NUM,Line Item APG Payment
+,,Line Item Existing Payment,979,986,8,NUM,Line Item Existing Payment
+,,Line Item Blended Payment,987,994,8,NUM,Line Item Blended Payment
+,,Line Item Add-on Payment,995,1002,8,NUM,Line Item Add-on Payment
+,,Line Item Total Payment,1003,1010,8,NUM,Line Item Total Payment
+,,Line Item Blend Percent,1011,1015,5,NUM,Line Item Blend Percent
+,,Line Item Adjusted APG Weight,1016,1024,9,NUM,Line Item Adjusted APG Weight
+,,Line Item Full APG Weight,1025,1033,9,NUM,Line Item Full APG Weight
+,,Line Item Payment Percent,1034,1039,6,NUM,Line Item Payment Percent
+,,Line Item Payment Action,1040,1041,2,A/N,Line Item Payment Action
+,,Line Item Paid Units,1042,1048,7,A/N,Line Item Paid Units
+,,Line Item Payment Adjustment Flag,1049,1050,2,A/N,Line Item Payment Adjustment Flag
+,,Visit APG Payment,1051,1058,8,NUM,Visit APG Payment
+,,Visit Transition APG Payment,1059,1066,8,NUM,Visit Transition APG Payment
+,,Visit Existing Payment,1067,1074,8,NUM,Visit Existing Payment
+,,Visit Blended Payment,1075,1082,8,NUM,Visit Blended Payment
+,,Visit Add-on Payment,1083,1090,8,NUM,Visit Add-on Payment
+,,Visit Payment,1091,1098,8,NUM,Visit Payment
+,,Visit Non-transition Payment,1099,1106,8,NUM,Visit Non-transition Payment
+,,Visit Adjusted APG Weight,1107,1115,9,NUM,Visit Adjusted APG Weight
+,,Visit Full APG Weight,1116,1124,9,NUM,Visit Full APG Weight
+"12, 23, 34, 45, 56, 67, 78, 89,",12,Revenue Code,1125,1128,4,A/N,NUBC Revenue Code
+"100, 111, 122, 133, 144, 155,",,Type of Revenue Code,1129,1129,1,A/N,Revenue Type
+"166, 177, 188, 199, 210, 221,",,Procedure Code; CPT-4/HCPC,1130,1134,5,A/N,CPT-4/HCPCS Code
+"232, 243, 254, 265, 276, 287,",,Procedure Code Modifier 1,1135,1136,2,A/N,Code Modifier 1
+"298, 308, 320, 331, 342, 353,",,Procedure Code Modifier 2,1137,1138,2,A/N,Code Modifier 2
+"364, 375, 386, 397, 408, 419,",,Charge of Service,1139,1148,10,NUM,Total Charge 
+"430, 441, 452, 463, 474, 485,",,Type of Unit,1149,1150,2,A/N,Unit Type
+"496, 507, 518, 529, 540, 551,",,Quantity,1151,1158,8,NUM,Unit Quantity
+"562, 573, 584, 595, 606, 617,",,Non-Covered Charge of Service,1159,1168,10,NUM,Non-covered Charge
+"628, 639, 650, 661, 672, 683,",,Service From Date,1169,1174,6,A/N,Service From Date
+"694, 705, 716, 727, 738, 749,",,Filler,1175,1176,2,A/N,
+"760, 771, 782, 793, 804, 815,",,Pre-visit Procedure Indicator,1177,1177,1,A/N,"Indicates if Procedure occurred before, on, or after Date of Admission"
+"826, 837, 848, 859, 870, 881,",R,Line item number,1178,1180,3,A/N,Line item number
+"892, 903, 914, 925, 936, 947,",,Visit ID,1181,1183,3,A/N,Visit ID
+"958, 969, 980, 991",,Lines in Visit,1184,1186,3,A/N,Lines in Visit
+,,Visit Date,1187,1192,6,A/N,Visit Date
+,,Filler,1193,1194,2,A/N,
+,,Visit Processed Flag,1195,1195,1,A/N,Visit Processed Flag
+,,Visit Processed Warnings/ Messages,1196,1205,10,A/N,Visit Processed Warnings/ Messages
+,,Overall Visit Type,1206,1207,2,A/N,Overall Visit Type
+,,Medical Visit Diagnosis,1208,1214,7,A/N,Medical Visit Diagnosis
+,S,Final APG Assignment,1215,1219,5,A/N,Final APG Assignment
+,,Final APG Type,1220,1221,2,A/N,Final APG Type
+,,Final APG Category,1222,1223,2,A/N,Final APG Category
+,,Multiple Significant Procedure (SP) Discounting Flag,1224,1224,1,A/N,Multiple Significant Procedure (SP) Discounting Flag
+,,Repeat Ancillary Discounting Flag,1225,1225,1,A/N,Repeat Ancillary Discounting Flag
+,,Bilateral Discounting Flag,1226,1226,1,A/N,Bilateral Discounting Flag
+,,Terminated Procedure Discounting Flag,1227,1227,1,A/N,Terminated Procedure Discounting Flag
+,,Line Item Unassigned Flag,1228,1229,2,A/N,Line Item Unassigned Flag
+,,Packaged Per Diem Flag,1230,1230,1,A/N,Packaged Per Diem Flag
+,,Packaging Flag,1231,1231,1,A/N,Packaging Flag
+,,Same Significant Procedure (SP) Consolidation Flag,1232,1232,1,A/N,Same Significant Procedure (SP) Consolidation Flag
+,,Clinical Significant Procedure (SP) Consolidation Flag,1233,1233,1,A/N,Clinical Significant Procedure (SP) Consolidation Flag
+,,Line Item Action Flag,1234,1235,2,A/N,Line Item Action Flag
+,Y,Item ID number,1236,1238,3,A/N,Item ID number
+,,Line Item APG Payment,1239,1246,8,NUM,Line Item APG Payment
+,,Line Item Existing Payment,1247,1254,8,NUM,Line Item Existing Payment
+,,Line Item Blended Payment,1255,1262,8,NUM,Line Item Blended Payment
+,,Line Item Add-on Payment,1263,1270,8,NUM,Line Item Add-on Payment
+,,Line Item Total Payment,1271,1278,8,NUM,Line Item Total Payment
+,,Line Item Blend Percent,1279,1283,5,NUM,Line Item Blend Percent
+,,Line Item Adjusted APG Weight,1284,1292,9,NUM,Line Item Adjusted APG Weight
+,,Line Item Full APG Weight,1293,1301,9,NUM,Line Item Full APG Weight
+,,Line Item Payment Percent,1302,1307,6,NUM,Line Item Payment Percent
+,,Line Item Payment Action,1308,1309,2,A/N,Line Item Payment Action
+,,Line Item Paid Units,1310,1316,7,A/N,Line Item Paid Units
+,,Line Item Payment Adjustment Flag,1317,1318,2,A/N,Line Item Payment Adjustment Flag
+,,Visit APG Payment,1319,1326,8,NUM,Visit APG Payment
+,,Visit Transition APG Payment,1327,1334,8,NUM,Visit Transition APG Payment
+,,Visit Existing Payment,1335,1342,8,NUM,Visit Existing Payment
+,,Visit Blended Payment,1343,1350,8,NUM,Visit Blended Payment
+,,Visit Add-on Payment,1351,1358,8,NUM,Visit Add-on Payment
+,,Visit Payment,1359,1366,8,NUM,Visit Payment
+,,Visit Non-transition Payment,1367,1374,8,NUM,Visit Non-transition Payment
+,,Visit Adjusted APG Weight,1375,1383,9,NUM,Visit Adjusted APG Weight
+,,Visit Full APG Weight,1384,1392,9,NUM,Visit Full APG Weight
+"13, 24, 35, 46, 57, 68, 79, 90,",13,Revenue Code,1393,1396,4,A/N,NUBC Revenue Code
+"101, 112, 123, 134, 145, 156,",,Type of Revenue Code,1397,1397,1,A/N,Revenue Type
+"167, 178, 189, 200, 211, 222,",,Procedure Code; CPT-4/HCPC,1398,1402,5,A/N,CPT-4/HCPCS Code
+"233, 244, 255, 266, 277, 288,",,Procedure Code Modifier 1,1403,1404,2,A/N,Code Modifier 1
+"299, 310, 321, 332, 343, 354,",,Procedure Code Modifier 2,1405,1406,2,A/N,Code Modifier 2
+"365, 376, 387, 398, 409, 420,",,Charge of Service,1407,1416,10,NUM,Total Charge 
+"431, 442, 453, 464, 475, 486,",,Type of Unit,1417,1418,2,A/N,Unit Type
+"497, 508, 519, 530, 541, 552,",,Quantity,1419,1426,8,NUM,Unit Quantity
+"563, 574, 585, 596, 607, 618,",,Non-Covered Charge of Service,1427,1436,10,NUM,Non-covered Charge
+"629, 640, 651, 662, 673, 684,",,Service From Date,1437,1442,6,A/N,Service From Date
+"695, 706, 717, 728, 739, 750,",,Filler,1443,1444,2,A/N,
+"761, 772, 783, 794, 805, 816,",,Pre-visit Procedure Indicator,1445,1445,1,A/N,"Indicates if Procedure occurred before, on, or after Date of Admission"
+"827, 838, 849, 860, 871, 882,",R,Line item number,1446,1448,3,A/N,Line item number
+"893, 904, 915, 926, 937, 948,",,Visit ID,1449,1451,3,A/N,Visit ID
+"959, 970, 981, 992",,Lines in Visit,1452,1454,3,A/N,Lines in Visit
+,,Visit Date,1455,1460,6,A/N,Visit Date
+,,Filler,1461,1462,2,A/N,
+,,Visit Processed Flag,1463,1463,1,A/N,Visit Processed Flag
+,,Visit Processed Warnings/ Messages,1464,1473,10,A/N,Visit Processed Warnings/ Messages
+,,Overall Visit Type,1474,1475,2,A/N,Overall Visit Type
+,,Medical Visit Diagnosis,1476,1482,7,A/N,Medical Visit Diagnosis
+,S,Final APG Assignment,1483,1487,5,A/N,Final APG Assignment
+,,Final APG Type,1488,1489,2,A/N,Final APG Type
+,,Final APG Category,1490,1491,2,A/N,Final APG Category
+,,Multiple Significant Procedure (SP) Discounting Flag,1492,1492,1,A/N,Multiple Significant Procedure (SP) Discounting Flag
+,,Repeat Ancillary Discounting Flag,1493,1493,1,A/N,Repeat Ancillary Discounting Flag
+,,Bilateral Discounting Flag,1494,1494,1,A/N,Bilateral Discounting Flag
+,,Terminated Procedure Discounting Flag,1495,1495,1,A/N,Terminated Procedure Discounting Flag
+,,Line Item Unassigned Flag,1496,1497,2,A/N,Line Item Unassigned Flag
+,,Packaged Per Diem Flag,1498,1498,1,A/N,Packaged Per Diem Flag
+,,Packaging Flag,1499,1499,1,A/N,Packaging Flag
+,,Same Significant Procedure (SP) Consolidation Flag,1500,1500,1,A/N,Same Significant Procedure (SP) Consolidation Flag
+,,Clinical Significant Procedure (SP) Consolidation Flag,1501,1501,1,A/N,Clinical Significant Procedure (SP) Consolidation Flag
+,,Line Item Action Flag,1502,1503,2,A/N,Line Item Action Flag
+,Y,Item ID number,1504,1506,3,A/N,Item ID number
+,,Line Item APG Payment,1507,1514,8,NUM,Line Item APG Payment
+,,Line Item Existing Payment,1515,1522,8,NUM,Line Item Existing Payment
+,,Line Item Blended Payment,1523,1530,8,NUM,Line Item Blended Payment
+,,Line Item Add-on Payment,1531,1538,8,NUM,Line Item Add-on Payment
+,,Line Item Total Payment,1539,1546,8,NUM,Line Item Total Payment
+,,Line Item Blend Percent,1547,1551,5,NUM,Line Item Blend Percent
+,,Line Item Adjusted APG Weight,1552,1560,9,NUM,Line Item Adjusted APG Weight
+,,Line Item Full APG Weight,1561,1569,9,NUM,Line Item Full APG Weight
+,,Line Item Payment Percent,1570,1575,6,NUM,Line Item Payment Percent
+,,Line Item Payment Action,1576,1577,2,A/N,Line Item Payment Action
+,,Line Item Paid Units,1578,1584,7,A/N,Line Item Paid Units
+,,Line Item Payment Adjustment Flag,1585,1586,2,A/N,Line Item Payment Adjustment Flag
+,,Visit APG Payment,1587,1594,8,NUM,Visit APG Payment
+,,Visit Transition APG Payment,1595,1602,8,NUM,Visit Transition APG Payment
+,,Visit Existing Payment,1603,1610,8,NUM,Visit Existing Payment
+,,Visit Blended Payment,1611,1618,8,NUM,Visit Blended Payment
+,,Visit Add-on Payment,1619,1626,8,NUM,Visit Add-on Payment
+,,Visit Payment,1627,1634,8,NUM,Visit Payment
+,,Visit Non-transition Payment,1635,1642,8,NUM,Visit Non-transition Payment
+,,Visit Adjusted APG Weight,1643,1651,9,NUM,Visit Adjusted APG Weight
+,,Visit Full APG Weight,1652,1660,9,NUM,Visit Full APG Weight
+"14, 25, 36, 47, 58, 69, 80, 91,",14,Revenue Code,1661,1664,4,A/N,NUBC Revenue Code
+"102, 113, 124, 135, 146, 157,",,Type of Revenue Code,1665,1665,1,A/N,Revenue Type
+"168, 179, 190, 201, 212, 223,",,Procedure Code; CPT-4/HCPC,1666,1670,5,A/N,CPT-4/HCPCS Code
+"234, 245, 256, 267, 278, 289,",,Procedure Code Modifier 1,1671,1672,2,A/N,Code Modifier 1
+"300, 311, 322, 333, 344, 355,",,Procedure Code Modifier 2,1673,1674,2,A/N,Code Modifier 2
+"366, 377, 388, 399, 410, 421,",,Charge of Service,1675,1684,10,NUM,Total Charge 
+"432, 443, 454, 465, 476, 487,",,Type of Unit,1685,1686,2,A/N,Unit Type
+"498, 509, 520, 531, 542, 553,",,Quantity,1687,1694,8,NUM,Unit Quantity
+"564, 575, 586, 597, 608, 619,",,Non-Covered Charge of Service,1695,1704,10,NUM,Non-covered Charge
+"630, 641, 652, 663, 674, 685,",,Service From Date,1705,1710,6,A/N,Service From Date
+"696, 707, 718, 729, 740, 751,",,Filler,1711,1712,2,A/N,
+"762, 773, 784, 795, 806, 817,",,Pre-visit Procedure Indicator,1713,1713,1,A/N,"Indicates if Procedure occurred before, on, or after Date of Admission"
+"828, 838, 850, 861, 872, 883,",R,Line item number,1714,1716,3,A/N,Line item number
+"894, 905, 916, 927, 938, 949,",,Visit ID,1717,1719,3,A/N,Visit ID
+"960, 971, 982, 993",,Lines in Visit,1720,1722,3,A/N,Lines in Visit
+,,Visit Date,1723,1728,6,A/N,Visit Date
+,,Filler,1729,1730,2,A/N,
+,,Visit Processed Flag,1731,1731,1,A/N,Visit Processed Flag
+,,Visit Processed Warnings/ Messages,1732,1741,10,A/N,Visit Processed Warnings/ Messages
+,,Overall Visit Type,1742,1743,2,A/N,Overall Visit Type
+,,Medical Visit Diagnosis,1744,1750,7,A/N,Medical Visit Diagnosis
+,S,Final APG Assignment,1751,1755,5,A/N,Final APG Assignment
+,,Final APG Type,1756,1757,2,A/N,Final APG Type
+,,Final APG Category,1758,1759,2,A/N,Final APG Category
+,,Multiple Significant Procedure (SP) Discounting Flag,1760,1760,1,A/N,Multiple Significant Procedure (SP) Discounting Flag
+,,Repeat Ancillary Discounting Flag,1761,1761,1,A/N,Repeat Ancillary Discounting Flag
+,,Bilateral Discounting Flag,1762,1762,1,A/N,Bilateral Discounting Flag
+,,Terminated Procedure Discounting Flag,1763,1763,1,A/N,Terminated Procedure Discounting Flag
+,,Line Item Unassigned Flag,1764,1765,2,A/N,Line Item Unassigned Flag
+,,Packaged Per Diem Flag,1766,1766,1,A/N,Packaged Per Diem Flag
+,,Packaging Flag,1767,1767,1,A/N,Packaging Flag
+,,Same Significant Procedure (SP) Consolidation Flag,1768,1768,1,A/N,Same Significant Procedure (SP) Consolidation Flag
+,,Clinical Significant Procedure (SP) Consolidation Flag,1769,1769,1,A/N,Clinical Significant Procedure (SP) Consolidation Flag
+,,Line Item Action Flag,1770,1771,2,A/N,Line Item Action Flag
+,Y,Item ID number,1772,1774,3,A/N,Item ID number
+,,Line Item APG Payment,1775,1782,8,NUM,Line Item APG Payment
+,,Line Item Existing Payment,1783,1790,8,NUM,Line Item Existing Payment
+,,Line Item Blended Payment,1791,1798,8,NUM,Line Item Blended Payment
+,,Line Item Add-on Payment,1799,1806,8,NUM,Line Item Add-on Payment
+,,Line Item Total Payment,1807,1814,8,NUM,Line Item Total Payment
+,,Line Item Blend Percent,1815,1819,5,NUM,Line Item Blend Percent
+,,Line Item Adjusted APG Weight,1820,1828,9,NUM,Line Item Adjusted APG Weight
+,,Line Item Full APG Weight,1829,1837,9,NUM,Line Item Full APG Weight
+,,Line Item Payment Percent,1838,1843,6,NUM,Line Item Payment Percent
+,,Line Item Payment Action,1844,1845,2,A/N,Line Item Payment Action
+,,Line Item Paid Units,1846,1852,7,A/N,Line Item Paid Units
+,,Line Item Payment Adjustment Flag,1853,1854,2,A/N,Line Item Payment Adjustment Flag
+,,Visit APG Payment,1855,1862,8,NUM,Visit APG Payment
+,,Visit Transition APG Payment,1863,1870,8,NUM,Visit Transition APG Payment
+,,Visit Existing Payment,1871,1878,8,NUM,Visit Existing Payment
+,,Visit Blended Payment,1879,1886,8,NUM,Visit Blended Payment
+,,Visit Add-on Payment,1887,1894,8,NUM,Visit Add-on Payment
+,,Visit Payment,1895,1902,8,NUM,Visit Payment
+,,Visit Non-transition Payment,1903,1910,8,NUM,Visit Non-transition Payment
+,,Visit Adjusted APG Weight,1911,1919,9,NUM,Visit Adjusted APG Weight
+,,Visit Full APG Weight,1920,1928,9,NUM,Visit Full APG Weight
+"15, 26, 37, 48, 59, 70, 81, 92,",15,Revenue Code,1929,1932,4,A/N,NUBC Revenue Code
+"103, 114, 125, 136, 147, 158,",,Type of Revenue Code,1933,1933,1,A/N,Revenue Type
+"169, 180, 191, 202, 213, 224,",,Procedure Code; CPT-4/HCPC,1934,1938,5,A/N,CPT-4/HCPCS Code
+"235, 246, 257, 268, 279, 290,",,Procedure Code Modifier 1,1939,1940,2,A/N,Code Modifier 1
+"301, 312, 323, 334, 345, 356,",,Procedure Code Modifier 2,1941,1942,2,A/N,Code Modifier 2
+"367, 378, 389, 400, 411, 422,",,Charge of Service,1943,1952,10,NUM,Total Charge 
+"433, 444, 455, 466, 477, 488,",,Type of Unit,1953,1954,2,A/N,Unit Type
+"499, 510, 521, 532, 543, 554,",,Quantity,1955,1962,8,NUM,Unit Quantity
+"565, 576, 587, 598, 609, 620,",,Non-Covered Charge of Service,1963,1972,10,NUM,Non-covered Charge
+"631, 642, 653, 664, 675, 686,",,Service From Date,1973,1978,6,A/N,Service From Date
+"697, 708, 719, 730, 741, 752,",,Filler,1979,1980,2,A/N,
+"763, 774, 785, 796, 807, 818,",,Pre-visit Procedure Indicator,1981,1981,1,A/N,"Indicates if Procedure occurred before, on, or after Date of Admission"
+"829, 840, 851, 862, 873, 884,",R,Line item number,1982,1984,3,A/N,Line item number
+"895, 906, 917, 928, 939, 950,",,Visit ID,1985,1987,3,A/N,Visit ID
+"961, 972, 983, 994",,Lines in Visit,1988,1990,3,A/N,Lines in Visit
+,,Visit Date,1991,1996,6,A/N,Visit Date
+,,Filler,1997,1998,2,A/N,
+,,Visit Processed Flag,1999,1999,1,A/N,Visit Processed Flag
+,,Visit Processed Warnings/ Messages,2000,2009,10,A/N,Visit Processed Warnings/ Messages
+,,Overall Visit Type,2010,2011,2,A/N,Overall Visit Type
+,,Medical Visit Diagnosis,2012,2018,7,A/N,Medical Visit Diagnosis
+,S,Final APG Assignment,2019,2023,5,A/N,Final APG Assignment
+,,Final APG Type,2024,2025,2,A/N,Final APG Type
+,,Final APG Category,2026,2027,2,A/N,Final APG Category
+,,Multiple Significant Procedure (SP) Discounting Flag,2028,2028,1,A/N,Multiple Significant Procedure (SP) Discounting Flag
+,,Repeat Ancillary Discounting Flag,2029,2029,1,A/N,Repeat Ancillary Discounting Flag
+,,Bilateral Discounting Flag,2030,2030,1,A/N,Bilateral Discounting Flag
+,,Terminated Procedure Discounting Flag,2031,2031,1,A/N,Terminated Procedure Discounting Flag
+,,Line Item Unassigned Flag,2032,2033,2,A/N,Line Item Unassigned Flag
+,,Packaged Per Diem Flag,2034,2034,1,A/N,Packaged Per Diem Flag
+,,Packaging Flag,2035,2035,1,A/N,Packaging Flag
+,,Same Significant Procedure (SP) Consolidation Flag,2036,2036,1,A/N,Same Significant Procedure (SP) Consolidation Flag
+,,Clinical Significant Procedure (SP) Consolidation Flag,2037,2037,1,A/N,Clinical Significant Procedure (SP) Consolidation Flag
+,,Line Item Action Flag,2038,2039,2,A/N,Line Item Action Flag
+,Y,Item ID number,2040,2042,3,A/N,Item ID number
+,,Line Item APG Payment,2043,2050,8,NUM,Line Item APG Payment
+,,Line Item Existing Payment,2051,2058,8,NUM,Line Item Existing Payment
+,,Line Item Blended Payment,2059,2066,8,NUM,Line Item Blended Payment
+,,Line Item Add-on Payment,2067,2074,8,NUM,Line Item Add-on Payment
+,,Line Item Total Payment,2075,2082,8,NUM,Line Item Total Payment
+,,Line Item Blend Percent,2083,2087,5,NUM,Line Item Blend Percent
+,,Line Item Adjusted APG Weight,2088,2096,9,NUM,Line Item Adjusted APG Weight
+,,Line Item Full APG Weight,2097,2105,9,NUM,Line Item Full APG Weight
+,,Line Item Payment Percent,2106,2111,6,NUM,Line Item Payment Percent
+,,Line Item Payment Action,2112,2113,2,A/N,Line Item Payment Action
+,,Line Item Paid Units,2114,2120,7,A/N,Line Item Paid Units
+,,Line Item Payment Adjustment Flag,2121,2122,2,A/N,Line Item Payment Adjustment Flag
+,,Visit APG Payment,2123,2130,8,NUM,Visit APG Payment
+,,Visit Transition APG Payment,2131,2138,8,NUM,Visit Transition APG Payment
+,,Visit Existing Payment,2139,2146,8,NUM,Visit Existing Payment
+,,Visit Blended Payment,2147,2154,8,NUM,Visit Blended Payment
+,,Visit Add-on Payment,2155,2162,8,NUM,Visit Add-on Payment
+,,Visit Payment,2163,2170,8,NUM,Visit Payment
+,,Visit Non-transition Payment,2171,2178,8,NUM,Visit Non-transition Payment
+,,Visit Adjusted APG Weight,2179,2187,9,NUM,Visit Adjusted APG Weight
+,,Visit Full APG Weight,2188,2196,9,NUM,Visit Full APG Weight
+"16, 27, 38, 49, 60, 71, 82, 93,",16,Revenue Code,2197,2200,4,A/N,NUBC Revenue Code
+"104, 115, 126, 137, 148, 159,",,Type of Revenue Code,2201,2201,1,A/N,Revenue Type
+"170, 181, 192, 203, 214, 225,",,Procedure Code; CPT-4/HCPC,2202,2206,5,A/N,CPT-4/HCPCS Code
+"235, 246, 257, 268, 279, 290,",,Procedure Code Modifier 1,2207,2208,2,A/N,Code Modifier 1
+"301, 312, 323, 334, 345, 356,",,Procedure Code Modifier 2,2209,2210,2,A/N,Code Modifier 2
+"367, 378, 389, 400, 411, 422,",,Charge of Service,2211,2220,10,NUM,Total Charge 
+"433, 444, 455, 466, 477, 488,",,Type of Unit,2221,2222,2,A/N,Unit Type
+"499, 510, 521, 532, 543, 554,",,Quantity,2223,2230,8,NUM,Unit Quantity
+"565, 576, 587, 598, 609, 620,",,Non-Covered Charge of Service,2231,2240,10,NUM,Non-covered Charge
+"631, 642, 653, 664, 675, 686,",,Service From Date,2241,2246,6,A/N,Service From Date
+"697, 708, 719, 730, 741, 752,",,Filler,2247,2248,2,A/N,
+"763, 774, 785, 796, 807, 818,",,Pre-visit Procedure Indicator,2249,2249,1,A/N,"Indicates if Procedure occurred before, on, or after Date of Admission"
+"829, 840, 851, 862, 873, 884,",R,Line item number,2250,2252,3,A/N,Line item number
+"895, 906, 917, 928, 939, 950,",,Visit ID,2253,2255,3,A/N,Visit ID
+"961, 972, 983, 994",,Lines in Visit,2256,2258,3,A/N,Lines in Visit
+,,Visit Date,2259,2264,6,A/N,Visit Date
+,,Filler,2265,2266,2,A/N,
+,,Visit Processed Flag,2267,2267,1,A/N,Visit Processed Flag
+,,Visit Processed Warnings/ Messages,2268,2277,10,A/N,Visit Processed Warnings/ Messages
+,,Overall Visit Type,2278,2279,2,A/N,Overall Visit Type
+,,Medical Visit Diagnosis,2280,2286,7,A/N,Medical Visit Diagnosis
+,S,Final APG Assignment,2287,2291,5,A/N,Final APG Assignment
+,,Final APG Type,2292,2293,2,A/N,Final APG Type
+,,Final APG Category,2294,2295,2,A/N,Final APG Category
+,,Multiple Significant Procedure (SP) Discounting Flag,2296,2296,1,A/N,Multiple Significant Procedure (SP) Discounting Flag
+,,Repeat Ancillary Discounting Flag,2297,2297,1,A/N,Repeat Ancillary Discounting Flag
+,,Bilateral Discounting Flag,2298,2298,1,A/N,Bilateral Discounting Flag
+,,Terminated Procedure Discounting Flag,2299,2299,1,A/N,Terminated Procedure Discounting Flag
+,,Line Item Unassigned Flag,2300,2301,2,A/N,Line Item Unassigned Flag
+,,Packaged Per Diem Flag,2302,2302,1,A/N,Packaged Per Diem Flag
+,,Packaging Flag,2303,2303,1,A/N,Packaging Flag
+,,Same Significant Procedure (SP) Consolidation Flag,2304,2304,1,A/N,Same Significant Procedure (SP) Consolidation Flag
+,,Clinical Significant Procedure (SP) Consolidation Flag,2305,2305,1,A/N,Clinical Significant Procedure (SP) Consolidation Flag
+,,Line Item Action Flag,2306,2307,2,A/N,Line Item Action Flag
+,Y,Item ID number,2308,2310,3,A/N,Item ID number
+,,Line Item APG Payment,2311,2318,8,NUM,Line Item APG Payment
+,,Line Item Existing Payment,2319,2326,8,NUM,Line Item Existing Payment
+,,Line Item Blended Payment,2327,2334,8,NUM,Line Item Blended Payment
+,,Line Item Add-on Payment,2335,2342,8,NUM,Line Item Add-on Payment
+,,Line Item Total Payment,2343,2350,8,NUM,Line Item Total Payment
+,,Line Item Blend Percent,2351,2355,5,NUM,Line Item Blend Percent
+,,Line Item Adjusted APG Weight,2356,2364,9,NUM,Line Item Adjusted APG Weight
+,,Line Item Full APG Weight,2365,2373,9,NUM,Line Item Full APG Weight
+,,Line Item Payment Percent,2374,2379,6,NUM,Line Item Payment Percent
+,,Line Item Payment Action,2380,2381,2,A/N,Line Item Payment Action
+,,Line Item Paid Units,2382,2388,7,A/N,Line Item Paid Units
+,,Line Item Payment Adjustment Flag,2389,2390,2,A/N,Line Item Payment Adjustment Flag
+,,Visit APG Payment,2391,2398,8,NUM,Visit APG Payment
+,,Visit Transition APG Payment,2399,2406,8,NUM,Visit Transition APG Payment
+,,Visit Existing Payment,2407,2414,8,NUM,Visit Existing Payment
+,,Visit Blended Payment,2415,2422,8,NUM,Visit Blended Payment
+,,Visit Add-on Payment,2423,2430,8,NUM,Visit Add-on Payment
+,,Visit Payment,2431,2438,8,NUM,Visit Payment
+,,Visit Non-transition Payment,2439,2446,8,NUM,Visit Non-transition Payment
+,,Visit Adjusted APG Weight,2447,2455,9,NUM,Visit Adjusted APG Weight
+,,Visit Full APG Weight,2456,2464,9,NUM,Visit Full APG Weight
+"17, 28, 39, 50, 61, 72, 83, 94,",17,Revenue Code,2465,2468,4,A/N,NUBC Revenue Code
+"105, 116, 127, 138, 149, 160,",,Type of Revenue Code,2469,2469,1,A/N,Revenue Type
+"171, 182, 193, 204, 215, 226,",,Procedure Code; CPT-4/HCPC,2470,2474,5,A/N,CPT-4/HCPCS Code
+"237, 248, 259, 270, 281, 292,",,Procedure Code Modifier 1,2475,2476,2,A/N,Code Modifier 1
+"303, 314, 325, 336, 347, 358,",,Procedure Code Modifier 2,2477,2478,2,A/N,Code Modifier 2
+"369, 380, 391, 402, 413, 424,",,Charge of Service,2479,2488,10,NUM,Total Charge 
+"435, 446, 457, 468, 479, 490,",,Type of Unit,2489,2490,2,A/N,Unit Type
+"501, 512, 523, 534, 545, 556,",,Quantity,2491,2498,8,NUM,Unit Quantity
+"567, 578, 589, 600, 611, 622,",,Non-Covered Charge of Service,2499,2508,10,NUM,Non-covered Charge
+"633, 644, 655, 666, 677, 688,",,Service From Date,2509,2514,6,A/N,Service From Date
+"699, 710, 721, 732, 743, 754,",,Filler,2515,2516,2,A/N,
+"765, 776, 787, 798, 809, 820,",,Pre-visit Procedure Indicator,2517,2517,1,A/N,"Indicates if Procedure occurred before, on, or after Date of Admission"
+"831, 842, 853, 864, 875, 886,",R,Line item number,2518,2520,3,A/N,Line item number
+"897, 908, 919, 930, 941, 952,",,Visit ID,2521,2523,3,A/N,Visit ID
+"963, 974, 985, 996",,Lines in Visit,2524,2526,3,A/N,Lines in Visit
+,,Visit Date,2527,2532,6,A/N,Visit Date
+,,Filler,2533,2534,2,A/N,
+,,Visit Processed Flag,2535,2535,1,A/N,Visit Processed Flag
+,,Visit Processed Warnings/ Messages,2536,2545,10,A/N,Visit Processed Warnings/ Messages
+,,Overall Visit Type,2546,2547,2,A/N,Overall Visit Type
+,,Medical Visit Diagnosis,2548,2554,7,A/N,Medical Visit Diagnosis
+,S,Final APG Assignment,2555,2559,5,A/N,Final APG Assignment
+,,Final APG Type,2560,2561,2,A/N,Final APG Type
+,,Final APG Category,2562,2563,2,A/N,Final APG Category
+,,Multiple Significant Procedure (SP) Discounting Flag,2564,2564,1,A/N,Multiple Significant Procedure (SP) Discounting Flag
+,,Repeat Ancillary Discounting Flag,2565,2565,1,A/N,Repeat Ancillary Discounting Flag
+,,Bilateral Discounting Flag,2566,2566,1,A/N,Bilateral Discounting Flag
+,,Terminated Procedure Discounting Flag,2567,2567,1,A/N,Terminated Procedure Discounting Flag
+,,Line Item Unassigned Flag,2568,2569,2,A/N,Line Item Unassigned Flag
+,,Packaged Per Diem Flag,2570,2570,1,A/N,Packaged Per Diem Flag
+,,Packaging Flag,2571,2571,1,A/N,Packaging Flag
+,,Same Significant Procedure (SP) Consolidation Flag,2572,2572,1,A/N,Same Significant Procedure (SP) Consolidation Flag
+,,Clinical Significant Procedure (SP) Consolidation Flag,2573,2573,1,A/N,Clinical Significant Procedure (SP) Consolidation Flag
+,,Line Item Action Flag,2574,2575,2,A/N,Line Item Action Flag
+,Y,Item ID number,2576,2578,3,A/N,Item ID number
+,,Line Item APG Payment,2579,2586,8,NUM,Line Item APG Payment
+,,Line Item Existing Payment,2587,2594,8,NUM,Line Item Existing Payment
+,,Line Item Blended Payment,2595,2602,8,NUM,Line Item Blended Payment
+,,Line Item Add-on Payment,2603,2610,8,NUM,Line Item Add-on Payment
+,,Line Item Total Payment,2611,2618,8,NUM,Line Item Total Payment
+,,Line Item Blend Percent,2619,2623,5,NUM,Line Item Blend Percent
+,,Line Item Adjusted APG Weight,2624,2632,9,NUM,Line Item Adjusted APG Weight
+,,Line Item Full APG Weight,2633,2641,9,NUM,Line Item Full APG Weight
+,,Line Item Payment Percent,2642,2647,6,NUM,Line Item Payment Percent
+,,Line Item Payment Action,2648,2649,2,A/N,Line Item Payment Action
+,,Line Item Paid Units,2650,2656,7,A/N,Line Item Paid Units
+,,Line Item Payment Adjustment Flag,2657,2658,2,A/N,Line Item Payment Adjustment Flag
+,,Visit APG Payment,2659,2666,8,NUM,Visit APG Payment
+,,Visit Transition APG Payment,2667,2674,8,NUM,Visit Transition APG Payment
+,,Visit Existing Payment,2675,2682,8,NUM,Visit Existing Payment
+,,Visit Blended Payment,2683,2690,8,NUM,Visit Blended Payment
+,,Visit Add-on Payment,2691,2698,8,NUM,Visit Add-on Payment
+,,Visit Payment,2699,2706,8,NUM,Visit Payment
+,,Visit Non-transition Payment,2707,2714,8,NUM,Visit Non-transition Payment
+,,Visit Adjusted APG Weight,2715,2723,9,NUM,Visit Adjusted APG Weight
+,,Visit Full APG Weight,2724,2732,9,NUM,Visit Full APG Weight
+"18, 29, 40, 51, 62, 73, 84, 95,",18,Revenue Code,2733,2736,4,A/N,NUBC Revenue Code
+"106, 117, 128, 139, 150, 161,",,Type of Revenue Code,2737,2737,1,A/N,Revenue Type
+"172, 183, 194, 205, 216, 227,",,Procedure Code; CPT-4/HCPC,2738,2742,5,A/N,CPT-4/HCPCS Code
+"238, 249, 260, 271, 282, 293,",,Procedure Code Modifier 1,2743,2744,2,A/N,Code Modifier 1
+"304, 315, 326, 337, 348, 359,",,Procedure Code Modifier 2,2745,2746,2,A/N,Code Modifier 2
+"370, 381, 392, 403, 414, 425,",,Charge of Service,2747,2756,10,NUM,Total Charge 
+"436, 447, 458, 469, 480, 491,",,Type of Unit,2757,2758,2,A/N,Unit Type
+"502, 513, 524, 535, 546, 557,",,Quantity,2759,2766,8,NUM,Unit Quantity
+"568, 579, 590, 601, 612, 623,",,Non-Covered Charge of Service,2767,2776,10,NUM,Non-covered Charge
+"634, 645, 656, 667, 678, 689,",,Service From Date,2777,2782,6,A/N,Service From Date
+"700, 711, 722, 733, 744, 755,",,Filler,2783,2784,2,A/N,
+"766, 777, 788, 799, 810, 821,",,Pre-visit Procedure Indicator,2785,2785,1,A/N,"Indicates if Procedure occurred before, on, or after Date of Admission"
+"832, 843, 854, 865, 876, 887,",R,Line item number,2786,2788,3,A/N,Line item number
+"898, 909, 920, 931, 942, 953,",,Visit ID,2789,2791,3,A/N,Visit ID
+"964, 975, 986, 997",,Lines in Visit,2792,2794,3,A/N,Lines in Visit
+,,Visit Date,2795,2800,6,A/N,Visit Date
+,,Filler,2801,2802,2,A/N,
+,,Visit Processed Flag,2803,2803,1,A/N,Visit Processed Flag
+,,Visit Processed Warnings/ Messages,2804,2813,10,A/N,Visit Processed Warnings/ Messages
+,,Overall Visit Type,2814,2815,2,A/N,Overall Visit Type
+,,Medical Visit Diagnosis,2816,2822,7,A/N,Medical Visit Diagnosis
+,S,Final APG Assignment,2823,2827,5,A/N,Final APG Assignment
+,,Final APG Type,2828,2829,2,A/N,Final APG Type
+,,Final APG Category,2830,2831,2,A/N,Final APG Category
+,,Multiple Significant Procedure (SP) Discounting Flag,2832,2832,1,A/N,Multiple Significant Procedure (SP) Discounting Flag
+,,Repeat Ancillary Discounting Flag,2833,2833,1,A/N,Repeat Ancillary Discounting Flag
+,,Bilateral Discounting Flag,2834,2834,1,A/N,Bilateral Discounting Flag
+,,Terminated Procedure Discounting Flag,2835,2835,1,A/N,Terminated Procedure Discounting Flag
+,,Line Item Unassigned Flag,2836,2837,2,A/N,Line Item Unassigned Flag
+,,Packaged Per Diem Flag,2838,2838,1,A/N,Packaged Per Diem Flag
+,,Packaging Flag,2839,2839,1,A/N,Packaging Flag
+,,Same Significant Procedure (SP) Consolidation Flag,2840,2840,1,A/N,Same Significant Procedure (SP) Consolidation Flag
+,,Clinical Significant Procedure (SP) Consolidation Flag,2841,2841,1,A/N,Clinical Significant Procedure (SP) Consolidation Flag
+,,Line Item Action Flag,2842,2843,2,A/N,Line Item Action Flag
+,Y,Item ID number,2844,2846,3,A/N,Item ID number
+,,Line Item APG Payment,2847,2854,8,NUM,Line Item APG Payment
+,,Line Item Existing Payment,2855,2862,8,NUM,Line Item Existing Payment
+,,Line Item Blended Payment,2863,2870,8,NUM,Line Item Blended Payment
+,,Line Item Add-on Payment,2871,2878,8,NUM,Line Item Add-on Payment
+,,Line Item Total Payment,2879,2886,8,NUM,Line Item Total Payment
+,,Line Item Blend Percent,2887,2891,5,NUM,Line Item Blend Percent
+,,Line Item Adjusted APG Weight,2892,2900,9,NUM,Line Item Adjusted APG Weight
+,,Line Item Full APG Weight,2901,2909,9,NUM,Line Item Full APG Weight
+,,Line Item Payment Percent,2910,2915,6,NUM,Line Item Payment Percent
+,,Line Item Payment Action,2916,2917,2,A/N,Line Item Payment Action
+,,Line Item Paid Units,2918,2924,7,A/N,Line Item Paid Units
+,,Line Item Payment Adjustment Flag,2925,2926,2,A/N,Line Item Payment Adjustment Flag
+,,Visit APG Payment,2927,2934,8,NUM,Visit APG Payment
+,,Visit Transition APG Payment,2935,2942,8,NUM,Visit Transition APG Payment
+,,Visit Existing Payment,2943,2950,8,NUM,Visit Existing Payment
+,,Visit Blended Payment,2951,2958,8,NUM,Visit Blended Payment
+,,Visit Add-on Payment,2959,2966,8,NUM,Visit Add-on Payment
+,,Visit Payment,2967,2974,8,NUM,Visit Payment
+,,Visit Non-transition Payment,2975,2982,8,NUM,Visit Non-transition Payment
+,,Visit Adjusted APG Weight,2983,2991,9,NUM,Visit Adjusted APG Weight
+,,Visit Full APG Weight,2992,3000,9,NUM,Visit Full APG Weight
+,,Reserved ,3001,3200,200,,
+Encrypted Identifers,8,Encrypted Service From Date,3201,3222,22,,
+Service,,Encrypted Visit Date,3223,3244,22,,
+,9,Encrypted Service From Date,3245,3266,22,,
+,,Encrypted Visit Date,3267,3288,22,,
+,10,Encrypted Service From Date,3289,3310,22,,
+,,Encrypted Visit Date,3311,3332,22,,
+,11,Encrypted Service From Date,3333,3354,22,,
+,,Encrypted Visit Date,3355,3376,22,,
+,12,Encrypted Service From Date,3377,3398,22,,
+,,Encrypted Visit Date,3399,3420,22,,
+,13,Encrypted Service From Date,3421,3442,22,,
+,,Encrypted Visit Date,3443,3464,22,,
+,14,Encrypted Service From Date,3465,3486,22,,
+,,Encrypted Visit Date,3487,3508,22,,
+,15,Encrypted Service From Date,3509,3530,22,,
+,,Encrypted Visit Date,3531,3552,22,,
+,16,Encrypted Service From Date,3553,3574,22,,
+,,Encrypted Visit Date,3575,3596,22,,
+,17,Encrypted Service From Date,3597,3618,22,,
+,,Encrypted Visit Date,3619,3640,22,,
+,18,Encrypted Service From Date,3641,3662,22,,
+,,Encrypted Visit Date,3663,3684,22,,
+,,Reserved ,3685,4234,550,,
