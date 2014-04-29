@@ -18,7 +18,17 @@ def main(json_file_name, path_to_import_file, table_name="sparcs_raw_import"):
 
         fw.write(sql_file_layout)
 
-        sql_import_string = '''copy "%s" from '%s' with CSV HEADER TRUE;''' % (table_name, path_to_import_file)
+        sql_import_string = '''copy "%s" from '%s' WITH DELIMITER ','
+CSV HEADER;''' % (table_name, path_to_import_file)
+        fw.write("\n")
+        fw.write(sql_import_string)
+
+        for layout in sparcs_file_layout:
+            field_name = layout["Field Label"]
+            if field_name[0:6] == "Filler":
+                sql_alter_table = """alter table "%s" drop column "%s";\n""" % (table_name, field_name)
+                fw.write(sql_alter_table)
+
 
 
 if __name__ == "__main__":
