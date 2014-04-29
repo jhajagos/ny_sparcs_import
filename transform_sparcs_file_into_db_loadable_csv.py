@@ -20,6 +20,7 @@ def main(sparcs_dat_file, sparcs_dat_file_json_structure):
     for column_detail_in in sparcs_layout:
         header += [column_detail_in["Field Label"]]
     sparcs_dat_csv_file = sparcs_dat_file + ".csv"
+
     with open(sparcs_dat_file, "r") as fd:
         with open(sparcs_dat_csv_file, "w") as fw:
 
@@ -34,7 +35,6 @@ def main(sparcs_dat_file, sparcs_dat_file_json_structure):
                 for start_pos in starting_positions:
                     row_to_write += [line[start_pos[0]:start_pos[0] + start_pos[1]].strip()]
                 csv_writer.writerow(row_to_write)
-
 
 
 if __name__ == "__main__":
