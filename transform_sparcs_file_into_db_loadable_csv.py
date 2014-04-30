@@ -84,7 +84,11 @@ def main(sparcs_data_file, sparcs_primary_file_json_structure="SPARCS OP Format_
 
                             if starting_primary_position_type[int(start_pos[0])] == "NUM":
                                 if len(raw_value) > 0:
-                                    processed_value = int(raw_value)
+                                    try:
+                                        processed_value = int(raw_value)
+                                    except ValueError:
+                                        processed_value = ''
+                                        print(i, start_pos, raw_value)
                                 else:
                                     processed_value = raw_value
                             else:
@@ -98,7 +102,11 @@ def main(sparcs_data_file, sparcs_primary_file_json_structure="SPARCS OP Format_
                             raw_value = line[start_pos[0]:start_pos[0] + start_pos[1]].strip()
                             if starting_continuation_position_type[int(start_pos[0])] == "NUM":
                                 if len(raw_value) > 0:
-                                    processed_value = int(raw_value)
+                                    try:
+                                        processed_value = int(raw_value)
+                                    except ValueError:
+                                        processed_value = ''
+                                        print(i, start_pos, raw_value)
                                 else:
                                     processed_value = raw_value
                             else:
