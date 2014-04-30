@@ -1,4 +1,4 @@
-create table "sparcs_raw_import" (
+create table "sparcs_raw_import_primary_2012" (
    "Discharge Sequential Number" varchar(14),
    "Continuation Indicator" varchar(1),
    "Record Sequence Number" varchar(3),
@@ -645,42 +645,44 @@ create table "sparcs_raw_import" (
    "Encrypted Service Date 7" varchar(22),
    "Encrypted Visit Date 7" varchar(22));
 
-copy "sparcs_raw_import_2012" from '/data/sparcs/import/LIMITEDOP12p1.DAT.csv' WITH DELIMITER ','
-CSV HEADER;alter table "sparcs_raw_import_2012" drop column "Filler 1";
-alter table "sparcs_raw_import_2012" drop column "Filler 2";
-alter table "sparcs_raw_import_2012" drop column "Filler 3";
-alter table "sparcs_raw_import_2012" drop column "Filler 4";
-alter table "sparcs_raw_import_2012" drop column "Filler 5";
-alter table "sparcs_raw_import_2012" drop column "Filler 6";
-alter table "sparcs_raw_import_2012" drop column "Filler 7";
-alter table "sparcs_raw_import_2012" drop column "Filler 8";
-alter table "sparcs_raw_import_2012" drop column "Filler 9";
-alter table "sparcs_raw_import_2012" drop column "Filler 10";
-alter table "sparcs_raw_import_2012" drop column "Filler 11";
-alter table "sparcs_raw_import_2012" drop column "Filler 12";
-alter table "sparcs_raw_import_2012" drop column "Filler 13";
-alter table "sparcs_raw_import_2012" drop column "Filler 14";
-alter table "sparcs_raw_import_2012" drop column "Filler 15";
-alter table "sparcs_raw_import_2012" drop column "Filler 16";
-alter table "sparcs_raw_import_2012" drop column "Filler 17";
-alter table "sparcs_raw_import_2012" drop column "Filler 18";
-alter table "sparcs_raw_import_2012" drop column "Filler 19";
-alter table "sparcs_raw_import_2012" drop column "Filler 20";
-alter table "sparcs_raw_import_2012" drop column "Filler 21";
-alter table "sparcs_raw_import_2012" drop column "Filler 22";
-alter table "sparcs_raw_import_2012" drop column "Filler 23";
-alter table "sparcs_raw_import_2012" drop column "Filler 24";
-alter table "sparcs_raw_import_2012" drop column "Filler 25";
-alter table "sparcs_raw_import_2012" drop column "Filler 26";
-alter table "sparcs_raw_import_2012" drop column "Filler 27";
-alter table "sparcs_raw_import_2012" drop column "Filler 28";
-alter table "sparcs_raw_import_2012" drop column "Filler 29";
-alter table "sparcs_raw_import_2012" drop column "Filler 30";
-alter table "sparcs_raw_import_2012" drop column "Filler 31";
-alter table "sparcs_raw_import_2012" drop column "Filler 32";
-alter table "sparcs_raw_import_2012" drop column "Filler 33";
-alter table "sparcs_raw_import_2012" drop column "Filler 34";
-alter table "sparcs_raw_import_2012" drop column "Filler 35";
-alter table "sparcs_raw_import_2012" drop column "Filler 36";
-alter table "sparcs_raw_import_2012" drop column "Filler 37";
-alter table "sparcs_raw_import_2012" drop column "Filler 38";
+copy "sparcs_raw_import_primary_2012" from '/tmp/LIMITEDOP12p1.DAT.primary.csv' WITH DELIMITER ','
+CSV HEADER;
+
+alter table "sparcs_raw_import_primary_2012" drop column "Filler 1";
+alter table "sparcs_raw_import_primary_2012" drop column "Filler 2";
+alter table "sparcs_raw_import_primary_2012" drop column "Filler 3";
+alter table "sparcs_raw_import_primary_2012" drop column "Filler 4";
+alter table "sparcs_raw_import_primary_2012" drop column "Filler 5";
+alter table "sparcs_raw_import_primary_2012" drop column "Filler 6";
+alter table "sparcs_raw_import_primary_2012" drop column "Filler 7";
+alter table "sparcs_raw_import_primary_2012" drop column "Filler 8";
+alter table "sparcs_raw_import_primary_2012" drop column "Filler 9";
+alter table "sparcs_raw_import_primary_2012" drop column "Filler 10";
+alter table "sparcs_raw_import_primary_2012" drop column "Filler 11";
+alter table "sparcs_raw_import_primary_2012" drop column "Filler 12";
+alter table "sparcs_raw_import_primary_2012" drop column "Filler 13";
+alter table "sparcs_raw_import_primary_2012" drop column "Filler 14";
+alter table "sparcs_raw_import_primary_2012" drop column "Filler 15";
+alter table "sparcs_raw_import_primary_2012" drop column "Filler 16";
+alter table "sparcs_raw_import_primary_2012" drop column "Filler 17";
+alter table "sparcs_raw_import_primary_2012" drop column "Filler 18";
+alter table "sparcs_raw_import_primary_2012" drop column "Filler 19";
+alter table "sparcs_raw_import_primary_2012" drop column "Filler 20";
+alter table "sparcs_raw_import_primary_2012" drop column "Filler 21";
+alter table "sparcs_raw_import_primary_2012" drop column "Filler 22";
+alter table "sparcs_raw_import_primary_2012" drop column "Filler 23";
+alter table "sparcs_raw_import_primary_2012" drop column "Filler 24";
+alter table "sparcs_raw_import_primary_2012" drop column "Filler 25";
+alter table "sparcs_raw_import_primary_2012" drop column "Filler 26";
+alter table "sparcs_raw_import_primary_2012" drop column "Filler 27";
+alter table "sparcs_raw_import_primary_2012" drop column "Filler 28";
+alter table "sparcs_raw_import_primary_2012" drop column "Filler 29";
+alter table "sparcs_raw_import_primary_2012" drop column "Filler 30";
+alter table "sparcs_raw_import_primary_2012" drop column "Filler 31";
+alter table "sparcs_raw_import_primary_2012" drop column "Filler 32";
+alter table "sparcs_raw_import_primary_2012" drop column "Filler 33";
+alter table "sparcs_raw_import_primary_2012" drop column "Filler 34";
+alter table "sparcs_raw_import_primary_2012" drop column "Filler 35";
+alter table "sparcs_raw_import_primary_2012" drop column "Filler 36";
+alter table "sparcs_raw_import_primary_2012" drop column "Filler 37";
+alter table "sparcs_raw_import_primary_2012" drop column "Filler 38";

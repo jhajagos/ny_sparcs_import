@@ -8,7 +8,7 @@ def main(json_file_name, path_to_import_file, table_name="sparcs_raw_import"):
 
     with open(json_file_name + ".sql", "w") as fw:
 
-        sql_file_layout = 'create table "sparcs_raw_import" (\n'
+        sql_file_layout = 'create table "%s" (\n' % table_name
 
         for layout in sparcs_file_layout:
             sql_file_layout += '   "%s" varchar(%s),\n' % (layout["Field Label"], layout["Size"])
@@ -19,7 +19,7 @@ def main(json_file_name, path_to_import_file, table_name="sparcs_raw_import"):
         fw.write(sql_file_layout)
 
         sql_import_string = '''copy "%s" from '%s' WITH DELIMITER ','
-CSV HEADER;''' % (table_name, path_to_import_file)
+CSV HEADER;\n\n''' % (table_name, path_to_import_file)
         fw.write("\n")
         fw.write(sql_import_string)
 
@@ -32,4 +32,5 @@ CSV HEADER;''' % (table_name, path_to_import_file)
 
 
 if __name__ == "__main__":
-    main("SPARCS OP Format_LIMITED.csv.json", "/data/sparcs/import/LIMITEDOP12p1.DAT.csv", "sparcs_raw_import_2012")
+    main("SPARCS OP Format_LIMITED.csv.json", "/tmp/LIMITEDOP12p1.DAT.primary.csv", "sparcs_raw_import_primary_2012")
+    main("SPARCS OP Format_LIMITED continuation.csv.json", "/tmp/LIMITEDOP12p1.DAT.continuation.csv", "sparcs_raw_import_continuation_2012")

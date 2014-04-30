@@ -1,6 +1,11 @@
 """
-The goal is to import SPARCS LDS outpatient database into a CSV which can be loaded into a
+The goal is to import SPARCS outpatient DB into a CSV which can be loaded into a
 database.
+
+The file is interleaved with continuation records. The continuation record has a different layout as the primary
+record.
+
+Two CSV files are generated from each .DAT file.
 
 """
 
@@ -11,7 +16,10 @@ import json
 import sys
 import time
 
-def main(sparcs_dat_file, sparcs_primary_file_json_structure, sparcs_continuation_file_json_structure):
+def main(sparcs_data_file, sparcs_primary_file_json_structure="SPARCS OP Format_LIMITED.csv.json",
+         sparcs_continuation_file_json_structure="SPARCS OP Format_LIMITED continuation.csv.json",
+         log_every_ith_record=10000
+         ):
 
     with open(sparcs_primary_file_json_structure, "r") as fj:
         sparcs_primary_layout = json.load(fj)
@@ -27,10 +35,10 @@ def main(sparcs_dat_file, sparcs_primary_file_json_structure, sparcs_continuatio
     for column_detail_in in sparcs_continuation_layout:
         header_continuation += [column_detail_in["Field Label"]]
 
-    sparcs_primary_csv_file = sparcs_dat_file + ".primary.csv"
-    sparcs_continuation_csv_file = sparcs_dat_file + ".continuation.csv"
+    sparcs_primary_csv_file = sparcs_data_file + ".primary.csv"
+    sparcs_continuation_csv_file = sparcs_data_file + ".continuation.csv"
 
-    with open(sparcs_dat_file, "r") as fd:
+    with open(sparcs_data_file, "r") as fd:
         with open(sparcs_primary_csv_file, "wb") as fwp:
 
             csv_writer_primary = csv.writer(fwp)
@@ -67,7 +75,7 @@ def main(sparcs_dat_file, sparcs_primary_file_json_structure, sparcs_continuatio
                         row_to_write = []
 
                     i += 1
-                    if i % 1000 == 0:
+                    if i % log_every_ith_record == 0:
                         updated_time = time.time()
                         time_difference = updated_time - loop_time
 
@@ -78,4 +86,4 @@ if __name__ == "__main__":
     if len(sys.argv) == 1:
         main("C:/users/janos/data/sparcs_outpatient_lds/2.2/LIMITEDOP12p1.DAT.sample", "SPARCS OP Format_LIMITED.csv.json", "SPARCS OP Format_LIMITED continuation.csv.json")
     else:
-        main(sys.argv[1], sys.argv[2])
+        main(sys.argv[1])

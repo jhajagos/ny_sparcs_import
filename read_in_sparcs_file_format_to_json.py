@@ -13,11 +13,20 @@ def main(csv_file_name):
                 row_dict.pop("")
             list_of_dicts += [row_dict]
 
-    number_filler_fields = 1
+    repeated_names_dict = {}
     for row_dict in list_of_dicts:
-        if row_dict["Field Label"] == "Filler":
-            row_dict["Field Label"] = "Filler %s" % number_filler_fields
-            number_filler_fields += 1
+        field_name = row_dict["Field Label"]
+        if field_name in repeated_names_dict:
+            repeated_names_dict[field_name] = 1
+        else:
+            repeated_names_dict[field_name] = 0
+
+    for row_dict in list_of_dicts:
+        field_name = row_dict["Field Label"]
+        if repeated_names_dict[field_name]:
+            counter = repeated_names_dict[field_name]
+            row_dict["Field Label"] = row_dict["Field Label"] + " " + str(counter)
+            repeated_names_dict[field_name] += 1
 
     with open(csv_file_name + ".json", "w") as fw:
         json.dump(list_of_dicts, fw,  sort_keys=True, indent=4, separators=(',', ': '))
