@@ -8,10 +8,26 @@ def main(json_file_name, path_to_import_file, table_name="sparcs_raw_import"):
 
     with open(json_file_name + ".sql", "w") as fw:
 
+        fw.write('DROP TABLE IF EXISTS "%s";\n\n' % table_name)
+
         sql_file_layout = 'create table "%s" (\n' % table_name
 
         for layout in sparcs_file_layout:
-            sql_file_layout += '   "%s" varchar(%s),\n' % (layout["Field Label"], layout["Size"])
+
+            data_type = layout["Type"]
+
+            size = int(layout["Size"])
+            field_name = layout["Field Label"]
+
+            if data_type == "NUM":
+                if size < 10:
+                    sql_file_layout += '   "%s" int,\n' % field_name
+                elif size < 19:
+                    sql_file_layout += '   "%s" bigint,\n' % field_name
+                else:
+                    sql_file_layout += '   "%s" varchar(%s),\n' % (field_name, size)
+            else:
+                sql_file_layout += '   "%s" varchar(%s),\n' % (field_name, size)
 
         sql_file_layout = sql_file_layout[:-2]
         sql_file_layout += ");\n"

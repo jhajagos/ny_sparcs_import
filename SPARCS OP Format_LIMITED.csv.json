@@ -647,7 +647,7 @@
         "SEGMENT": "",
         "Size": "1",
         "To": "480",
-        "Type": "NUM"
+        "Type": "A/N"
     },
     {
         "Description (Remarks)": "Residence Indicator",

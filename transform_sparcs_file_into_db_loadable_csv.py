@@ -45,10 +45,22 @@ def main(sparcs_data_file, sparcs_primary_file_json_structure="SPARCS OP Format_
             csv_writer_primary.writerow(header_primary)
             starting_positions_primary = [(int(sl["From"]) - 1, int(sl["Size"])) for sl in sparcs_primary_layout]
 
+            starting_primary_position_type = {}
+            for sl in sparcs_primary_layout:
+                starting_primary_position_type[int(sl["From"]) - 1] = sl["Type"]
+            # import pprint
+            # pprint.pprint(starting_positions_primary)
+            # pprint.pprint(starting_primary_position_type)
+
+
             with open(sparcs_continuation_csv_file, "wb") as fwc:
                 csv_writer_continuation = csv.writer(fwc)
                 csv_writer_continuation.writerow(header_continuation)
                 starting_positions_continuation = [(int(sl["From"]) - 1, int(sl["Size"])) for sl in sparcs_continuation_layout]
+                starting_continuation_position_type = {}
+                for sl in sparcs_continuation_layout:
+                    starting_continuation_position_type[int(sl["From"]) - 1] = sl["Type"]
+
 
                 i = 0
                 row_to_write = []
@@ -64,13 +76,34 @@ def main(sparcs_data_file, sparcs_primary_file_json_structure="SPARCS OP Format_
                     if record_number_int == 1:
 
                         for start_pos in starting_positions_primary:
-                            row_to_write += [line[start_pos[0]:start_pos[0] + start_pos[1]].strip()]
+                            raw_value = line[start_pos[0]:(start_pos[0] + start_pos[1])].strip()
+                            # print("******************************************************")
+                            # print(raw_value)
+                            # print(start_pos)
+                            # print(line[start_pos[0]:])
+
+                            if starting_primary_position_type[int(start_pos[0])] == "NUM":
+                                if len(raw_value) > 0:
+                                    processed_value = int(raw_value)
+                                else:
+                                    processed_value = raw_value
+                            else:
+                                processed_value = raw_value
+                            row_to_write += [processed_value]
                         csv_writer_primary.writerow(row_to_write)
                         row_to_write = []
 
                     else:  # continuation record
                         for start_pos in starting_positions_continuation:
-                            row_to_write += [line[start_pos[0]:start_pos[0] + start_pos[1]].strip()]
+                            raw_value = line[start_pos[0]:start_pos[0] + start_pos[1]].strip()
+                            if starting_continuation_position_type[int(start_pos[0])] == "NUM":
+                                if len(raw_value) > 0:
+                                    processed_value = int(raw_value)
+                                else:
+                                    processed_value = raw_value
+                            else:
+                                processed_value = raw_value
+                            row_to_write += [processed_value]
                         csv_writer_continuation.writerow(row_to_write)
                         row_to_write = []
 
