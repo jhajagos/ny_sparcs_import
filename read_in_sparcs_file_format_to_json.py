@@ -35,3 +35,5 @@ def main(csv_file_name):
 if __name__ == "__main__":
     main("SPARCS OP Format_LIMITED.csv")
     main("SPARCS OP Format_LIMITED continuation.csv")
+    main("SPARCS IP Format_LIMITED.csv")
+    main("SPARCS IP Format_LIMITED continuation.csv")

@@ -1,0 +1,6552 @@
+[
+    {
+        "Description (Remarks)": "Sequential number for identifying discharges.",
+        "Field Label": "Discharge Sequential Number",
+        "From": "1",
+        "Ln": "",
+        "SEGMENT": "Common Detail",
+        "Size": "14",
+        "To": "14",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Continuation Type",
+        "Field Label": "Continuation Indicator",
+        "From": "15",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "15",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "The records sequence within the discharge",
+        "Field Label": "Record Sequence Number",
+        "From": "16",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "18",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Number of Records in the Discharge",
+        "Field Label": "Record Sequence Count",
+        "From": "19",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "21",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 1",
+        "From": "22",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "72",
+        "To": "93",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date of Birth (YYYYMM)",
+        "Field Label": "Patient Birth Date ",
+        "From": "94",
+        "Ln": "",
+        "SEGMENT": "Patient Segment",
+        "Size": "6",
+        "To": "99",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 2",
+        "From": "100",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "101",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Calculated Age",
+        "Field Label": "Age",
+        "From": "102",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "104",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Where Age=0; Calculated Age in Days",
+        "Field Label": "Age in Days ",
+        "From": "105",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "107",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Patient's Sex; M, F, or U",
+        "Field Label": "Patient Sex",
+        "From": "108",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "108",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Patient's Race Code",
+        "Field Label": "Patient Race",
+        "From": "109",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "110",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Patient's Ethnicity Code",
+        "Field Label": "Patient Ethnicity",
+        "From": "111",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "111",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 3",
+        "From": "112",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "36",
+        "To": "147",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Patient's City",
+        "Field Label": "Patient City",
+        "From": "148",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "15",
+        "To": "162",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Patient State",
+        "Field Label": "Patient State",
+        "From": "163",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "164",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Patient Zip Code",
+        "Field Label": "Patient Zip Code",
+        "From": "165",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "5",
+        "To": "169",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 4",
+        "From": "170",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "173",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Patient County Code",
+        "Field Label": "Patient County Code",
+        "From": "174",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "175",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Region Code",
+        "Field Label": "SPARCS Region Code",
+        "From": "176",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "177",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Flag Indicating Newborn Discharge",
+        "Field Label": "Newborn Flag",
+        "From": "178",
+        "Ln": "",
+        "SEGMENT": "Newborn Segment",
+        "Size": "1",
+        "To": "178",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 5",
+        "From": "179",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "17",
+        "To": "195",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Newborn's Birth Weight",
+        "Field Label": "Newborn Birth Weight",
+        "From": "196",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "199",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Facility Identifier (PFI); redacted for Abortion records",
+        "Field Label": "Facility Identifier",
+        "From": "200",
+        "Ln": "",
+        "SEGMENT": "Facility Segment",
+        "Size": "6",
+        "To": "205",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "PFI Check Digit",
+        "Field Label": "Facility Identifier Check Digit",
+        "From": "206",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "206",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Facility Name; redacted for Abortion records",
+        "Field Label": "Facility Name",
+        "From": "207",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "70",
+        "To": "276",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Health Service Area",
+        "Field Label": "Health Service Area",
+        "From": "277",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "277",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Hospital County",
+        "Field Label": "Facility County",
+        "From": "278",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "279",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Operating Certificate Number; redacted for Abortion records",
+        "Field Label": "Operating Certificate Number",
+        "From": "280",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "286",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "National Provider ID",
+        "Field Label": "National Provider ID",
+        "From": "287",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "296",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Attending Physician ID; redacted for Abortion records",
+        "Field Label": "Attending Provider State License Number",
+        "From": "297",
+        "Ln": "",
+        "SEGMENT": "Physician Segment",
+        "Size": "8",
+        "To": "304",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Operating Physician ID; redacted for Abortion records",
+        "Field Label": "Operating Physician State License Number",
+        "From": "305",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "312",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Physician ID;  redacted for Abortion records",
+        "Field Label": "Other Physician State License Number",
+        "From": "313",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "320",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Payor Classification ",
+        "Field Label": "Source of Payment Typology 1",
+        "From": "321",
+        "Ln": "1",
+        "SEGMENT": "Payer Segment",
+        "Size": "5",
+        "To": "325",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Payor Classification ",
+        "Field Label": "Source of Payment Typology 2",
+        "From": "326",
+        "Ln": "2",
+        "SEGMENT": "",
+        "Size": "5",
+        "To": "330",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Payor Classification ",
+        "Field Label": "Source of Payment Typology 3",
+        "From": "331",
+        "Ln": "3",
+        "SEGMENT": "",
+        "Size": "5",
+        "To": "335",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Type of Insurance",
+        "Field Label": "Source of Payment 1",
+        "From": "336",
+        "Ln": "1",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "336",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Insurance; X-12 codes",
+        "Field Label": "Claim Filing Indicator Code 1",
+        "From": "337",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "338",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 6",
+        "From": "339",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "19",
+        "To": "357",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "NIAC ID Number for Insurance Company",
+        "Field Label": "Payer ID Number 1",
+        "From": "358",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "365",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Days Covered by Insurance",
+        "Field Label": "Covered Days 1",
+        "From": "366",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "369",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Days Not Covered by Insurance",
+        "Field Label": "Non-Covered Days 1",
+        "From": "370",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "373",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Insurance Company's ID for Facility",
+        "Field Label": "Billing Provider NPI 1",
+        "From": "374",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "13",
+        "To": "386",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Alternate Care Days",
+        "Field Label": "Alternate Level of Care Days 1",
+        "From": "387",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "390",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Leave of Absence Days",
+        "Field Label": "Leave of Absence (LOA) Days 1",
+        "From": "391",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "394",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Type of Insurance",
+        "Field Label": "Source of Payment 2",
+        "From": "395",
+        "Ln": "2",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "395",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Insurance; X-12 codes",
+        "Field Label": "Claim Filing Indicator Code 2",
+        "From": "396",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "397",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 7",
+        "From": "398",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "19",
+        "To": "416",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "NIAC ID Number for Insurance Company",
+        "Field Label": "Payer ID Number 2",
+        "From": "417",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "424",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Days Covered by Insurance",
+        "Field Label": "Covered Days 2",
+        "From": "425",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "428",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Days Not Covered by Insurance",
+        "Field Label": "Non-Covered Days 2",
+        "From": "429",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "432",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Insurance Company's ID for Facility",
+        "Field Label": "Billing Provider NPI 2",
+        "From": "433",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "13",
+        "To": "445",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Alternate Care Days",
+        "Field Label": "Alternate Level of Care Days 2",
+        "From": "446",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "449",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Leave of Absence Days",
+        "Field Label": "Leave of Absence (LOA) Days 2",
+        "From": "450",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "453",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Type of Insurance",
+        "Field Label": "Source of Payment 3",
+        "From": "454",
+        "Ln": "3",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "454",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Insurance; X-12 codes",
+        "Field Label": "Claim Filing Indicator Code 3",
+        "From": "455",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "456",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 8",
+        "From": "457",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "19",
+        "To": "475",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "NIAC ID Number for Insurance Company",
+        "Field Label": "Payer ID Number 3",
+        "From": "476",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "483",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Days Covered by Insurance",
+        "Field Label": "Covered Days 3",
+        "From": "484",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "487",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Days Not Covered by Insurance",
+        "Field Label": "Non-Covered Days 3",
+        "From": "488",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "491",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Insurance Company's ID for Facility",
+        "Field Label": "Billing Provider NPI 3",
+        "From": "492",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "13",
+        "To": "504",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Alternate Care Days",
+        "Field Label": "Alternate Level of Care Days 3",
+        "From": "505",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "508",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Leave of Absence Days",
+        "Field Label": "Leave of Absence (LOA) Days 3",
+        "From": "509",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "512",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Type of Insurance",
+        "Field Label": "Source of Payment 4",
+        "From": "513",
+        "Ln": "4",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "513",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Insurance; X-12 codes",
+        "Field Label": "Claim Filing Indicator Code 4",
+        "From": "514",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "515",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 9",
+        "From": "516",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "19",
+        "To": "534",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "NIAC ID Number for Insurance Company",
+        "Field Label": "Payer ID Number 4",
+        "From": "535",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "542",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Days Covered by Insurance",
+        "Field Label": "Covered Days 4",
+        "From": "543",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "546",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Days Not Covered by Insurance",
+        "Field Label": "Non-Covered Days 4",
+        "From": "547",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "550",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Insurance Company's ID for Facility",
+        "Field Label": "Billing Provider NPI 4",
+        "From": "551",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "13",
+        "To": "563",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Alternate Care Days",
+        "Field Label": "Alternate Level of Care Days 4",
+        "From": "564",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "567",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Leave of Absence Days",
+        "Field Label": "Leave of Absence (LOA) Days 4",
+        "From": "568",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "571",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Type of Insurance",
+        "Field Label": "Source of Payment 5",
+        "From": "572",
+        "Ln": "5",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "572",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Insurance; X-12 codes",
+        "Field Label": "Claim Filing Indicator Code 5",
+        "From": "573",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "574",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 10",
+        "From": "575",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "19",
+        "To": "593",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "NIAC ID Number for Insurance Company",
+        "Field Label": "Payer ID Number 5",
+        "From": "594",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "601",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Days Covered by Insurance",
+        "Field Label": "Covered Days 5",
+        "From": "602",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "605",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Days Not Covered by Insurance",
+        "Field Label": "Non-Covered Days 5",
+        "From": "606",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "609",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Insurance Company's ID for Facility",
+        "Field Label": "Billing Provider NPI 5",
+        "From": "610",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "13",
+        "To": "622",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Alternate Care Days",
+        "Field Label": "Alternate Level of Care Days 5",
+        "From": "623",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "626",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Leave of Absence Days",
+        "Field Label": "Leave of Absence (LOA) Days 5",
+        "From": "627",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "630",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Type of Insurance",
+        "Field Label": "Source of Payment 6",
+        "From": "631",
+        "Ln": "6",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "631",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Insurance; X-12 codes",
+        "Field Label": "Claim Filing Indicator Code 6",
+        "From": "632",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "633",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 11",
+        "From": "634",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "19",
+        "To": "652",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "NIAC ID Number for Insurance Company",
+        "Field Label": "Payer ID Number 6",
+        "From": "653",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "660",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Days Covered by Insurance",
+        "Field Label": "Covered Days 6",
+        "From": "661",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "664",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Days Not Covered by Insurance",
+        "Field Label": "Non-Covered Days 6",
+        "From": "665",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "668",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Insurance Company's ID for Facility",
+        "Field Label": "Billing Provider NPI 6",
+        "From": "669",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "13",
+        "To": "681",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Alternate Care Days",
+        "Field Label": "Alternate Level of Care Days 6",
+        "From": "682",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "685",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Leave of Absence Days",
+        "Field Label": "Leave of Absence (LOA) Days 6",
+        "From": "686",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "689",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Primary Reimbursement",
+        "Field Label": "Expected Principal Reimbursement",
+        "From": "690",
+        "Ln": "1",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "691",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Reimbursement 1",
+        "Field Label": "Expected Principal Reimbursement Other 1",
+        "From": "692",
+        "Ln": "2",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "693",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Reimbursement 2",
+        "Field Label": "Expected Principal Reimbursement Other 2",
+        "From": "694",
+        "Ln": "3",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "695",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "WC/NF Indicator",
+        "Field Label": "Worker's Compensation/No Fault Indicator",
+        "From": "696",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "697",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "WC/NF Amount",
+        "Field Label": "Worker's Compensation/No Fault Amount",
+        "From": "698",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "9",
+        "To": "706",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Medicaid Income Code",
+        "Field Label": "Surplus Catastrophic or Recurring Monthly Income Code",
+        "From": "707",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "707",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Medicaid Income Amount",
+        "Field Label": "Surplus Catastrophic or Recurring Monthly Amount",
+        "From": "708",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "9",
+        "To": "716",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Log Number",
+        "Field Label": "Log Number",
+        "From": "717",
+        "Ln": "",
+        "SEGMENT": "Data Collection Segment",
+        "Size": "6",
+        "To": "722",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Transaction Code",
+        "Field Label": "Transaction Code",
+        "From": "723",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "723",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Processed Date (YYYYMMDD)",
+        "Field Label": "Date Processed",
+        "From": "724",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "731",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Data Collector",
+        "Field Label": "SPARCS Collector Code",
+        "From": "732",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "734",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Claim Type (I, A, E or O)",
+        "Field Label": "Claim Type",
+        "From": "735",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "735",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "File Type(Complete/Incomplete)",
+        "Field Label": "Source File Type",
+        "From": "736",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "736",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Residence Indicator",
+        "Field Label": "Residence Indicator",
+        "From": "737",
+        "Ln": "",
+        "SEGMENT": "Miscellaneous Segment",
+        "Size": "1",
+        "To": "737",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Special Program; Disability (DIS)",
+        "Field Label": "Special Program (DIS)",
+        "From": "738",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "738",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Special Program; Family Planning (FP)",
+        "Field Label": "Special Program (FP)",
+        "From": "739",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "739",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Special Program; Physical Handicapped Children's Program (PHC)",
+        "Field Label": "Special Program (PHC)",
+        "From": "740",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "740",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Special Program; Special Federal Funding (SFP)",
+        "Field Label": "Special Program (SFP)",
+        "From": "741",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "741",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Old SPARCS Accommodation Codes",
+        "Field Label": "Old SPARCS Accommodation Codes 1",
+        "From": "742",
+        "Ln": "1",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "745",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Old SPARCS Accommodation Codes",
+        "Field Label": "Old SPARCS Accommodation Codes 2",
+        "From": "746",
+        "Ln": "2",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "749",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Old SPARCS Accommodation Codes",
+        "Field Label": "Old SPARCS Accommodation Codes 3",
+        "From": "750",
+        "Ln": "3",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "753",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Old SPARCS Accommodation Codes",
+        "Field Label": "Old SPARCS Accommodation Codes 4",
+        "From": "754",
+        "Ln": "4",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "757",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Old SPARCS Accommodation Codes",
+        "Field Label": "Old SPARCS Accommodation Codes 5",
+        "From": "758",
+        "Ln": "5",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "761",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Bed Placement Indicator",
+        "Field Label": "Bed Placement Indicator",
+        "From": "762",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "764",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "DNR Indicator",
+        "Field Label": "DNR Indicator",
+        "From": "765",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "765",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "ED Indicator",
+        "Field Label": "ED Indicator",
+        "From": "766",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "766",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Exempt Unit Indicator",
+        "Field Label": "Exempt Unit Indicator",
+        "From": "767",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "769",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Claim From Date (YYYYMM)",
+        "Field Label": "Statement From Date",
+        "From": "770",
+        "Ln": "",
+        "SEGMENT": "Treatment Segment",
+        "Size": "6",
+        "To": "775",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 12",
+        "From": "776",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "777",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Claim Through Date (YYYYMM)",
+        "Field Label": "Statement Thru Date",
+        "From": "778",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "783",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 13",
+        "From": "784",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "785",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date of Admission (YYYYMM)",
+        "Field Label": "Admission Date",
+        "From": "786",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "791",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 14",
+        "From": "792",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "793",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Admit Day-of-Week",
+        "Field Label": "Admit Weekday",
+        "From": "794",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "796",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Hour of Admission",
+        "Field Label": "Admission Hour",
+        "From": "797",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "798",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Scheduled Admit Indicator",
+        "Field Label": "Unscheduled/Scheduled Admission ",
+        "From": "799",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "799",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date of Discharge (YYYYMM)",
+        "Field Label": "Dischage Date",
+        "From": "800",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "805",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 15",
+        "From": "806",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "807",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Discharge Day-of-Week",
+        "Field Label": "Discharge Weekday",
+        "From": "808",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "810",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Hour of Discharge",
+        "Field Label": "Discharge Hour",
+        "From": "811",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "812",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Calculated Length of Stay",
+        "Field Label": "Length of Stay",
+        "From": "813",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "816",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Covered Days",
+        "Field Label": "Insured Days",
+        "From": "817",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "820",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Non-Covered Days",
+        "Field Label": "Non- Insured Days",
+        "From": "821",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "824",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Total Leave of Absence Days",
+        "Field Label": "Total Leave of Absence Days",
+        "From": "825",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "828",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Alternate Care Days",
+        "Field Label": "Total Alternate Care Days",
+        "From": "829",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "832",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Alternate Care Type",
+        "Field Label": "Type of Alternate Care required",
+        "From": "833",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "833",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Alternate Care Date (YYYYMM)",
+        "Field Label": "Date Alternate Care Required",
+        "From": "834",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "839",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 16",
+        "From": "840",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "841",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Acute Certified Days",
+        "Field Label": "Total Acute Certified Days",
+        "From": "842",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "845",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Non-Acute Care Type",
+        "Field Label": "Non-Acute Care Type 1",
+        "From": "846",
+        "Ln": "1",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "847",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Began (YYYYMM)",
+        "Field Label": "Non-Acute  From Date 1",
+        "From": "848",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "853",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 17",
+        "From": "854",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "855",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Ended (YYYYMM)",
+        "Field Label": "Non-Acute  Thru Date 1",
+        "From": "856",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "861",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 18",
+        "From": "862",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "863",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Non-Acute Care Type",
+        "Field Label": "Non-Acute Care Type 2",
+        "From": "864",
+        "Ln": "2",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "865",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Began (YYYYMM)",
+        "Field Label": "Non-Acute  From Date 2",
+        "From": "866",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "871",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 19",
+        "From": "872",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "873",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Ended (YYYYMM)",
+        "Field Label": "Non-Acute  Thru Date 2",
+        "From": "874",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "879",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 20",
+        "From": "880",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "881",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Non-Acute Care",
+        "Field Label": "Non-Acute Care Type 3",
+        "From": "882",
+        "Ln": "3",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "883",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Began (YYYYMM)",
+        "Field Label": "Non-Acute  From Date 3",
+        "From": "884",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "889",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 21",
+        "From": "890",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "891",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Ended (YYYYMM)",
+        "Field Label": "Non-Acute  Thru Date 3",
+        "From": "892",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "897",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 22",
+        "From": "898",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "899",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Non-Acute Care",
+        "Field Label": "Non-Acute Care Type 4",
+        "From": "900",
+        "Ln": "4",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "901",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Began (YYYYMM)",
+        "Field Label": "Non-Acute  From Date 4",
+        "From": "902",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "907",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 23",
+        "From": "908",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "909",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Ended (YYYYMM)",
+        "Field Label": "Non-Acute  Thru Date 4",
+        "From": "910",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "915",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 24",
+        "From": "916",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "917",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Non-Acute Care",
+        "Field Label": "Non-Acute Care Type 5",
+        "From": "918",
+        "Ln": "5",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "919",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Began (YYYYMM)",
+        "Field Label": "Non-Acute  From Date 5",
+        "From": "920",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "925",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 25",
+        "From": "926",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "927",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Ended (YYYYMM)",
+        "Field Label": "Non-Acute  Thru Date 5",
+        "From": "928",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "933",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 26",
+        "From": "934",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "935",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Non-Acute Care",
+        "Field Label": "Non-Acute Care Type 6",
+        "From": "936",
+        "Ln": "6",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "937",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Began (YYYYMM)",
+        "Field Label": "Non-Acute  From Date 6",
+        "From": "938",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "943",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 27",
+        "From": "944",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "945",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Ended (YYYYMM)",
+        "Field Label": "Non-Acute  Thru Date 6",
+        "From": "946",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "951",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 28",
+        "From": "952",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "953",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Non-Acute Care",
+        "Field Label": "Non-Acute Care Type 7",
+        "From": "954",
+        "Ln": "7",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "955",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Began (YYYYMM)",
+        "Field Label": "Non-Acute  From Date 7",
+        "From": "956",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "961",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 29",
+        "From": "962",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "963",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Ended (YYYYMM)",
+        "Field Label": "Non-Acute  Thru Date 7",
+        "From": "964",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "969",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 30",
+        "From": "970",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "971",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Non-Acute Care",
+        "Field Label": "Non-Acute Care Type 8",
+        "From": "972",
+        "Ln": "8",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "973",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Began (YYYYMM)",
+        "Field Label": "Non-Acute  From Date 8",
+        "From": "974",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "979",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 31",
+        "From": "980",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "981",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Ended (YYYYMM)",
+        "Field Label": "Non-Acute  Thru Date 8",
+        "From": "982",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "987",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 32",
+        "From": "988",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "989",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Non-Acute Care",
+        "Field Label": "Non-Acute Care Type 9",
+        "From": "990",
+        "Ln": "9",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "991",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Began (YYYYMM)",
+        "Field Label": "Non-Acute  From Date 9",
+        "From": "992",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "997",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 33",
+        "From": "998",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "999",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Ended (YYYYMM)",
+        "Field Label": "Non-Acute  Thru Date 9",
+        "From": "1000",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1005",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 34",
+        "From": "1006",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1007",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Non-Acute Care",
+        "Field Label": "Non-Acute Care Type 10",
+        "From": "1008",
+        "Ln": "10",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1009",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Began (YYYYMM)",
+        "Field Label": "Non-Acute  From Date 10",
+        "From": "1010",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1015",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 35",
+        "From": "1016",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1017",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Ended (YYYYMM)",
+        "Field Label": "Non-Acute  Thru Date 10",
+        "From": "1018",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1023",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 36",
+        "From": "1024",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1025",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Non-Acute Care",
+        "Field Label": "Non-Acute Care Type 11",
+        "From": "1026",
+        "Ln": "11",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1027",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Began (YYYYMM)",
+        "Field Label": "Non-Acute  From Date 11",
+        "From": "1028",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1033",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 37",
+        "From": "1034",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1035",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Ended (YYYYMM)",
+        "Field Label": "Non-Acute  Thru Date 11",
+        "From": "1036",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1041",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 38",
+        "From": "1042",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1043",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Non-Acute Care",
+        "Field Label": "Non-Acute Care Type 12",
+        "From": "1044",
+        "Ln": "12",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1045",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Began (YYYYMM)",
+        "Field Label": "Non-Acute  From Date 12",
+        "From": "1046",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1051",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 39",
+        "From": "1052",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1053",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Ended (YYYYMM)",
+        "Field Label": "Non-Acute  Thru Date 12",
+        "From": "1054",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1059",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 40",
+        "From": "1060",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1061",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Non-Acute Care",
+        "Field Label": "Non-Acute Care Type 13",
+        "From": "1062",
+        "Ln": "13",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1063",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Began (YYYYMM)",
+        "Field Label": "Non-Acute  From Date 13",
+        "From": "1064",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1069",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 41",
+        "From": "1070",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1071",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Ended (YYYYMM)",
+        "Field Label": "Non-Acute  Thru Date 13",
+        "From": "1072",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1077",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 42",
+        "From": "1078",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1079",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Non-Acute Care",
+        "Field Label": "Non-Acute Care Type 14",
+        "From": "1080",
+        "Ln": "14",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1081",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Began (YYYYMM)",
+        "Field Label": "Non-Acute  From Date 14",
+        "From": "1082",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1087",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 43",
+        "From": "1088",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1089",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Ended (YYYYMM)",
+        "Field Label": "Non-Acute  Thru Date 14",
+        "From": "1090",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1095",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 44",
+        "From": "1096",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1097",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Non-Acute Care",
+        "Field Label": "Non-Acute Care Type 15",
+        "From": "1098",
+        "Ln": "15",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1099",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Began (YYYYMM)",
+        "Field Label": "Non-Acute  From Date 15",
+        "From": "1100",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1105",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 45",
+        "From": "1106",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1107",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Ended (YYYYMM)",
+        "Field Label": "Non-Acute  Thru Date 15",
+        "From": "1108",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1113",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 46",
+        "From": "1114",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1115",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Non-Acute Care",
+        "Field Label": "Non-Acute Care Type 16",
+        "From": "1116",
+        "Ln": "16",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1117",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Began (YYYYMM)",
+        "Field Label": "Non-Acute  From Date 16",
+        "From": "1118",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1123",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 47",
+        "From": "1124",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1125",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Ended (YYYYMM)",
+        "Field Label": "Non-Acute  Thru Date 16",
+        "From": "1126",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1131",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 48",
+        "From": "1132",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1133",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Non-Acute Care",
+        "Field Label": "Non-Acute Care Type 17",
+        "From": "1134",
+        "Ln": "17",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1135",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Began (YYYYMM)",
+        "Field Label": "Non-Acute  From Date 17",
+        "From": "1136",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1141",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 49",
+        "From": "1142",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1143",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Ended (YYYYMM)",
+        "Field Label": "Non-Acute  Thru Date 17",
+        "From": "1144",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1149",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 50",
+        "From": "1150",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1151",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Non-Acute Care",
+        "Field Label": "Non-Acute Care Type 18",
+        "From": "1152",
+        "Ln": "18",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1153",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Began (YYYYMM)",
+        "Field Label": "Non-Acute  From Date 18",
+        "From": "1154",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1159",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 51",
+        "From": "1160",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1161",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Ended (YYYYMM)",
+        "Field Label": "Non-Acute  Thru Date 18",
+        "From": "1162",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1167",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 52",
+        "From": "1168",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1169",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Non-Acute Care",
+        "Field Label": "Non-Acute Care Type 19",
+        "From": "1170",
+        "Ln": "19",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1171",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Began (YYYYMM)",
+        "Field Label": "Non-Acute  From Date 19",
+        "From": "1172",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1177",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 53",
+        "From": "1178",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1179",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Ended (YYYYMM)",
+        "Field Label": "Non-Acute  Thru Date 19",
+        "From": "1180",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1185",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 54",
+        "From": "1186",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1187",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Non-Acute Care",
+        "Field Label": "Non-Acute Care Type 20",
+        "From": "1188",
+        "Ln": "20",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1189",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Began (YYYYMM)",
+        "Field Label": "Non-Acute  From Date 20",
+        "From": "1190",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1195",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 55",
+        "From": "1196",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1197",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Ended (YYYYMM)",
+        "Field Label": "Non-Acute  Thru Date 20",
+        "From": "1198",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1203",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 56",
+        "From": "1204",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1205",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Non-Acute Care",
+        "Field Label": "Non-Acute Care Type 21",
+        "From": "1206",
+        "Ln": "21",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1207",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Began (YYYYMM)",
+        "Field Label": "Non-Acute  From Date 21",
+        "From": "1208",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1213",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 57",
+        "From": "1214",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1215",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Ended (YYYYMM)",
+        "Field Label": "Non-Acute  Thru Date 21",
+        "From": "1216",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1221",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 58",
+        "From": "1222",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1223",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Non-Acute Care",
+        "Field Label": "Non-Acute Care Type 22",
+        "From": "1224",
+        "Ln": "22",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1225",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Began (YYYYMM)",
+        "Field Label": "Non-Acute  From Date 22",
+        "From": "1226",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1231",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 59",
+        "From": "1232",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1233",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Ended (YYYYMM)",
+        "Field Label": "Non-Acute  Thru Date 22",
+        "From": "1234",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1239",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 60",
+        "From": "1240",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1241",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Non-Acute Care",
+        "Field Label": "Non-Acute Care Type 23",
+        "From": "1242",
+        "Ln": "23",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1243",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Began (YYYYMM)",
+        "Field Label": "Non-Acute  From Date 23",
+        "From": "1244",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1249",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 61",
+        "From": "1250",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1251",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Ended (YYYYMM)",
+        "Field Label": "Non-Acute  Thru Date 23",
+        "From": "1252",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1257",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 62",
+        "From": "1258",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1259",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Non-Acute Care",
+        "Field Label": "Non-Acute Care Type 24",
+        "From": "1260",
+        "Ln": "24",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1261",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Began (YYYYMM)",
+        "Field Label": "Non-Acute  From Date 24",
+        "From": "1262",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1267",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 63",
+        "From": "1268",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1269",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Ended (YYYYMM)",
+        "Field Label": "Non-Acute  Thru Date 24",
+        "From": "1270",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1275",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 64",
+        "From": "1276",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1277",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Non-Acute Care",
+        "Field Label": "Non-Acute Care Type 25",
+        "From": "1278",
+        "Ln": "25",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1279",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Began (YYYYMM)",
+        "Field Label": "Non-Acute  From Date 25",
+        "From": "1280",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1285",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 65",
+        "From": "1286",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1287",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Ended (YYYYMM)",
+        "Field Label": "Non-Acute  Thru Date 25",
+        "From": "1288",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1293",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 66",
+        "From": "1294",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1295",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Non-Acute Care",
+        "Field Label": "Non-Acute Care Type 26",
+        "From": "1296",
+        "Ln": "26",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1297",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Began (YYYYMM)",
+        "Field Label": "Non-Acute  From Date 26",
+        "From": "1298",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1303",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 67",
+        "From": "1304",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1305",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Ended (YYYYMM)",
+        "Field Label": "Non-Acute  Thru Date 26",
+        "From": "1306",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1311",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 68",
+        "From": "1312",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1313",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Non-Acute Care",
+        "Field Label": "Non-Acute Care Type 27",
+        "From": "1314",
+        "Ln": "27",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1315",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Began (YYYYMM)",
+        "Field Label": "Non-Acute  From Date 27",
+        "From": "1316",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1321",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 69",
+        "From": "1322",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1323",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Ended (YYYYMM)",
+        "Field Label": "Non-Acute  Thru Date 27",
+        "From": "1324",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1329",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 70",
+        "From": "1330",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1331",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Non-Acute Care",
+        "Field Label": "Non-Acute Care Type 28",
+        "From": "1332",
+        "Ln": "28",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1333",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Began (YYYYMM)",
+        "Field Label": "Non-Acute  From Date 28",
+        "From": "1334",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1339",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 71",
+        "From": "1340",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1341",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Ended (YYYYMM)",
+        "Field Label": "Non-Acute  Thru Date 28",
+        "From": "1342",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1347",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 72",
+        "From": "1348",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1349",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Non-Acute Care",
+        "Field Label": "Non-Acute Care Type 29",
+        "From": "1350",
+        "Ln": "29",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1351",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Began (YYYYMM)",
+        "Field Label": "Non-Acute  From Date 29",
+        "From": "1352",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1357",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 73",
+        "From": "1358",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1359",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Ended (YYYYMM)",
+        "Field Label": "Non-Acute  Thru Date 29",
+        "From": "1360",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1365",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 74",
+        "From": "1366",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1367",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Non-Acute Care",
+        "Field Label": "Non-Acute Care Type 30",
+        "From": "1368",
+        "Ln": "30",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1369",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Began (YYYYMM)",
+        "Field Label": "Non-Acute  From Date 30",
+        "From": "1370",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1375",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 75",
+        "From": "1376",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1377",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Non-Acute Care Ended (YYYYMM)",
+        "Field Label": "Non-Acute  Thru Date 30",
+        "From": "1378",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1383",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 76",
+        "From": "1384",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1385",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Same-day Discharge Indicator",
+        "Field Label": "Same-day Discharge Indicator",
+        "From": "1386",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1386",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Discharge Disposition",
+        "Field Label": "Patient Status",
+        "From": "1387",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1388",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Bill",
+        "Field Label": "Type of Bill",
+        "From": "1389",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "1391",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Service Class",
+        "Field Label": "Service Category Group",
+        "From": "1392",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1392",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Type of Admission",
+        "Field Label": "Type of Admission",
+        "From": "1393",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1393",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Source of Admission",
+        "Field Label": "Point of Origin",
+        "From": "1394",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1394",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Diagnosis Code at Admission",
+        "Field Label": "Admitting Diagnosis Code",
+        "From": "1395",
+        "Ln": "",
+        "SEGMENT": "Diagnosis Segment",
+        "Size": "7",
+        "To": "1401",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Principal Diagnosis",
+        "Field Label": "Principal Diagnosis Code",
+        "From": "1402",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1408",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 77",
+        "From": "1409",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1409",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Other Diagnosis Code 1",
+        "From": "1410",
+        "Ln": "1",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1416",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Present on admission ",
+        "Field Label": "Present on Admission Indicator 1",
+        "From": "1417",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1417",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Other Diagnosis Code 2",
+        "From": "1418",
+        "Ln": "2",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1424",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Present on admission ",
+        "Field Label": "Present on Admission Indicator 2",
+        "From": "1425",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1425",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Other Diagnosis Code 3",
+        "From": "1426",
+        "Ln": "3",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1432",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Present on admission ",
+        "Field Label": "Present on Admission Indicator 3",
+        "From": "1433",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1433",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Other Diagnosis Code 4",
+        "From": "1434",
+        "Ln": "4",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1440",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Present on admission ",
+        "Field Label": "Present on Admission Indicator 4",
+        "From": "1441",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1441",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Other Diagnosis Code 5",
+        "From": "1442",
+        "Ln": "5",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1448",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Present on admission ",
+        "Field Label": "Present on Admission Indicator 5",
+        "From": "1449",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1449",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Other Diagnosis Code 6",
+        "From": "1450",
+        "Ln": "6",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1456",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Present on admission ",
+        "Field Label": "Present on Admission Indicator 6",
+        "From": "1457",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1457",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Other Diagnosis Code 7",
+        "From": "1458",
+        "Ln": "7",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1464",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Present on admission ",
+        "Field Label": "Present on Admission Indicator 7",
+        "From": "1465",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1465",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Other Diagnosis Code 8",
+        "From": "1466",
+        "Ln": "8",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1472",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Present on admission ",
+        "Field Label": "Present on Admission Indicator 8",
+        "From": "1473",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1473",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Other Diagnosis Code 9",
+        "From": "1474",
+        "Ln": "9",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1480",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Present on admission ",
+        "Field Label": "Present on Admission Indicator 9",
+        "From": "1481",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1481",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Other Diagnosis Code 10",
+        "From": "1482",
+        "Ln": "10",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1488",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Present on admission ",
+        "Field Label": "Present on Admission Indicator 10",
+        "From": "1489",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1489",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Other Diagnosis Code 11",
+        "From": "1490",
+        "Ln": "11",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1496",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Present on admission ",
+        "Field Label": "Present on Admission Indicator 11",
+        "From": "1497",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1497",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Other Diagnosis Code 12",
+        "From": "1498",
+        "Ln": "12",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1504",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Present on admission ",
+        "Field Label": "Present on Admission Indicator 12",
+        "From": "1505",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1505",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Other Diagnosis Code 13",
+        "From": "1506",
+        "Ln": "13",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1512",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Present on admission ",
+        "Field Label": "Present on Admission Indicator 13",
+        "From": "1513",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1513",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Other Diagnosis Code 14",
+        "From": "1514",
+        "Ln": "14",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1520",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Present on admission ",
+        "Field Label": "Present on Admission Indicator 14",
+        "From": "1521",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1521",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Other Diagnosis Code 15",
+        "From": "1522",
+        "Ln": "15",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1528",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Present on admission ",
+        "Field Label": "Present on Admission Indicator 15",
+        "From": "1529",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1529",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Other Diagnosis Code 16",
+        "From": "1530",
+        "Ln": "16",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1536",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Present on admission ",
+        "Field Label": "Present on Admission Indicator 16",
+        "From": "1537",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1537",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Other Diagnosis Code 17",
+        "From": "1538",
+        "Ln": "17",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1544",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Present on admission ",
+        "Field Label": "Present on Admission Indicator 17",
+        "From": "1545",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1545",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Other Diagnosis Code 18",
+        "From": "1546",
+        "Ln": "18",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1552",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Present on admission ",
+        "Field Label": "Present on Admission Indicator 18",
+        "From": "1553",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1553",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Other Diagnosis Code 19",
+        "From": "1554",
+        "Ln": "19",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1560",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Present on admission ",
+        "Field Label": "Present on Admission Indicator 19",
+        "From": "1561",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1561",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Other Diagnosis Code 20",
+        "From": "1562",
+        "Ln": "20",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1568",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Present on admission ",
+        "Field Label": "Present on Admission Indicator 20",
+        "From": "1569",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1569",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Other Diagnosis Code 21",
+        "From": "1570",
+        "Ln": "21",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1576",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Present on admission ",
+        "Field Label": "Present on Admission Indicator 21",
+        "From": "1577",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1577",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Other Diagnosis Code 22",
+        "From": "1578",
+        "Ln": "22",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1584",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Present on admission ",
+        "Field Label": "Present on Admission Indicator 22",
+        "From": "1585",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1585",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Other Diagnosis Code 23",
+        "From": "1586",
+        "Ln": "23",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1592",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Present on admission ",
+        "Field Label": "Present on Admission Indicator 23",
+        "From": "1593",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1593",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Diagnosis ",
+        "Field Label": "Other Diagnosis Code 24",
+        "From": "1594",
+        "Ln": "24",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1600",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Present on admission ",
+        "Field Label": "Present on Admission Indicator 24",
+        "From": "1601",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1601",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "CCS Diagnosis Category",
+        "Field Label": "Clinical Classification Software (CCS) Diagnosis Category",
+        "From": "1602",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "1604",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Diagnosis Occurred After Anesthesia Indicator",
+        "Field Label": "After Anesthesia Indicator 1",
+        "From": "1605",
+        "Ln": "1",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1605",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Diagnosis Occurred After Anesthesia Indicator",
+        "Field Label": "After Anesthesia Indicator 2",
+        "From": "1606",
+        "Ln": "2",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1606",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Diagnosis Occurred After Anesthesia Indicator",
+        "Field Label": "After Anesthesia Indicator 3",
+        "From": "1607",
+        "Ln": "3",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1607",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Diagnosis Occurred After Anesthesia Indicator",
+        "Field Label": "After Anesthesia Indicator 4",
+        "From": "1608",
+        "Ln": "4",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1608",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Diagnosis Occurred After Anesthesia Indicator",
+        "Field Label": "After Anesthesia Indicator 5",
+        "From": "1609",
+        "Ln": "5",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1609",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Diagnosis Occurred After Anesthesia Indicator",
+        "Field Label": "After Anesthesia Indicator 6",
+        "From": "1610",
+        "Ln": "6",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1610",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Diagnosis Occurred After Anesthesia Indicator",
+        "Field Label": "After Anesthesia Indicator 7",
+        "From": "1611",
+        "Ln": "7",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1611",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Diagnosis Occurred After Anesthesia Indicator",
+        "Field Label": "After Anesthesia Indicator 8",
+        "From": "1612",
+        "Ln": "8",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1612",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Diagnosis Occurred After Anesthesia Indicator",
+        "Field Label": "After Anesthesia Indicator 9",
+        "From": "1613",
+        "Ln": "9",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1613",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Diagnosis Occurred After Anesthesia Indicator",
+        "Field Label": "After Anesthesia Indicator 10",
+        "From": "1614",
+        "Ln": "10",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1614",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Diagnosis Occurred After Anesthesia Indicator",
+        "Field Label": "After Anesthesia Indicator 11",
+        "From": "1615",
+        "Ln": "11",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1615",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Diagnosis Occurred After Anesthesia Indicator",
+        "Field Label": "After Anesthesia Indicator 12",
+        "From": "1616",
+        "Ln": "12",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1616",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Diagnosis Occurred After Anesthesia Indicator",
+        "Field Label": "After Anesthesia Indicator 13",
+        "From": "1617",
+        "Ln": "13",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1617",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Diagnosis Occurred After Anesthesia Indicator",
+        "Field Label": "After Anesthesia Indicator 14",
+        "From": "1618",
+        "Ln": "14",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1618",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Accident Type Code",
+        "Field Label": "Accident Related Code",
+        "From": "1619",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1620",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Accident Date (YYYYMM)",
+        "Field Label": "Accident Related Date",
+        "From": "1621",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1626",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 78",
+        "From": "1627",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1628",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "Cause of Injury E-Code",
+        "Field Label": "External Cause of Injury ",
+        "From": "1629",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1635",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Place of Injury E-Code",
+        "Field Label": "Place of Injury Code",
+        "From": "1636",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1642",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Principal Procedure",
+        "Field Label": "Principal Procedure (ICD) Code",
+        "From": "1643",
+        "Ln": "",
+        "SEGMENT": "Procedure Segment",
+        "Size": "7",
+        "To": "1649",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Procedure Occurred (YYYYMM)",
+        "Field Label": "Principal Procedure (ICD) Date ",
+        "From": "1650",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1655",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 79",
+        "From": "1656",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1657",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "Indicates if Procedure occurred before, on, or after Date of Admission",
+        "Field Label": "Pre-Admit Procedure Indicator 1",
+        "From": "1658",
+        "Ln": "1",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1658",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Number of days between Date of Admission and Procedure Date",
+        "Field Label": "Pre-Op Days 1",
+        "From": "1659",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "1662",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Number of days between Date of Discharge and Procedure Date",
+        "Field Label": "Post-Op Days 1",
+        "From": "1663",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "1666",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Procedure",
+        "Field Label": "Other Procedure  (ICD) Code 1",
+        "From": "1667",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1673",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Procedure Occurred (YYYYMM)",
+        "Field Label": "Other Procedure  (ICD) Date 1",
+        "From": "1674",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1679",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 80",
+        "From": "1680",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1681",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "Indicates if Procedure occurred before, on, or after Date of Admission",
+        "Field Label": "Pre-Admit Procedure Indicator 2",
+        "From": "1682",
+        "Ln": "2",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1682",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Number of days between Date of Admission and Procedure Date",
+        "Field Label": "Pre-Op Days 2",
+        "From": "1683",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "1686",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Number of days between Date of Discharge and Procedure Date",
+        "Field Label": "Post-Op Days 2",
+        "From": "1687",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "1690",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Procedure",
+        "Field Label": "Other Procedure  (ICD) Code 2",
+        "From": "1691",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1697",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Procedure Occurred (YYYYMM)",
+        "Field Label": "Other Procedure  (ICD) Date 2",
+        "From": "1698",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1703",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 81",
+        "From": "1704",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1705",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "Indicates if Procedure occurred before, on, or after Date of Admission",
+        "Field Label": "Pre-Admit Procedure Indicator 3",
+        "From": "1706",
+        "Ln": "3",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1706",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Number of days between Date of Admission and Procedure Date",
+        "Field Label": "Pre-Op Days 3",
+        "From": "1707",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "1710",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Number of days between Date of Discharge and Procedure Date",
+        "Field Label": "Post-Op Days 3",
+        "From": "1711",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "1714",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Procedure",
+        "Field Label": "Other Procedure  (ICD) Code 3",
+        "From": "1715",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1721",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Procedure Occurred (YYYYMM)",
+        "Field Label": "Other Procedure  (ICD) Date 3",
+        "From": "1722",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1727",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 82",
+        "From": "1728",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1729",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "Indicates if Procedure occurred before, on, or after Date of Admission",
+        "Field Label": "Pre-Admit Procedure Indicator 4",
+        "From": "1730",
+        "Ln": "4",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1730",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Number of days between Date of Admission and Procedure Date",
+        "Field Label": "Pre-Op Days 4",
+        "From": "1731",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "1734",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Number of days between Date of Discharge and Procedure Date",
+        "Field Label": "Post-Op Days 4",
+        "From": "1735",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "1738",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Procedure",
+        "Field Label": "Other Procedure  (ICD) Code 4",
+        "From": "1739",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1745",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Procedure Occurred (YYYYMM)",
+        "Field Label": "Other Procedure  (ICD) Date 4",
+        "From": "1746",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1751",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 83",
+        "From": "1752",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1753",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "Indicates if Procedure occurred before, on, or after Date of Admission",
+        "Field Label": "Pre-Admit Procedure Indicator 5",
+        "From": "1754",
+        "Ln": "5",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1754",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Number of days between Date of Admission and Procedure Date",
+        "Field Label": "Pre-Op Days 5",
+        "From": "1755",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "1758",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Number of days between Date of Discharge and Procedure Date",
+        "Field Label": "Post-Op Days 5",
+        "From": "1759",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "1762",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Procedure",
+        "Field Label": "Other Procedure  (ICD) Code 5",
+        "From": "1763",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1769",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Procedure Occurred (YYYYMM)",
+        "Field Label": "Other Procedure  (ICD) Date 5",
+        "From": "1770",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1775",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 84",
+        "From": "1776",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1777",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "Indicates if Procedure occurred before, on, or after Date of Admission",
+        "Field Label": "Pre-Admit Procedure Indicator 6",
+        "From": "1778",
+        "Ln": "6",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1778",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Number of days between Date of Admission and Procedure Date",
+        "Field Label": "Pre-Op Days 6",
+        "From": "1779",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "1782",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Number of days between Date of Discharge and Procedure Date",
+        "Field Label": "Post-Op Days 6",
+        "From": "1783",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "1786",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Procedure",
+        "Field Label": "Other Procedure  (ICD) Code 6",
+        "From": "1787",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1793",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Procedure Occurred (YYYYMM)",
+        "Field Label": "Other Procedure  (ICD) Date 6",
+        "From": "1794",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1799",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 85",
+        "From": "1800",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1801",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "Indicates if Procedure occurred before, on, or after Date of Admission",
+        "Field Label": "Pre-Admit Procedure Indicator 7",
+        "From": "1802",
+        "Ln": "7",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1802",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Number of days between Date of Admission and Procedure Date",
+        "Field Label": "Pre-Op Days 7",
+        "From": "1803",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "1806",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Number of days between Date of Discharge and Procedure Date",
+        "Field Label": "Post-Op Days 7",
+        "From": "1807",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "1810",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Procedure",
+        "Field Label": "Other Procedure  (ICD) Code 7",
+        "From": "1811",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1817",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Procedure Occurred (YYYYMM)",
+        "Field Label": "Other Procedure  (ICD) Date 7",
+        "From": "1818",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1823",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 86",
+        "From": "1824",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1825",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "Indicates if Procedure occurred before, on, or after Date of Admission",
+        "Field Label": "Pre-Admit Procedure Indicator 8",
+        "From": "1826",
+        "Ln": "8",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1826",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Number of days between Date of Admission and Procedure Date",
+        "Field Label": "Pre-Op Days 8",
+        "From": "1827",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "1830",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Number of days between Date of Discharge and Procedure Date",
+        "Field Label": "Post-Op Days 8",
+        "From": "1831",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "1834",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Procedure",
+        "Field Label": "Other Procedure  (ICD) Code 8",
+        "From": "1835",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1841",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Procedure Occurred (YYYYMM)",
+        "Field Label": "Other Procedure  (ICD) Date 8",
+        "From": "1842",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1847",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 87",
+        "From": "1848",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1849",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "Indicates if Procedure occurred before, on, or after Date of Admission",
+        "Field Label": "Pre-Admit Procedure Indicator 9",
+        "From": "1850",
+        "Ln": "9",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1850",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Number of days between Date of Admission and Procedure Date",
+        "Field Label": "Pre-Op Days 9",
+        "From": "1851",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "1854",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Number of days between Date of Discharge and Procedure Date",
+        "Field Label": "Post-Op Days 9",
+        "From": "1855",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "1858",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Procedure",
+        "Field Label": "Other Procedure  (ICD) Code 9",
+        "From": "1859",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1865",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Procedure Occurred (YYYYMM)",
+        "Field Label": "Other Procedure  (ICD) Date 9",
+        "From": "1866",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1871",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 88",
+        "From": "1872",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1873",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "Indicates if Procedure occurred before, on, or after Date of Admission",
+        "Field Label": "Pre-Admit Procedure Indicator 10",
+        "From": "1874",
+        "Ln": "10",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1874",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Number of days between Date of Admission and Procedure Date",
+        "Field Label": "Pre-Op Days 10",
+        "From": "1875",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "1878",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Number of days between Date of Discharge and Procedure Date",
+        "Field Label": "Post-Op Days 10",
+        "From": "1879",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "1882",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Procedure",
+        "Field Label": "Other Procedure  (ICD) Code 10",
+        "From": "1883",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1889",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Procedure Occurred (YYYYMM)",
+        "Field Label": "Other Procedure  (ICD) Date 10",
+        "From": "1890",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1895",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 89",
+        "From": "1896",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1897",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "Indicates if Procedure occurred before, on, or after Date of Admission",
+        "Field Label": "Pre-Admit Procedure Indicator 11",
+        "From": "1898",
+        "Ln": "11",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1898",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Number of days between Date of Admission and Procedure Date",
+        "Field Label": "Pre-Op Days 11",
+        "From": "1899",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "1902",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Number of days between Date of Discharge and Procedure Date",
+        "Field Label": "Post-Op Days 11",
+        "From": "1903",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "1906",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Procedure",
+        "Field Label": "Other Procedure  (ICD) Code 11",
+        "From": "1907",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1913",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Procedure Occurred (YYYYMM)",
+        "Field Label": "Other Procedure  (ICD) Date 11",
+        "From": "1914",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1919",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 90",
+        "From": "1920",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1921",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "Indicates if Procedure occurred before, on, or after Date of Admission",
+        "Field Label": "Pre-Admit Procedure Indicator 12",
+        "From": "1922",
+        "Ln": "12",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1922",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Number of days between Date of Admission and Procedure Date",
+        "Field Label": "Pre-Op Days 12",
+        "From": "1923",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "1926",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Number of days between Date of Discharge and Procedure Date",
+        "Field Label": "Post-Op Days 12",
+        "From": "1927",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "1930",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Procedure",
+        "Field Label": "Other Procedure  (ICD) Code 12",
+        "From": "1931",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1937",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Procedure Occurred (YYYYMM)",
+        "Field Label": "Other Procedure  (ICD) Date 12",
+        "From": "1938",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1943",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 91",
+        "From": "1944",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1945",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "Indicates if Procedure occurred before, on, or after Date of Admission",
+        "Field Label": "Pre-Admit Procedure Indicator 13",
+        "From": "1946",
+        "Ln": "13",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1946",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Number of days between Date of Admission and Procedure Date",
+        "Field Label": "Pre-Op Days 13",
+        "From": "1947",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "1950",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Number of days between Date of Discharge and Procedure Date",
+        "Field Label": "Post-Op Days 13",
+        "From": "1951",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "1954",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Procedure",
+        "Field Label": "Other Procedure  (ICD) Code 13",
+        "From": "1955",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1961",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Procedure Occurred (YYYYMM)",
+        "Field Label": "Other Procedure  (ICD) Date 13",
+        "From": "1962",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1967",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 92",
+        "From": "1968",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1969",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "Indicates if Procedure occurred before, on, or after Date of Admission",
+        "Field Label": "Pre-Admit Procedure Indicator 14",
+        "From": "1970",
+        "Ln": "14",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1970",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Number of days between Date of Admission and Procedure Date",
+        "Field Label": "Pre-Op Days 14",
+        "From": "1971",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "1974",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Number of days between Date of Discharge and Procedure Date",
+        "Field Label": "Post-Op Days 14",
+        "From": "1975",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "1978",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Other Procedure",
+        "Field Label": "Other Procedure  (ICD) Code 14",
+        "From": "1979",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "7",
+        "To": "1985",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Date Procedure Occurred (YYYYMM)",
+        "Field Label": "Other Procedure  (ICD) Date 14",
+        "From": "1986",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "6",
+        "To": "1991",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Filler 93",
+        "From": "1992",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "1993",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "Indicates if Procedure occurred before, on, or after Date of Admission",
+        "Field Label": "Pre-Admit Procedure Indicator 15",
+        "From": "1994",
+        "Ln": "15",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "1994",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Number of days between Date of Admission and Procedure Date",
+        "Field Label": "Pre-Op Days 15",
+        "From": "1995",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "1998",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Number of days between Date of Discharge and Procedure Date",
+        "Field Label": "Post-Op Days 15",
+        "From": "1999",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "2002",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "CCS Procedure Category",
+        "Field Label": "Clinical Classification Software (CCS) Procedure Category",
+        "From": "2003",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "2005",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Method of Anesthesia",
+        "Field Label": "Method of Anesthesia Used",
+        "From": "2006",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2007",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Amount of Blood Furnished to the Patient; in pints",
+        "Field Label": "Blood Furnished Amount",
+        "From": "2008",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "9",
+        "To": "2016",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "ICD Age Warning",
+        "Field Label": "Age Warning Flag",
+        "From": "2017",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2017",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Procedure Date Warning",
+        "Field Label": "Procedure Date Warning Flag",
+        "From": "2018",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2018",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Method of Coding Used; i.e. ICD-9, ICD-10, etc.",
+        "Field Label": "Procedure Coding Method ",
+        "From": "2019",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2019",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Current Version of MS-DRG",
+        "Field Label": "Federal Diagnostic Risk Grouper (DRG)",
+        "From": "2020",
+        "Ln": "",
+        "SEGMENT": "DRG Segment",
+        "Size": "3",
+        "To": "2022",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Current Version of MS-MDC",
+        "Field Label": "Federal Major Diagnostic Category (MDC)",
+        "From": "2023",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2024",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Past Version of MS-DRG",
+        "Field Label": "Past Federal Diagnosis Related Group (Past DRG)",
+        "From": "2025",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "2027",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Past Version of MS-MDC",
+        "Field Label": "Past Federal Major Diagnostic Category (Past  MDC)",
+        "From": "2028",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2029",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Next Version of MS-DRG",
+        "Field Label": "New Federal Diagnosis Related Group (New DRG)",
+        "From": "2030",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "2032",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "NextVersion of MS-MDC",
+        "Field Label": "New Federal Major Diagnostic Category (New MDC)",
+        "From": "2033",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2034",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Current Version of AP DRG",
+        "Field Label": "All Patient Diagnosis Related Group (AP DRG)",
+        "From": "2035",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "2037",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Current Version of AP MDC",
+        "Field Label": "All Patient Major Diagnostic Category (AP MDC)",
+        "From": "2038",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2039",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Past Version of AP DRG",
+        "Field Label": "Past All Patient Diagnostic Related Group (AP DRG)",
+        "From": "2040",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "2042",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Past Version of AP MDC",
+        "Field Label": "Past All Patient Major Diagnostic Category (AP MDC)",
+        "From": "2043",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2044",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Next Version of AP DRG",
+        "Field Label": "New All Patient Diagnosis Related Group (AP DRG)",
+        "From": "2045",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "2047",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "NextVersion of  AP MDC",
+        "Field Label": "New All Patient Major Diagnostic Category (AP MDC)",
+        "From": "2048",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2049",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Current Version of APR-DRG",
+        "Field Label": "All Patient Refined Diagnosis Related Group (APR DRG)",
+        "From": "2050",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "2052",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Current Version of APR-MDC",
+        "Field Label": "All Patient Refined Major Diagnostic Category (APR MDC)",
+        "From": "2053",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2054",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Current Version of APR-ROM",
+        "Field Label": "All Patient Refined Risk of Mortality (APR ROM)",
+        "From": "2055",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2055",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Current Version of APR-SOI",
+        "Field Label": "All Patient Refined Severity of Illness (APR SOI)",
+        "From": "2056",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2056",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Past Version of APR-DRG",
+        "Field Label": "Past All Patient Refined Diagnosis Related Group (APR DRG)",
+        "From": "2057",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "2059",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Past Version of APR-MDC",
+        "Field Label": "Past All Patient Refined Major Diagnostic Category (APR MDC)",
+        "From": "2060",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2061",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Past Version of APR-ROM",
+        "Field Label": "Past All Patient Refined Risk of Mortality (APR ROM)",
+        "From": "2062",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2062",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Past Version of APR-SOI",
+        "Field Label": "Past  All Patient Refined Severity of Illness (APR SOI)",
+        "From": "2063",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2063",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "NextVersion of APR-DRG",
+        "Field Label": "New All Patient Refined Diagnosis Related Group (APR DRG)",
+        "From": "2064",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "2066",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "NextVersion of APR-MDC",
+        "Field Label": "New All Patient Refined Major Diagnostic Category (APR MDC)",
+        "From": "2067",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2068",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "NextVersion of APR-ROM",
+        "Field Label": "New All Patient Refined Risk of Mortality (APR ROM)",
+        "From": "2069",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2069",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "NextVersion of APR-SOI",
+        "Field Label": "New All Patient Refined Severity of Illness (APR SOI)",
+        "From": "2070",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2070",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Billed DRG",
+        "Field Label": "Diagnosis Related Group (DRG) Billed",
+        "From": "2071",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "2074",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "AMI Warning Flag",
+        "Field Label": "AMI Warning Flag",
+        "From": "2075",
+        "Ln": "",
+        "SEGMENT": "AMI Segment",
+        "Size": "1",
+        "To": "2075",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Heart Rate on Arrival",
+        "Field Label": "Heart Rate on Arrival",
+        "From": "2076",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "2078",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Systolic BP on Arrival",
+        "Field Label": "Systolic BP on Arrival",
+        "From": "2079",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "2081",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Diastolic BP on Arrival",
+        "Field Label": "Diastolic BP on Arrival",
+        "From": "2082",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "2084",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "AIDS Flag",
+        "Field Label": "AIDS / HIV Flag",
+        "From": "2085",
+        "Ln": "",
+        "SEGMENT": "HIPAA Segment",
+        "Size": "1",
+        "To": "2085",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Abortion Flag",
+        "Field Label": "Abortion Flag",
+        "From": "2086",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2086",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Total Charges",
+        "Field Label": "Total Charges",
+        "From": "2087",
+        "Ln": "",
+        "SEGMENT": "Charges Segment",
+        "Size": "12",
+        "To": "2098",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Accommodation Total Charges",
+        "Field Label": "Total Accommodation Total Charges",
+        "From": "2099",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "2108",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Ancillary Total Charges",
+        "Field Label": "Ancillary Total Charges",
+        "From": "2109",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "2118",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Total Non-Covered Charges",
+        "Field Label": "Total Non-Covered Charges",
+        "From": "2119",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "12",
+        "To": "2130",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Accommodation Non-Covered Charges",
+        "Field Label": "Total Non-Covered  Accommodation Charges",
+        "From": "2131",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "2140",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Ancillary Non-Covered Charges",
+        "Field Label": "Total Non-Covered Ancillary Charges",
+        "From": "2141",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "2150",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 1",
+        "From": "2151",
+        "Ln": "1",
+        "SEGMENT": "Service Segment",
+        "Size": "4",
+        "To": "2154",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Revenue Type 1",
+        "From": "2155",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2155",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Service Charge 1",
+        "From": "2156",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "2165",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Unit Type 1",
+        "From": "2166",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2167",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Unit Quantity 1",
+        "From": "2168",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2175",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge 1",
+        "From": "2176",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "2185",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 2",
+        "From": "2186",
+        "Ln": "2",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "2189",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Revenue Type 2",
+        "From": "2190",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2190",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Service Charge 2",
+        "From": "2191",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "2200",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Unit Type 2",
+        "From": "2201",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2202",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Unit Quantity 2",
+        "From": "2203",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2210",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge 2",
+        "From": "2211",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "2220",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 3",
+        "From": "2221",
+        "Ln": "3",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "2224",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Revenue Type 3",
+        "From": "2225",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2225",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Service Charge 3",
+        "From": "2226",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "2235",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Unit Type 3",
+        "From": "2236",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2237",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Unit Quantity 3",
+        "From": "2238",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2245",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge 3",
+        "From": "2246",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "2255",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 4",
+        "From": "2256",
+        "Ln": "4",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "2259",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Revenue Type 4",
+        "From": "2260",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2260",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Service Charge 4",
+        "From": "2261",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "2270",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Unit Type 4",
+        "From": "2271",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2272",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Unit Quantity 4",
+        "From": "2273",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2280",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge 4",
+        "From": "2281",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "2290",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 5",
+        "From": "2291",
+        "Ln": "5",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "2294",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Revenue Type 5",
+        "From": "2295",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2295",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Service Charge 5",
+        "From": "2296",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "2305",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Unit Type 5",
+        "From": "2306",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2307",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Unit Quantity 5",
+        "From": "2308",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2315",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge 5",
+        "From": "2316",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "2325",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 6",
+        "From": "2326",
+        "Ln": "6",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "2329",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Revenue Type 6",
+        "From": "2330",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2330",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Service Charge 6",
+        "From": "2331",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "2340",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Unit Type 6",
+        "From": "2341",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2342",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Unit Quantity 6",
+        "From": "2343",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2350",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge 6",
+        "From": "2351",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "2360",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 7",
+        "From": "2361",
+        "Ln": "7",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "2364",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Revenue Type 7",
+        "From": "2365",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2365",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Service Charge 7",
+        "From": "2366",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "2375",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Unit Type 7",
+        "From": "2376",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2377",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Unit Quantity 7",
+        "From": "2378",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2385",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge 7",
+        "From": "2386",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "2395",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 8",
+        "From": "2396",
+        "Ln": "8",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "2399",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Revenue Type 8",
+        "From": "2400",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2400",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Service Charge 8",
+        "From": "2401",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "2410",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Unit Type 8",
+        "From": "2411",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2412",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Unit Quantity 8",
+        "From": "2413",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2420",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge 8",
+        "From": "2421",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "2430",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 9",
+        "From": "2431",
+        "Ln": "9",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "2434",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Revenue Type 9",
+        "From": "2435",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2435",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Service Charge 9",
+        "From": "2436",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "2445",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Unit Type 9",
+        "From": "2446",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2447",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Unit Quantity 9",
+        "From": "2448",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2455",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge 9",
+        "From": "2456",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "2465",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 10",
+        "From": "2466",
+        "Ln": "10",
+        "SEGMENT": "",
+        "Size": "4",
+        "To": "2469",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Revenue Type 10",
+        "From": "2470",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "2470",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Service Charge 10",
+        "From": "2471",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "2480",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Unit Type 10",
+        "From": "2481",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "2",
+        "To": "2482",
+        "Type": "A/N"
+    },
+    {
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Unit Quantity 10",
+        "From": "2483",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "8",
+        "To": "2490",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge 10",
+        "From": "2491",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "10",
+        "To": "2500",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Reserved For Quality Indicators ",
+        "From": "2501",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "200",
+        "To": "2700",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Patient Control Number",
+        "From": "2701",
+        "Ln": "",
+        "SEGMENT": "Encrypted Identifers",
+        "Size": "44",
+        "To": "2744",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Medical Record Number",
+        "From": "2745",
+        "Ln": "",
+        "SEGMENT": "Patient Segment",
+        "Size": "44",
+        "To": "2788",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Unique Personal Identifier",
+        "From": "2789",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "2810",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Enhanced Unique Personal Identifier",
+        "From": "2811",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "44",
+        "To": "2854",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Patient Birth Date",
+        "From": "2855",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "2876",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Patient's Address Line 1",
+        "From": "2877",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "44",
+        "To": "2920",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Patient's Address Line 2",
+        "From": "2921",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "44",
+        "To": "2964",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Patient Zip Code Extension (+4)",
+        "From": "2965",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "2986",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Mother's Medical Record Number for Newborns ",
+        "From": "2987",
+        "Ln": "",
+        "SEGMENT": "Newborn Segment",
+        "Size": "44",
+        "To": "3030",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Insured's Policy Number 1",
+        "From": "3031",
+        "Ln": "",
+        "SEGMENT": "Payer Segment",
+        "Size": "44",
+        "To": "3074",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Insured's Policy Number 2",
+        "From": "3075",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "44",
+        "To": "3118",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Insured's Policy Number 3",
+        "From": "3119",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "44",
+        "To": "3162",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Insured's Policy Number 4",
+        "From": "3163",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "44",
+        "To": "3206",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Insured's Policy Number 5",
+        "From": "3207",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "44",
+        "To": "3250",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Insured's Policy Number 6",
+        "From": "3251",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "44",
+        "To": "3294",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Statement From Date",
+        "From": "3295",
+        "Ln": "",
+        "SEGMENT": "Treatment Segment",
+        "Size": "22",
+        "To": "3316",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Statement Through Date",
+        "From": "3317",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3338",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Admission/Start of Care Date",
+        "From": "3339",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3360",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Discharge Date",
+        "From": "3361",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3382",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Date Alternate Care Required",
+        "From": "3383",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3404",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute From Date 1",
+        "From": "3405",
+        "Ln": "1",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3426",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute Through Date 1",
+        "From": "3427",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3448",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute From Date 2",
+        "From": "3449",
+        "Ln": "2",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3470",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute Through Date 2",
+        "From": "3471",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3492",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute From Date 3",
+        "From": "3493",
+        "Ln": "3",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3514",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute Through Date 3",
+        "From": "3515",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3536",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute From Date 4",
+        "From": "3537",
+        "Ln": "4",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3558",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute Through Date 4",
+        "From": "3559",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3580",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute From Date 5",
+        "From": "3581",
+        "Ln": "5",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3602",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute Through Date 5",
+        "From": "3603",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3624",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute From Date 6",
+        "From": "3625",
+        "Ln": "6",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3646",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute Through Date 6",
+        "From": "3647",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3668",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute From Date 7",
+        "From": "3669",
+        "Ln": "7",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3690",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute Through Date 7",
+        "From": "3691",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3712",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute From Date 8",
+        "From": "3713",
+        "Ln": "8",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3734",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute Through Date 8",
+        "From": "3735",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3756",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute From Date 9",
+        "From": "3757",
+        "Ln": "9",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3778",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute Through Date 9",
+        "From": "3779",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3800",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute From Date 10",
+        "From": "3801",
+        "Ln": "10",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3822",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute Through Date 10",
+        "From": "3823",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3844",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute From Date 11",
+        "From": "3845",
+        "Ln": "11",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3866",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute Through Date 11",
+        "From": "3867",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3888",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute From Date 12",
+        "From": "3889",
+        "Ln": "12",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3910",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute Through Date 12",
+        "From": "3911",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3932",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute From Date 13",
+        "From": "3933",
+        "Ln": "13",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3954",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute Through Date 13",
+        "From": "3955",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3976",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute From Date 14",
+        "From": "3977",
+        "Ln": "14",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "3998",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute Through Date 14",
+        "From": "3999",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4020",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute From Date 15",
+        "From": "4021",
+        "Ln": "15",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4042",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute Through Date 15",
+        "From": "4043",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4064",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute From Date 16",
+        "From": "4065",
+        "Ln": "16",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4086",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute Through Date 16",
+        "From": "4087",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4108",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute From Date 17",
+        "From": "4109",
+        "Ln": "17",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4130",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute Through Date 17",
+        "From": "4131",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4152",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute From Date 18",
+        "From": "4153",
+        "Ln": "18",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4174",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute Through Date 18",
+        "From": "4175",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4196",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute From Date 19",
+        "From": "4197",
+        "Ln": "19",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4218",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute Through Date 19",
+        "From": "4219",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4240",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute From Date 20",
+        "From": "4241",
+        "Ln": "20",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4262",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute Through Date 20",
+        "From": "4263",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4284",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute From Date 21",
+        "From": "4285",
+        "Ln": "21",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4306",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute Through Date 21",
+        "From": "4307",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4328",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute From Date 22",
+        "From": "4329",
+        "Ln": "22",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4350",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute Through Date 22",
+        "From": "4351",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4372",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute From Date 23",
+        "From": "4373",
+        "Ln": "23",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4394",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute Through Date 23",
+        "From": "4395",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4416",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute From Date 24",
+        "From": "4417",
+        "Ln": "24",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4438",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute Through Date 24",
+        "From": "4439",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4460",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute From Date 25",
+        "From": "4461",
+        "Ln": "25",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4482",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute Through Date 25",
+        "From": "4483",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4504",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute From Date 26",
+        "From": "4505",
+        "Ln": "26",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4526",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute Through Date 26",
+        "From": "4527",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4548",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute From Date 27",
+        "From": "4549",
+        "Ln": "27",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4570",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute Through Date 27",
+        "From": "4571",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4592",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute From Date 28",
+        "From": "4593",
+        "Ln": "28",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4614",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute Through Date 28",
+        "From": "4615",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4636",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute From Date 29",
+        "From": "4637",
+        "Ln": "29",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4658",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute Through Date 29",
+        "From": "4659",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4680",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute From Date 30",
+        "From": "4681",
+        "Ln": "30",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4702",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Non-Acute Through Date 30",
+        "From": "4703",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4724",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Accident Related Date",
+        "From": "4725",
+        "Ln": "",
+        "SEGMENT": "Diagnosis Segment",
+        "Size": "22",
+        "To": "4746",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Principal Procedure Date ",
+        "From": "4747",
+        "Ln": "1",
+        "SEGMENT": "Procedure Segment",
+        "Size": "22",
+        "To": "4768",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Other Procedure Date 1",
+        "From": "4769",
+        "Ln": "2",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4790",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Other Procedure Date 2",
+        "From": "4791",
+        "Ln": "3",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4812",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Other Procedure Date 3",
+        "From": "4813",
+        "Ln": "4",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4834",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Other Procedure Date 4",
+        "From": "4835",
+        "Ln": "5",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4856",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Other Procedure Date 5",
+        "From": "4857",
+        "Ln": "6",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4878",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Other Procedure Date 6",
+        "From": "4879",
+        "Ln": "7",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4900",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Other Procedure Date 7",
+        "From": "4901",
+        "Ln": "8",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4922",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Other Procedure Date 8",
+        "From": "4923",
+        "Ln": "9",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4944",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Other Procedure Date 9",
+        "From": "4945",
+        "Ln": "10",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4966",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Other Procedure Date 10",
+        "From": "4967",
+        "Ln": "11",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "4988",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Other Procedure Date 11",
+        "From": "4989",
+        "Ln": "12",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "5010",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Other Procedure Date 12",
+        "From": "5011",
+        "Ln": "13",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "5032",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Other Procedure Date 13",
+        "From": "5033",
+        "Ln": "14",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "5054",
+        "Type": ""
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Other Procedure Date 14",
+        "From": "5055",
+        "Ln": "15",
+        "SEGMENT": "",
+        "Size": "22",
+        "To": "5076",
+        "Type": ""
+    }
+]

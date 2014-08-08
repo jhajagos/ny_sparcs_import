@@ -1,0 +1,4282 @@
+[
+    {
+        "Class": "Link Info",
+        "Description (Remarks)": "Discharge Number",
+        "Field Label": "EDIT-DISCHARGE-NUM",
+        "From": "1",
+        "Ln": "",
+        "Size": "14",
+        "To": "14",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Continuation Type",
+        "Field Label": "EDIT-CONTINUATION-TYPE",
+        "From": "15",
+        "Ln": "",
+        "Size": "1",
+        "To": "15",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Record Sequence",
+        "Field Label": "EDIT-RECORD-SEQUENCE",
+        "From": "16",
+        "Ln": "",
+        "Size": "3",
+        "To": "18",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Record Sequence Count",
+        "Field Label": "EDIT-SEQUENCE-COUNT",
+        "From": "19",
+        "Ln": "",
+        "Size": "3",
+        "To": "21",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "",
+        "Field Label": "Filler",
+        "From": "22",
+        "Ln": "",
+        "Size": "29",
+        "To": "50",
+        "Type": ""
+    },
+    {
+        "Class": "11, 81, 151, 221, 291, 361,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 1",
+        "From": "51",
+        "Ln": "11",
+        "Size": "4",
+        "To": "54",
+        "Type": "A/N"
+    },
+    {
+        "Class": "431, 501, 571, 641, 711,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 1",
+        "From": "55",
+        "Ln": "",
+        "Size": "1",
+        "To": "55",
+        "Type": "A/N"
+    },
+    {
+        "Class": "781, 851, 921, 991",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 1",
+        "From": "56",
+        "Ln": "",
+        "Size": "10",
+        "To": "65",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 1",
+        "From": "66",
+        "Ln": "",
+        "Size": "2",
+        "To": "67",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 1",
+        "From": "68",
+        "Ln": "",
+        "Size": "8",
+        "To": "75",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 1",
+        "From": "76",
+        "Ln": "",
+        "Size": "10",
+        "To": "85",
+        "Type": "NUM"
+    },
+    {
+        "Class": "12, 82, 152, 222, 292, 362,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 2",
+        "From": "86",
+        "Ln": "12",
+        "Size": "4",
+        "To": "89",
+        "Type": "A/N"
+    },
+    {
+        "Class": "432, 502, 572, 642, 712,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 2",
+        "From": "90",
+        "Ln": "",
+        "Size": "1",
+        "To": "90",
+        "Type": "A/N"
+    },
+    {
+        "Class": "782, 852, 922, 992",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 2",
+        "From": "91",
+        "Ln": "",
+        "Size": "10",
+        "To": "100",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 2",
+        "From": "101",
+        "Ln": "",
+        "Size": "2",
+        "To": "102",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 2",
+        "From": "103",
+        "Ln": "",
+        "Size": "8",
+        "To": "110",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 2",
+        "From": "111",
+        "Ln": "",
+        "Size": "10",
+        "To": "120",
+        "Type": "NUM"
+    },
+    {
+        "Class": "13, 83, 153, 223, 293, 363,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 3",
+        "From": "121",
+        "Ln": "13",
+        "Size": "4",
+        "To": "124",
+        "Type": "A/N"
+    },
+    {
+        "Class": "433, 503, 573, 643, 713,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 3",
+        "From": "125",
+        "Ln": "",
+        "Size": "1",
+        "To": "125",
+        "Type": "A/N"
+    },
+    {
+        "Class": "783, 853, 923, 993",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 3",
+        "From": "126",
+        "Ln": "",
+        "Size": "10",
+        "To": "135",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 3",
+        "From": "136",
+        "Ln": "",
+        "Size": "2",
+        "To": "137",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 3",
+        "From": "138",
+        "Ln": "",
+        "Size": "8",
+        "To": "145",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 3",
+        "From": "146",
+        "Ln": "",
+        "Size": "10",
+        "To": "155",
+        "Type": "NUM"
+    },
+    {
+        "Class": "14, 84, 154, 224, 294, 364,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 4",
+        "From": "156",
+        "Ln": "14",
+        "Size": "4",
+        "To": "159",
+        "Type": "A/N"
+    },
+    {
+        "Class": "434, 504, 574, 644, 714,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 4",
+        "From": "160",
+        "Ln": "",
+        "Size": "1",
+        "To": "160",
+        "Type": "A/N"
+    },
+    {
+        "Class": "784, 854, 924, 994",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 4",
+        "From": "161",
+        "Ln": "",
+        "Size": "10",
+        "To": "170",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 4",
+        "From": "171",
+        "Ln": "",
+        "Size": "2",
+        "To": "172",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 4",
+        "From": "173",
+        "Ln": "",
+        "Size": "8",
+        "To": "180",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 4",
+        "From": "181",
+        "Ln": "",
+        "Size": "10",
+        "To": "190",
+        "Type": "NUM"
+    },
+    {
+        "Class": "15, 85, 155, 225, 295, 365,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 5",
+        "From": "191",
+        "Ln": "15",
+        "Size": "4",
+        "To": "194",
+        "Type": "A/N"
+    },
+    {
+        "Class": "435, 505, 575, 645, 715,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 5",
+        "From": "195",
+        "Ln": "",
+        "Size": "1",
+        "To": "195",
+        "Type": "A/N"
+    },
+    {
+        "Class": "785, 855, 925, 995",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 5",
+        "From": "196",
+        "Ln": "",
+        "Size": "10",
+        "To": "205",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 5",
+        "From": "206",
+        "Ln": "",
+        "Size": "2",
+        "To": "207",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 5",
+        "From": "208",
+        "Ln": "",
+        "Size": "8",
+        "To": "215",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 5",
+        "From": "216",
+        "Ln": "",
+        "Size": "10",
+        "To": "225",
+        "Type": "NUM"
+    },
+    {
+        "Class": "16, 86, 156, 226, 296, 366,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 6",
+        "From": "226",
+        "Ln": "16",
+        "Size": "4",
+        "To": "229",
+        "Type": "A/N"
+    },
+    {
+        "Class": "436, 506, 576, 646, 716,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 6",
+        "From": "230",
+        "Ln": "",
+        "Size": "1",
+        "To": "230",
+        "Type": "A/N"
+    },
+    {
+        "Class": "786, 856, 926, 996",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 6",
+        "From": "231",
+        "Ln": "",
+        "Size": "10",
+        "To": "240",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 6",
+        "From": "241",
+        "Ln": "",
+        "Size": "2",
+        "To": "242",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 6",
+        "From": "243",
+        "Ln": "",
+        "Size": "8",
+        "To": "250",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 6",
+        "From": "251",
+        "Ln": "",
+        "Size": "10",
+        "To": "260",
+        "Type": "NUM"
+    },
+    {
+        "Class": "17, 87, 157, 227, 297, 367,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 7",
+        "From": "261",
+        "Ln": "17",
+        "Size": "4",
+        "To": "264",
+        "Type": "A/N"
+    },
+    {
+        "Class": "437, 507, 577, 647, 717,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 7",
+        "From": "265",
+        "Ln": "",
+        "Size": "1",
+        "To": "265",
+        "Type": "A/N"
+    },
+    {
+        "Class": "787, 857, 927, 997",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 7",
+        "From": "266",
+        "Ln": "",
+        "Size": "10",
+        "To": "275",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 7",
+        "From": "276",
+        "Ln": "",
+        "Size": "2",
+        "To": "277",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 7",
+        "From": "278",
+        "Ln": "",
+        "Size": "8",
+        "To": "285",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 7",
+        "From": "286",
+        "Ln": "",
+        "Size": "10",
+        "To": "295",
+        "Type": "NUM"
+    },
+    {
+        "Class": "18, 88, 158, 228, 298, 368,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 8",
+        "From": "296",
+        "Ln": "18",
+        "Size": "4",
+        "To": "299",
+        "Type": "A/N"
+    },
+    {
+        "Class": "438, 508, 578, 648, 718,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 8",
+        "From": "300",
+        "Ln": "",
+        "Size": "1",
+        "To": "300",
+        "Type": "A/N"
+    },
+    {
+        "Class": "788, 858, 928, 998",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 8",
+        "From": "301",
+        "Ln": "",
+        "Size": "10",
+        "To": "310",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 8",
+        "From": "311",
+        "Ln": "",
+        "Size": "2",
+        "To": "312",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 8",
+        "From": "313",
+        "Ln": "",
+        "Size": "8",
+        "To": "320",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 8",
+        "From": "321",
+        "Ln": "",
+        "Size": "10",
+        "To": "330",
+        "Type": "NUM"
+    },
+    {
+        "Class": "19, 89, 159, 229, 299, 369,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 9",
+        "From": "331",
+        "Ln": "19",
+        "Size": "4",
+        "To": "334",
+        "Type": "A/N"
+    },
+    {
+        "Class": "439, 509, 579, 649, 719,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 9",
+        "From": "335",
+        "Ln": "",
+        "Size": "1",
+        "To": "335",
+        "Type": "A/N"
+    },
+    {
+        "Class": "789, 859, 929, 999",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 9",
+        "From": "336",
+        "Ln": "",
+        "Size": "10",
+        "To": "345",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 9",
+        "From": "346",
+        "Ln": "",
+        "Size": "2",
+        "To": "347",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 9",
+        "From": "348",
+        "Ln": "",
+        "Size": "8",
+        "To": "355",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 9",
+        "From": "356",
+        "Ln": "",
+        "Size": "10",
+        "To": "365",
+        "Type": "NUM"
+    },
+    {
+        "Class": "20, 90, 160, 230, 300, 370,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 10",
+        "From": "366",
+        "Ln": "20",
+        "Size": "4",
+        "To": "369",
+        "Type": "A/N"
+    },
+    {
+        "Class": "440, 510, 580, 650, 720,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 10",
+        "From": "370",
+        "Ln": "",
+        "Size": "1",
+        "To": "370",
+        "Type": "A/N"
+    },
+    {
+        "Class": "790, 860, 930",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 10",
+        "From": "371",
+        "Ln": "",
+        "Size": "10",
+        "To": "380",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 10",
+        "From": "381",
+        "Ln": "",
+        "Size": "2",
+        "To": "382",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 10",
+        "From": "383",
+        "Ln": "",
+        "Size": "8",
+        "To": "390",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 10",
+        "From": "391",
+        "Ln": "",
+        "Size": "10",
+        "To": "400",
+        "Type": "NUM"
+    },
+    {
+        "Class": "21, 91, 161, 231, 301, 371,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 11",
+        "From": "401",
+        "Ln": "21",
+        "Size": "4",
+        "To": "404",
+        "Type": "A/N"
+    },
+    {
+        "Class": "441, 511, 581, 651, 721,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 11",
+        "From": "405",
+        "Ln": "",
+        "Size": "1",
+        "To": "405",
+        "Type": "A/N"
+    },
+    {
+        "Class": "791, 861, 931",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 11",
+        "From": "406",
+        "Ln": "",
+        "Size": "10",
+        "To": "415",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 11",
+        "From": "416",
+        "Ln": "",
+        "Size": "2",
+        "To": "417",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 11",
+        "From": "418",
+        "Ln": "",
+        "Size": "8",
+        "To": "425",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 11",
+        "From": "426",
+        "Ln": "",
+        "Size": "10",
+        "To": "435",
+        "Type": "NUM"
+    },
+    {
+        "Class": "22, 92, 162, 232, 302, 372,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 12",
+        "From": "436",
+        "Ln": "22",
+        "Size": "4",
+        "To": "439",
+        "Type": "A/N"
+    },
+    {
+        "Class": "442, 512, 582, 652, 722,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 12",
+        "From": "440",
+        "Ln": "",
+        "Size": "1",
+        "To": "440",
+        "Type": "A/N"
+    },
+    {
+        "Class": "792, 862, 932",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 12",
+        "From": "441",
+        "Ln": "",
+        "Size": "10",
+        "To": "450",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 12",
+        "From": "451",
+        "Ln": "",
+        "Size": "2",
+        "To": "452",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 12",
+        "From": "453",
+        "Ln": "",
+        "Size": "8",
+        "To": "460",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 12",
+        "From": "461",
+        "Ln": "",
+        "Size": "10",
+        "To": "470",
+        "Type": "NUM"
+    },
+    {
+        "Class": "23, 93, 163, 233, 303, 373,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 13",
+        "From": "471",
+        "Ln": "23",
+        "Size": "4",
+        "To": "474",
+        "Type": "A/N"
+    },
+    {
+        "Class": "443, 513, 583, 653, 723,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 13",
+        "From": "475",
+        "Ln": "",
+        "Size": "1",
+        "To": "475",
+        "Type": "A/N"
+    },
+    {
+        "Class": "793, 863, 933",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 13",
+        "From": "476",
+        "Ln": "",
+        "Size": "10",
+        "To": "485",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 13",
+        "From": "486",
+        "Ln": "",
+        "Size": "2",
+        "To": "487",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 13",
+        "From": "488",
+        "Ln": "",
+        "Size": "8",
+        "To": "495",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 13",
+        "From": "496",
+        "Ln": "",
+        "Size": "10",
+        "To": "505",
+        "Type": "NUM"
+    },
+    {
+        "Class": "24, 94, 164, 234, 304, 374,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 14",
+        "From": "506",
+        "Ln": "24",
+        "Size": "4",
+        "To": "509",
+        "Type": "A/N"
+    },
+    {
+        "Class": "444, 514, 584, 654, 724,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 14",
+        "From": "510",
+        "Ln": "",
+        "Size": "1",
+        "To": "510",
+        "Type": "A/N"
+    },
+    {
+        "Class": "794, 864, 934",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 14",
+        "From": "511",
+        "Ln": "",
+        "Size": "10",
+        "To": "520",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 14",
+        "From": "521",
+        "Ln": "",
+        "Size": "2",
+        "To": "522",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 14",
+        "From": "523",
+        "Ln": "",
+        "Size": "8",
+        "To": "530",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 14",
+        "From": "531",
+        "Ln": "",
+        "Size": "10",
+        "To": "540",
+        "Type": "NUM"
+    },
+    {
+        "Class": "25, 95, 165, 235, 305, 375,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 15",
+        "From": "541",
+        "Ln": "25",
+        "Size": "4",
+        "To": "544",
+        "Type": "A/N"
+    },
+    {
+        "Class": "445, 515, 585, 655, 725,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 15",
+        "From": "545",
+        "Ln": "",
+        "Size": "1",
+        "To": "545",
+        "Type": "A/N"
+    },
+    {
+        "Class": "795, 865, 935",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 15",
+        "From": "546",
+        "Ln": "",
+        "Size": "10",
+        "To": "555",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 15",
+        "From": "556",
+        "Ln": "",
+        "Size": "2",
+        "To": "557",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 15",
+        "From": "558",
+        "Ln": "",
+        "Size": "8",
+        "To": "565",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 15",
+        "From": "566",
+        "Ln": "",
+        "Size": "10",
+        "To": "575",
+        "Type": "NUM"
+    },
+    {
+        "Class": "26, 96, 166, 236, 306, 376,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 16",
+        "From": "576",
+        "Ln": "26",
+        "Size": "4",
+        "To": "579",
+        "Type": "A/N"
+    },
+    {
+        "Class": "446, 516, 586, 656, 726,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 16",
+        "From": "580",
+        "Ln": "",
+        "Size": "1",
+        "To": "580",
+        "Type": "A/N"
+    },
+    {
+        "Class": "796, 866, 936",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 16",
+        "From": "581",
+        "Ln": "",
+        "Size": "10",
+        "To": "590",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 16",
+        "From": "591",
+        "Ln": "",
+        "Size": "2",
+        "To": "592",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 16",
+        "From": "593",
+        "Ln": "",
+        "Size": "8",
+        "To": "600",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 16",
+        "From": "601",
+        "Ln": "",
+        "Size": "10",
+        "To": "610",
+        "Type": "NUM"
+    },
+    {
+        "Class": "27, 97, 167, 237, 307, 377,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 17",
+        "From": "611",
+        "Ln": "27",
+        "Size": "4",
+        "To": "614",
+        "Type": "A/N"
+    },
+    {
+        "Class": "447, 517, 587, 657, 727,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 17",
+        "From": "615",
+        "Ln": "",
+        "Size": "1",
+        "To": "615",
+        "Type": "A/N"
+    },
+    {
+        "Class": "797, 867, 937",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 17",
+        "From": "616",
+        "Ln": "",
+        "Size": "10",
+        "To": "625",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 17",
+        "From": "626",
+        "Ln": "",
+        "Size": "2",
+        "To": "627",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 17",
+        "From": "628",
+        "Ln": "",
+        "Size": "8",
+        "To": "635",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 17",
+        "From": "636",
+        "Ln": "",
+        "Size": "10",
+        "To": "645",
+        "Type": "NUM"
+    },
+    {
+        "Class": "28, 98, 168, 238, 308, 378,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 18",
+        "From": "646",
+        "Ln": "28",
+        "Size": "4",
+        "To": "649",
+        "Type": "A/N"
+    },
+    {
+        "Class": "448, 518, 588, 658, 728,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 18",
+        "From": "650",
+        "Ln": "",
+        "Size": "1",
+        "To": "650",
+        "Type": "A/N"
+    },
+    {
+        "Class": "798, 868, 938",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 18",
+        "From": "651",
+        "Ln": "",
+        "Size": "10",
+        "To": "660",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 18",
+        "From": "661",
+        "Ln": "",
+        "Size": "2",
+        "To": "662",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 18",
+        "From": "663",
+        "Ln": "",
+        "Size": "8",
+        "To": "670",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 18",
+        "From": "671",
+        "Ln": "",
+        "Size": "10",
+        "To": "680",
+        "Type": "NUM"
+    },
+    {
+        "Class": "29, 99, 169, 239, 309, 379,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 19",
+        "From": "681",
+        "Ln": "29",
+        "Size": "4",
+        "To": "684",
+        "Type": "A/N"
+    },
+    {
+        "Class": "449, 519, 589, 659, 729,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 19",
+        "From": "685",
+        "Ln": "",
+        "Size": "1",
+        "To": "685",
+        "Type": "A/N"
+    },
+    {
+        "Class": "799, 869, 939",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 19",
+        "From": "686",
+        "Ln": "",
+        "Size": "10",
+        "To": "695",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 19",
+        "From": "696",
+        "Ln": "",
+        "Size": "2",
+        "To": "697",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 19",
+        "From": "698",
+        "Ln": "",
+        "Size": "8",
+        "To": "705",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 19",
+        "From": "706",
+        "Ln": "",
+        "Size": "10",
+        "To": "715",
+        "Type": "NUM"
+    },
+    {
+        "Class": "30, 100, 170, 240, 310, 380,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 20",
+        "From": "716",
+        "Ln": "30",
+        "Size": "4",
+        "To": "719",
+        "Type": "A/N"
+    },
+    {
+        "Class": "450, 520, 590, 660, 730,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 20",
+        "From": "720",
+        "Ln": "",
+        "Size": "1",
+        "To": "720",
+        "Type": "A/N"
+    },
+    {
+        "Class": "800, 870, 940",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 20",
+        "From": "721",
+        "Ln": "",
+        "Size": "10",
+        "To": "730",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 20",
+        "From": "731",
+        "Ln": "",
+        "Size": "2",
+        "To": "732",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 20",
+        "From": "733",
+        "Ln": "",
+        "Size": "8",
+        "To": "740",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 20",
+        "From": "741",
+        "Ln": "",
+        "Size": "10",
+        "To": "750",
+        "Type": "NUM"
+    },
+    {
+        "Class": "31, 101, 171, 241, 311, 381,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 21",
+        "From": "751",
+        "Ln": "31",
+        "Size": "4",
+        "To": "754",
+        "Type": "A/N"
+    },
+    {
+        "Class": "451, 521, 591, 661, 731,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 21",
+        "From": "755",
+        "Ln": "",
+        "Size": "1",
+        "To": "755",
+        "Type": "A/N"
+    },
+    {
+        "Class": "801, 871, 941",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 21",
+        "From": "756",
+        "Ln": "",
+        "Size": "10",
+        "To": "765",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 21",
+        "From": "766",
+        "Ln": "",
+        "Size": "2",
+        "To": "767",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 21",
+        "From": "768",
+        "Ln": "",
+        "Size": "8",
+        "To": "775",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 21",
+        "From": "776",
+        "Ln": "",
+        "Size": "10",
+        "To": "785",
+        "Type": "NUM"
+    },
+    {
+        "Class": "32, 102, 172, 242, 312, 382,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 22",
+        "From": "786",
+        "Ln": "32",
+        "Size": "4",
+        "To": "789",
+        "Type": "A/N"
+    },
+    {
+        "Class": "452, 522, 592, 662, 732,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 22",
+        "From": "790",
+        "Ln": "",
+        "Size": "1",
+        "To": "790",
+        "Type": "A/N"
+    },
+    {
+        "Class": "802, 872, 942",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 22",
+        "From": "791",
+        "Ln": "",
+        "Size": "10",
+        "To": "800",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 22",
+        "From": "801",
+        "Ln": "",
+        "Size": "2",
+        "To": "802",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 22",
+        "From": "803",
+        "Ln": "",
+        "Size": "8",
+        "To": "810",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 22",
+        "From": "811",
+        "Ln": "",
+        "Size": "10",
+        "To": "820",
+        "Type": "NUM"
+    },
+    {
+        "Class": "33, 103, 173, 243, 313, 383,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 23",
+        "From": "821",
+        "Ln": "33",
+        "Size": "4",
+        "To": "824",
+        "Type": "A/N"
+    },
+    {
+        "Class": "453, 523, 593, 663, 733,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 23",
+        "From": "825",
+        "Ln": "",
+        "Size": "1",
+        "To": "825",
+        "Type": "A/N"
+    },
+    {
+        "Class": "803, 873, 943",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 23",
+        "From": "826",
+        "Ln": "",
+        "Size": "10",
+        "To": "835",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 23",
+        "From": "836",
+        "Ln": "",
+        "Size": "2",
+        "To": "837",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 23",
+        "From": "838",
+        "Ln": "",
+        "Size": "8",
+        "To": "845",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 23",
+        "From": "846",
+        "Ln": "",
+        "Size": "10",
+        "To": "855",
+        "Type": "NUM"
+    },
+    {
+        "Class": "34, 104, 174, 244, 314, 384,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 24",
+        "From": "856",
+        "Ln": "34",
+        "Size": "4",
+        "To": "859",
+        "Type": "A/N"
+    },
+    {
+        "Class": "454, 524, 594, 664, 734,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 24",
+        "From": "860",
+        "Ln": "",
+        "Size": "1",
+        "To": "860",
+        "Type": "A/N"
+    },
+    {
+        "Class": "804, 874, 944",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 24",
+        "From": "861",
+        "Ln": "",
+        "Size": "10",
+        "To": "870",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 24",
+        "From": "871",
+        "Ln": "",
+        "Size": "2",
+        "To": "872",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 24",
+        "From": "873",
+        "Ln": "",
+        "Size": "8",
+        "To": "880",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 24",
+        "From": "881",
+        "Ln": "",
+        "Size": "10",
+        "To": "890",
+        "Type": "NUM"
+    },
+    {
+        "Class": "35, 105, 175, 245, 315, 385,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 25",
+        "From": "891",
+        "Ln": "35",
+        "Size": "4",
+        "To": "894",
+        "Type": "A/N"
+    },
+    {
+        "Class": "455, 525, 595, 665, 735,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 25",
+        "From": "895",
+        "Ln": "",
+        "Size": "1",
+        "To": "895",
+        "Type": "A/N"
+    },
+    {
+        "Class": "805, 875, 945",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 25",
+        "From": "896",
+        "Ln": "",
+        "Size": "10",
+        "To": "905",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 25",
+        "From": "906",
+        "Ln": "",
+        "Size": "2",
+        "To": "907",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 25",
+        "From": "908",
+        "Ln": "",
+        "Size": "8",
+        "To": "915",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 25",
+        "From": "916",
+        "Ln": "",
+        "Size": "10",
+        "To": "925",
+        "Type": "NUM"
+    },
+    {
+        "Class": "36, 106, 176, 246, 316, 386,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 26",
+        "From": "926",
+        "Ln": "36",
+        "Size": "4",
+        "To": "929",
+        "Type": "A/N"
+    },
+    {
+        "Class": "456, 526, 596, 666, 736,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 26",
+        "From": "930",
+        "Ln": "",
+        "Size": "1",
+        "To": "930",
+        "Type": "A/N"
+    },
+    {
+        "Class": "806, 876, 946",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 26",
+        "From": "931",
+        "Ln": "",
+        "Size": "10",
+        "To": "940",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 26",
+        "From": "941",
+        "Ln": "",
+        "Size": "2",
+        "To": "942",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 26",
+        "From": "943",
+        "Ln": "",
+        "Size": "8",
+        "To": "950",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 26",
+        "From": "951",
+        "Ln": "",
+        "Size": "10",
+        "To": "960",
+        "Type": "NUM"
+    },
+    {
+        "Class": "37, 107, 177, 247, 317, 387,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 27",
+        "From": "961",
+        "Ln": "37",
+        "Size": "4",
+        "To": "964",
+        "Type": "A/N"
+    },
+    {
+        "Class": "457, 527, 597, 667, 737,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 27",
+        "From": "965",
+        "Ln": "",
+        "Size": "1",
+        "To": "965",
+        "Type": "A/N"
+    },
+    {
+        "Class": "807, 877, 947",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 27",
+        "From": "966",
+        "Ln": "",
+        "Size": "10",
+        "To": "975",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 27",
+        "From": "976",
+        "Ln": "",
+        "Size": "2",
+        "To": "977",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 27",
+        "From": "978",
+        "Ln": "",
+        "Size": "8",
+        "To": "985",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 27",
+        "From": "986",
+        "Ln": "",
+        "Size": "10",
+        "To": "995",
+        "Type": "NUM"
+    },
+    {
+        "Class": "38, 108, 178, 248, 318, 388,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 28",
+        "From": "996",
+        "Ln": "38",
+        "Size": "4",
+        "To": "999",
+        "Type": "A/N"
+    },
+    {
+        "Class": "458, 528, 598, 668, 738,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 28",
+        "From": "1000",
+        "Ln": "",
+        "Size": "1",
+        "To": "1000",
+        "Type": "A/N"
+    },
+    {
+        "Class": "808, 878, 948",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 28",
+        "From": "1001",
+        "Ln": "",
+        "Size": "10",
+        "To": "1010",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 28",
+        "From": "1011",
+        "Ln": "",
+        "Size": "2",
+        "To": "1012",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 28",
+        "From": "1013",
+        "Ln": "",
+        "Size": "8",
+        "To": "1020",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 28",
+        "From": "1021",
+        "Ln": "",
+        "Size": "10",
+        "To": "1030",
+        "Type": "NUM"
+    },
+    {
+        "Class": "39, 109, 179, 249, 319, 389,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 29",
+        "From": "1031",
+        "Ln": "39",
+        "Size": "4",
+        "To": "1034",
+        "Type": "A/N"
+    },
+    {
+        "Class": "459, 529, 599, 669, 739,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 29",
+        "From": "1035",
+        "Ln": "",
+        "Size": "1",
+        "To": "1035",
+        "Type": "A/N"
+    },
+    {
+        "Class": "809, 879, 949",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 29",
+        "From": "1036",
+        "Ln": "",
+        "Size": "10",
+        "To": "1045",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 29",
+        "From": "1046",
+        "Ln": "",
+        "Size": "2",
+        "To": "1047",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 29",
+        "From": "1048",
+        "Ln": "",
+        "Size": "8",
+        "To": "1055",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 29",
+        "From": "1056",
+        "Ln": "",
+        "Size": "10",
+        "To": "1065",
+        "Type": "NUM"
+    },
+    {
+        "Class": "40, 110, 180, 250, 320, 390,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 30",
+        "From": "1066",
+        "Ln": "40",
+        "Size": "4",
+        "To": "1069",
+        "Type": "A/N"
+    },
+    {
+        "Class": "460, 530, 600, 670, 740,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 30",
+        "From": "1070",
+        "Ln": "",
+        "Size": "1",
+        "To": "1070",
+        "Type": "A/N"
+    },
+    {
+        "Class": "810, 880, 950",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 30",
+        "From": "1071",
+        "Ln": "",
+        "Size": "10",
+        "To": "1080",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 30",
+        "From": "1081",
+        "Ln": "",
+        "Size": "2",
+        "To": "1082",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 30",
+        "From": "1083",
+        "Ln": "",
+        "Size": "8",
+        "To": "1090",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 30",
+        "From": "1091",
+        "Ln": "",
+        "Size": "10",
+        "To": "1100",
+        "Type": "NUM"
+    },
+    {
+        "Class": "41, 111, 181, 251, 321, 391,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 31",
+        "From": "1101",
+        "Ln": "41",
+        "Size": "4",
+        "To": "1104",
+        "Type": "A/N"
+    },
+    {
+        "Class": "461, 531, 601, 671, 741,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 31",
+        "From": "1105",
+        "Ln": "",
+        "Size": "1",
+        "To": "1105",
+        "Type": "A/N"
+    },
+    {
+        "Class": "811, 881, 951",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 31",
+        "From": "1106",
+        "Ln": "",
+        "Size": "10",
+        "To": "1115",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 31",
+        "From": "1116",
+        "Ln": "",
+        "Size": "2",
+        "To": "1117",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 31",
+        "From": "1118",
+        "Ln": "",
+        "Size": "8",
+        "To": "1125",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 31",
+        "From": "1126",
+        "Ln": "",
+        "Size": "10",
+        "To": "1135",
+        "Type": "NUM"
+    },
+    {
+        "Class": "42, 112, 182, 252, 322, 392,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 32",
+        "From": "1136",
+        "Ln": "42",
+        "Size": "4",
+        "To": "1139",
+        "Type": "A/N"
+    },
+    {
+        "Class": "462, 532, 602, 672, 742,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 32",
+        "From": "1140",
+        "Ln": "",
+        "Size": "1",
+        "To": "1140",
+        "Type": "A/N"
+    },
+    {
+        "Class": "812, 882, 952",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 32",
+        "From": "1141",
+        "Ln": "",
+        "Size": "10",
+        "To": "1150",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 32",
+        "From": "1151",
+        "Ln": "",
+        "Size": "2",
+        "To": "1152",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 32",
+        "From": "1153",
+        "Ln": "",
+        "Size": "8",
+        "To": "1160",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 32",
+        "From": "1161",
+        "Ln": "",
+        "Size": "10",
+        "To": "1170",
+        "Type": "NUM"
+    },
+    {
+        "Class": "43, 113, 183, 253, 323, 393,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 33",
+        "From": "1171",
+        "Ln": "43",
+        "Size": "4",
+        "To": "1174",
+        "Type": "A/N"
+    },
+    {
+        "Class": "463, 533, 603, 673, 743,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 33",
+        "From": "1175",
+        "Ln": "",
+        "Size": "1",
+        "To": "1175",
+        "Type": "A/N"
+    },
+    {
+        "Class": "813, 883, 953",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 33",
+        "From": "1176",
+        "Ln": "",
+        "Size": "10",
+        "To": "1185",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 33",
+        "From": "1186",
+        "Ln": "",
+        "Size": "2",
+        "To": "1187",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 33",
+        "From": "1188",
+        "Ln": "",
+        "Size": "8",
+        "To": "1195",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 33",
+        "From": "1196",
+        "Ln": "",
+        "Size": "10",
+        "To": "1205",
+        "Type": "NUM"
+    },
+    {
+        "Class": "44, 114, 184, 254, 324, 394,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 34",
+        "From": "1206",
+        "Ln": "44",
+        "Size": "4",
+        "To": "1209",
+        "Type": "A/N"
+    },
+    {
+        "Class": "464, 534, 604, 674, 744,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 34",
+        "From": "1210",
+        "Ln": "",
+        "Size": "1",
+        "To": "1210",
+        "Type": "A/N"
+    },
+    {
+        "Class": "814, 884, 954",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 34",
+        "From": "1211",
+        "Ln": "",
+        "Size": "10",
+        "To": "1220",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 34",
+        "From": "1221",
+        "Ln": "",
+        "Size": "2",
+        "To": "1222",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 34",
+        "From": "1223",
+        "Ln": "",
+        "Size": "8",
+        "To": "1230",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 34",
+        "From": "1231",
+        "Ln": "",
+        "Size": "10",
+        "To": "1240",
+        "Type": "NUM"
+    },
+    {
+        "Class": "45, 115, 185, 255, 325, 395,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 35",
+        "From": "1241",
+        "Ln": "45",
+        "Size": "4",
+        "To": "1244",
+        "Type": "A/N"
+    },
+    {
+        "Class": "465, 535, 605, 675, 745,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 35",
+        "From": "1245",
+        "Ln": "",
+        "Size": "1",
+        "To": "1245",
+        "Type": "A/N"
+    },
+    {
+        "Class": "815, 885, 955",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 35",
+        "From": "1246",
+        "Ln": "",
+        "Size": "10",
+        "To": "1255",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 35",
+        "From": "1256",
+        "Ln": "",
+        "Size": "2",
+        "To": "1257",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 35",
+        "From": "1258",
+        "Ln": "",
+        "Size": "8",
+        "To": "1265",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 35",
+        "From": "1266",
+        "Ln": "",
+        "Size": "10",
+        "To": "1275",
+        "Type": "NUM"
+    },
+    {
+        "Class": "46, 116, 186, 256, 326, 396,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 36",
+        "From": "1276",
+        "Ln": "46",
+        "Size": "4",
+        "To": "1279",
+        "Type": "A/N"
+    },
+    {
+        "Class": "466, 536, 606, 676, 746,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 36",
+        "From": "1280",
+        "Ln": "",
+        "Size": "1",
+        "To": "1280",
+        "Type": "A/N"
+    },
+    {
+        "Class": "816, 886, 956",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 36",
+        "From": "1281",
+        "Ln": "",
+        "Size": "10",
+        "To": "1290",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 36",
+        "From": "1291",
+        "Ln": "",
+        "Size": "2",
+        "To": "1292",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 36",
+        "From": "1293",
+        "Ln": "",
+        "Size": "8",
+        "To": "1300",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 36",
+        "From": "1301",
+        "Ln": "",
+        "Size": "10",
+        "To": "1310",
+        "Type": "NUM"
+    },
+    {
+        "Class": "47, 117, 187, 257, 327, 397,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 37",
+        "From": "1311",
+        "Ln": "47",
+        "Size": "4",
+        "To": "1314",
+        "Type": "A/N"
+    },
+    {
+        "Class": "467, 537, 607, 677, 747,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 37",
+        "From": "1315",
+        "Ln": "",
+        "Size": "1",
+        "To": "1315",
+        "Type": "A/N"
+    },
+    {
+        "Class": "817, 887, 957",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 37",
+        "From": "1316",
+        "Ln": "",
+        "Size": "10",
+        "To": "1325",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 37",
+        "From": "1326",
+        "Ln": "",
+        "Size": "2",
+        "To": "1327",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 37",
+        "From": "1328",
+        "Ln": "",
+        "Size": "8",
+        "To": "1335",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 37",
+        "From": "1336",
+        "Ln": "",
+        "Size": "10",
+        "To": "1345",
+        "Type": "NUM"
+    },
+    {
+        "Class": "48, 118, 188, 258, 328, 398,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 38",
+        "From": "1346",
+        "Ln": "48",
+        "Size": "4",
+        "To": "1349",
+        "Type": "A/N"
+    },
+    {
+        "Class": "468, 538, 608, 678, 748,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 38",
+        "From": "1350",
+        "Ln": "",
+        "Size": "1",
+        "To": "1350",
+        "Type": "A/N"
+    },
+    {
+        "Class": "818, 888, 958",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 38",
+        "From": "1351",
+        "Ln": "",
+        "Size": "10",
+        "To": "1360",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 38",
+        "From": "1361",
+        "Ln": "",
+        "Size": "2",
+        "To": "1362",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 38",
+        "From": "1363",
+        "Ln": "",
+        "Size": "8",
+        "To": "1370",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 38",
+        "From": "1371",
+        "Ln": "",
+        "Size": "10",
+        "To": "1380",
+        "Type": "NUM"
+    },
+    {
+        "Class": "49, 119, 189, 259, 329, 399,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 39",
+        "From": "1381",
+        "Ln": "49",
+        "Size": "4",
+        "To": "1384",
+        "Type": "A/N"
+    },
+    {
+        "Class": "469, 539, 609, 679, 749,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 39",
+        "From": "1385",
+        "Ln": "",
+        "Size": "1",
+        "To": "1385",
+        "Type": "A/N"
+    },
+    {
+        "Class": "819, 889, 959",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 39",
+        "From": "1386",
+        "Ln": "",
+        "Size": "10",
+        "To": "1395",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 39",
+        "From": "1396",
+        "Ln": "",
+        "Size": "2",
+        "To": "1397",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 39",
+        "From": "1398",
+        "Ln": "",
+        "Size": "8",
+        "To": "1405",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 39",
+        "From": "1406",
+        "Ln": "",
+        "Size": "10",
+        "To": "1415",
+        "Type": "NUM"
+    },
+    {
+        "Class": "50, 120, 190, 260, 330, 400,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 40",
+        "From": "1416",
+        "Ln": "50",
+        "Size": "4",
+        "To": "1419",
+        "Type": "A/N"
+    },
+    {
+        "Class": "470, 540, 610, 680, 750,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 40",
+        "From": "1420",
+        "Ln": "",
+        "Size": "1",
+        "To": "1420",
+        "Type": "A/N"
+    },
+    {
+        "Class": "820, 890, 960",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 40",
+        "From": "1421",
+        "Ln": "",
+        "Size": "10",
+        "To": "1430",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 40",
+        "From": "1431",
+        "Ln": "",
+        "Size": "2",
+        "To": "1432",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 40",
+        "From": "1433",
+        "Ln": "",
+        "Size": "8",
+        "To": "1440",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 40",
+        "From": "1441",
+        "Ln": "",
+        "Size": "10",
+        "To": "1450",
+        "Type": "NUM"
+    },
+    {
+        "Class": "51, 121, 191, 261, 331, 401,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 41",
+        "From": "1451",
+        "Ln": "51",
+        "Size": "4",
+        "To": "1454",
+        "Type": "A/N"
+    },
+    {
+        "Class": "471, 541, 611, 681, 751,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 41",
+        "From": "1455",
+        "Ln": "",
+        "Size": "1",
+        "To": "1455",
+        "Type": "A/N"
+    },
+    {
+        "Class": "821, 891, 961",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 41",
+        "From": "1456",
+        "Ln": "",
+        "Size": "10",
+        "To": "1465",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 41",
+        "From": "1466",
+        "Ln": "",
+        "Size": "2",
+        "To": "1467",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 41",
+        "From": "1468",
+        "Ln": "",
+        "Size": "8",
+        "To": "1475",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 41",
+        "From": "1476",
+        "Ln": "",
+        "Size": "10",
+        "To": "1485",
+        "Type": "NUM"
+    },
+    {
+        "Class": "52, 122, 192, 262, 332, 402,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 42",
+        "From": "1486",
+        "Ln": "52",
+        "Size": "4",
+        "To": "1489",
+        "Type": "A/N"
+    },
+    {
+        "Class": "472, 542, 612, 682, 752,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 42",
+        "From": "1490",
+        "Ln": "",
+        "Size": "1",
+        "To": "1490",
+        "Type": "A/N"
+    },
+    {
+        "Class": "822, 892, 962",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 42",
+        "From": "1491",
+        "Ln": "",
+        "Size": "10",
+        "To": "1500",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 42",
+        "From": "1501",
+        "Ln": "",
+        "Size": "2",
+        "To": "1502",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 42",
+        "From": "1503",
+        "Ln": "",
+        "Size": "8",
+        "To": "1510",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 42",
+        "From": "1511",
+        "Ln": "",
+        "Size": "10",
+        "To": "1520",
+        "Type": "NUM"
+    },
+    {
+        "Class": "53, 123, 193, 263, 333, 403,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 43",
+        "From": "1521",
+        "Ln": "53",
+        "Size": "4",
+        "To": "1524",
+        "Type": "A/N"
+    },
+    {
+        "Class": "473, 543, 613, 683, 753,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 43",
+        "From": "1525",
+        "Ln": "",
+        "Size": "1",
+        "To": "1525",
+        "Type": "A/N"
+    },
+    {
+        "Class": "823, 893, 963",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 43",
+        "From": "1526",
+        "Ln": "",
+        "Size": "10",
+        "To": "1535",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 43",
+        "From": "1536",
+        "Ln": "",
+        "Size": "2",
+        "To": "1537",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 43",
+        "From": "1538",
+        "Ln": "",
+        "Size": "8",
+        "To": "1545",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 43",
+        "From": "1546",
+        "Ln": "",
+        "Size": "10",
+        "To": "1555",
+        "Type": "NUM"
+    },
+    {
+        "Class": "54, 124, 194, 264, 334, 404,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 44",
+        "From": "1556",
+        "Ln": "54",
+        "Size": "4",
+        "To": "1559",
+        "Type": "A/N"
+    },
+    {
+        "Class": "474, 544, 614, 684, 754,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 44",
+        "From": "1560",
+        "Ln": "",
+        "Size": "1",
+        "To": "1560",
+        "Type": "A/N"
+    },
+    {
+        "Class": "824, 894, 964",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 44",
+        "From": "1561",
+        "Ln": "",
+        "Size": "10",
+        "To": "1570",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 44",
+        "From": "1571",
+        "Ln": "",
+        "Size": "2",
+        "To": "1572",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 44",
+        "From": "1573",
+        "Ln": "",
+        "Size": "8",
+        "To": "1580",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 44",
+        "From": "1581",
+        "Ln": "",
+        "Size": "10",
+        "To": "1590",
+        "Type": "NUM"
+    },
+    {
+        "Class": "55, 125, 195, 265, 335, 405,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 45",
+        "From": "1591",
+        "Ln": "55",
+        "Size": "4",
+        "To": "1594",
+        "Type": "A/N"
+    },
+    {
+        "Class": "475, 545, 615, 685, 755,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 45",
+        "From": "1595",
+        "Ln": "",
+        "Size": "1",
+        "To": "1595",
+        "Type": "A/N"
+    },
+    {
+        "Class": "825, 895, 965",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 45",
+        "From": "1596",
+        "Ln": "",
+        "Size": "10",
+        "To": "1605",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 45",
+        "From": "1606",
+        "Ln": "",
+        "Size": "2",
+        "To": "1607",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 45",
+        "From": "1608",
+        "Ln": "",
+        "Size": "8",
+        "To": "1615",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 45",
+        "From": "1616",
+        "Ln": "",
+        "Size": "10",
+        "To": "1625",
+        "Type": "NUM"
+    },
+    {
+        "Class": "56, 126, 196, 266, 336, 406,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 46",
+        "From": "1626",
+        "Ln": "56",
+        "Size": "4",
+        "To": "1629",
+        "Type": "A/N"
+    },
+    {
+        "Class": "476, 546, 616, 686, 756,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 46",
+        "From": "1630",
+        "Ln": "",
+        "Size": "1",
+        "To": "1630",
+        "Type": "A/N"
+    },
+    {
+        "Class": "826, 896, 966",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 46",
+        "From": "1631",
+        "Ln": "",
+        "Size": "10",
+        "To": "1640",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 46",
+        "From": "1641",
+        "Ln": "",
+        "Size": "2",
+        "To": "1642",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 46",
+        "From": "1643",
+        "Ln": "",
+        "Size": "8",
+        "To": "1650",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 46",
+        "From": "1651",
+        "Ln": "",
+        "Size": "10",
+        "To": "1660",
+        "Type": "NUM"
+    },
+    {
+        "Class": "57, 127, 197, 267, 337, 407,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 47",
+        "From": "1661",
+        "Ln": "57",
+        "Size": "4",
+        "To": "1664",
+        "Type": "A/N"
+    },
+    {
+        "Class": "477, 547, 617, 687, 757,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 47",
+        "From": "1665",
+        "Ln": "",
+        "Size": "1",
+        "To": "1665",
+        "Type": "A/N"
+    },
+    {
+        "Class": "827, 897, 967",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 47",
+        "From": "1666",
+        "Ln": "",
+        "Size": "10",
+        "To": "1675",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 47",
+        "From": "1676",
+        "Ln": "",
+        "Size": "2",
+        "To": "1677",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 47",
+        "From": "1678",
+        "Ln": "",
+        "Size": "8",
+        "To": "1685",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 47",
+        "From": "1686",
+        "Ln": "",
+        "Size": "10",
+        "To": "1695",
+        "Type": "NUM"
+    },
+    {
+        "Class": "58, 128, 198, 268, 338, 408,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 48",
+        "From": "1696",
+        "Ln": "58",
+        "Size": "4",
+        "To": "1699",
+        "Type": "A/N"
+    },
+    {
+        "Class": "478, 548, 618, 688, 758,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 48",
+        "From": "1700",
+        "Ln": "",
+        "Size": "1",
+        "To": "1700",
+        "Type": "A/N"
+    },
+    {
+        "Class": "828, 898, 968",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 48",
+        "From": "1701",
+        "Ln": "",
+        "Size": "10",
+        "To": "1710",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 48",
+        "From": "1711",
+        "Ln": "",
+        "Size": "2",
+        "To": "1712",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 48",
+        "From": "1713",
+        "Ln": "",
+        "Size": "8",
+        "To": "1720",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 48",
+        "From": "1721",
+        "Ln": "",
+        "Size": "10",
+        "To": "1730",
+        "Type": "NUM"
+    },
+    {
+        "Class": "59, 129, 199, 269, 339, 409,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 49",
+        "From": "1731",
+        "Ln": "59",
+        "Size": "4",
+        "To": "1734",
+        "Type": "A/N"
+    },
+    {
+        "Class": "479, 549, 619, 689, 759,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 49",
+        "From": "1735",
+        "Ln": "",
+        "Size": "1",
+        "To": "1735",
+        "Type": "A/N"
+    },
+    {
+        "Class": "829, 899, 969",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 49",
+        "From": "1736",
+        "Ln": "",
+        "Size": "10",
+        "To": "1745",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 49",
+        "From": "1746",
+        "Ln": "",
+        "Size": "2",
+        "To": "1747",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 49",
+        "From": "1748",
+        "Ln": "",
+        "Size": "8",
+        "To": "1755",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 49",
+        "From": "1756",
+        "Ln": "",
+        "Size": "10",
+        "To": "1765",
+        "Type": "NUM"
+    },
+    {
+        "Class": "60, 130, 200, 270, 340, 410,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 50",
+        "From": "1766",
+        "Ln": "60",
+        "Size": "4",
+        "To": "1769",
+        "Type": "A/N"
+    },
+    {
+        "Class": "480, 550, 620, 690, 760,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 50",
+        "From": "1770",
+        "Ln": "",
+        "Size": "1",
+        "To": "1770",
+        "Type": "A/N"
+    },
+    {
+        "Class": "830, 900, 970",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 50",
+        "From": "1771",
+        "Ln": "",
+        "Size": "10",
+        "To": "1780",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 50",
+        "From": "1781",
+        "Ln": "",
+        "Size": "2",
+        "To": "1782",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 50",
+        "From": "1783",
+        "Ln": "",
+        "Size": "8",
+        "To": "1790",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 50",
+        "From": "1791",
+        "Ln": "",
+        "Size": "10",
+        "To": "1800",
+        "Type": "NUM"
+    },
+    {
+        "Class": "61, 131, 201, 271, 341, 411,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 51",
+        "From": "1801",
+        "Ln": "61",
+        "Size": "4",
+        "To": "1804",
+        "Type": "A/N"
+    },
+    {
+        "Class": "481, 551, 621, 691, 761,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 51",
+        "From": "1805",
+        "Ln": "",
+        "Size": "1",
+        "To": "1805",
+        "Type": "A/N"
+    },
+    {
+        "Class": "831, 901, 971",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 51",
+        "From": "1806",
+        "Ln": "",
+        "Size": "10",
+        "To": "1815",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 51",
+        "From": "1816",
+        "Ln": "",
+        "Size": "2",
+        "To": "1817",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 51",
+        "From": "1818",
+        "Ln": "",
+        "Size": "8",
+        "To": "1825",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 51",
+        "From": "1826",
+        "Ln": "",
+        "Size": "10",
+        "To": "1835",
+        "Type": "NUM"
+    },
+    {
+        "Class": "62, 132, 202, 272, 342, 412,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 52",
+        "From": "1836",
+        "Ln": "62",
+        "Size": "4",
+        "To": "1839",
+        "Type": "A/N"
+    },
+    {
+        "Class": "492, 562, 622, 692, 762,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 52",
+        "From": "1840",
+        "Ln": "",
+        "Size": "1",
+        "To": "1840",
+        "Type": "A/N"
+    },
+    {
+        "Class": "832, 902, 972",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 52",
+        "From": "1841",
+        "Ln": "",
+        "Size": "10",
+        "To": "1850",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 52",
+        "From": "1851",
+        "Ln": "",
+        "Size": "2",
+        "To": "1852",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 52",
+        "From": "1853",
+        "Ln": "",
+        "Size": "8",
+        "To": "1860",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 52",
+        "From": "1861",
+        "Ln": "",
+        "Size": "10",
+        "To": "1870",
+        "Type": "NUM"
+    },
+    {
+        "Class": "63, 133, 203, 273, 343, 413,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 53",
+        "From": "1871",
+        "Ln": "63",
+        "Size": "4",
+        "To": "1874",
+        "Type": "A/N"
+    },
+    {
+        "Class": "483, 553, 623, 693, 763,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 53",
+        "From": "1875",
+        "Ln": "",
+        "Size": "1",
+        "To": "1875",
+        "Type": "A/N"
+    },
+    {
+        "Class": "833, 903, 973",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 53",
+        "From": "1876",
+        "Ln": "",
+        "Size": "10",
+        "To": "1885",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 53",
+        "From": "1886",
+        "Ln": "",
+        "Size": "2",
+        "To": "1887",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 53",
+        "From": "1888",
+        "Ln": "",
+        "Size": "8",
+        "To": "1895",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 53",
+        "From": "1896",
+        "Ln": "",
+        "Size": "10",
+        "To": "1905",
+        "Type": "NUM"
+    },
+    {
+        "Class": "64, 134, 204, 274, 344, 414,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 54",
+        "From": "1906",
+        "Ln": "64",
+        "Size": "4",
+        "To": "1909",
+        "Type": "A/N"
+    },
+    {
+        "Class": "484, 554, 624, 694, 764,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 54",
+        "From": "1910",
+        "Ln": "",
+        "Size": "1",
+        "To": "1910",
+        "Type": "A/N"
+    },
+    {
+        "Class": "834, 904, 974",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 54",
+        "From": "1911",
+        "Ln": "",
+        "Size": "10",
+        "To": "1920",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 54",
+        "From": "1921",
+        "Ln": "",
+        "Size": "2",
+        "To": "1922",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 54",
+        "From": "1923",
+        "Ln": "",
+        "Size": "8",
+        "To": "1930",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 54",
+        "From": "1931",
+        "Ln": "",
+        "Size": "10",
+        "To": "1940",
+        "Type": "NUM"
+    },
+    {
+        "Class": "65, 135, 205, 275, 345, 415,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 55",
+        "From": "1941",
+        "Ln": "65",
+        "Size": "4",
+        "To": "1944",
+        "Type": "A/N"
+    },
+    {
+        "Class": "485, 555, 625, 695, 765,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 55",
+        "From": "1945",
+        "Ln": "",
+        "Size": "1",
+        "To": "1945",
+        "Type": "A/N"
+    },
+    {
+        "Class": "835, 905, 975",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 55",
+        "From": "1946",
+        "Ln": "",
+        "Size": "10",
+        "To": "1955",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 55",
+        "From": "1956",
+        "Ln": "",
+        "Size": "2",
+        "To": "1957",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 55",
+        "From": "1958",
+        "Ln": "",
+        "Size": "8",
+        "To": "1965",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 55",
+        "From": "1966",
+        "Ln": "",
+        "Size": "10",
+        "To": "1975",
+        "Type": "NUM"
+    },
+    {
+        "Class": "66, 136, 206, 276, 346, 416,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 56",
+        "From": "1976",
+        "Ln": "66",
+        "Size": "4",
+        "To": "1979",
+        "Type": "A/N"
+    },
+    {
+        "Class": "486, 556, 626, 696, 766,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 56",
+        "From": "1980",
+        "Ln": "",
+        "Size": "1",
+        "To": "1980",
+        "Type": "A/N"
+    },
+    {
+        "Class": "836, 906, 976",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 56",
+        "From": "1981",
+        "Ln": "",
+        "Size": "10",
+        "To": "1990",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 56",
+        "From": "1991",
+        "Ln": "",
+        "Size": "2",
+        "To": "1992",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 56",
+        "From": "1993",
+        "Ln": "",
+        "Size": "8",
+        "To": "2000",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 56",
+        "From": "2001",
+        "Ln": "",
+        "Size": "10",
+        "To": "2010",
+        "Type": "NUM"
+    },
+    {
+        "Class": "67, 137, 207, 277, 347, 417,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 57",
+        "From": "2011",
+        "Ln": "67",
+        "Size": "4",
+        "To": "2014",
+        "Type": "A/N"
+    },
+    {
+        "Class": "487, 557, 627, 697, 767,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 57",
+        "From": "2015",
+        "Ln": "",
+        "Size": "1",
+        "To": "2015",
+        "Type": "A/N"
+    },
+    {
+        "Class": "837, 907, 977",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 57",
+        "From": "2016",
+        "Ln": "",
+        "Size": "10",
+        "To": "2025",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 57",
+        "From": "2026",
+        "Ln": "",
+        "Size": "2",
+        "To": "2027",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 57",
+        "From": "2028",
+        "Ln": "",
+        "Size": "8",
+        "To": "2035",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 57",
+        "From": "2036",
+        "Ln": "",
+        "Size": "10",
+        "To": "2045",
+        "Type": "NUM"
+    },
+    {
+        "Class": "68, 138, 208, 278, 348, 418,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 58",
+        "From": "2046",
+        "Ln": "68",
+        "Size": "4",
+        "To": "2049",
+        "Type": "A/N"
+    },
+    {
+        "Class": "488, 558, 628, 698, 768,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 58",
+        "From": "2050",
+        "Ln": "",
+        "Size": "1",
+        "To": "2050",
+        "Type": "A/N"
+    },
+    {
+        "Class": "838, 908, 978",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 58",
+        "From": "2051",
+        "Ln": "",
+        "Size": "10",
+        "To": "2060",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 58",
+        "From": "2061",
+        "Ln": "",
+        "Size": "2",
+        "To": "2062",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 58",
+        "From": "2063",
+        "Ln": "",
+        "Size": "8",
+        "To": "2070",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 58",
+        "From": "2071",
+        "Ln": "",
+        "Size": "10",
+        "To": "2080",
+        "Type": "NUM"
+    },
+    {
+        "Class": "69, 139, 209, 279, 349, 419,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 59",
+        "From": "2081",
+        "Ln": "69",
+        "Size": "4",
+        "To": "2084",
+        "Type": "A/N"
+    },
+    {
+        "Class": "489, 559, 629, 699, 769,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 59",
+        "From": "2085",
+        "Ln": "",
+        "Size": "1",
+        "To": "2085",
+        "Type": "A/N"
+    },
+    {
+        "Class": "839, 909, 979",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 59",
+        "From": "2086",
+        "Ln": "",
+        "Size": "10",
+        "To": "2095",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 59",
+        "From": "2096",
+        "Ln": "",
+        "Size": "2",
+        "To": "2097",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 59",
+        "From": "2098",
+        "Ln": "",
+        "Size": "8",
+        "To": "2105",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 59",
+        "From": "2106",
+        "Ln": "",
+        "Size": "10",
+        "To": "2115",
+        "Type": "NUM"
+    },
+    {
+        "Class": "70, 140, 210, 280, 350, 420,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 60",
+        "From": "2116",
+        "Ln": "70",
+        "Size": "4",
+        "To": "2119",
+        "Type": "A/N"
+    },
+    {
+        "Class": "490, 560, 630, 700, 770,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 60",
+        "From": "2120",
+        "Ln": "",
+        "Size": "1",
+        "To": "2120",
+        "Type": "A/N"
+    },
+    {
+        "Class": "430, 910, 980",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 60",
+        "From": "2121",
+        "Ln": "",
+        "Size": "10",
+        "To": "2130",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 60",
+        "From": "2131",
+        "Ln": "",
+        "Size": "2",
+        "To": "2132",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 60",
+        "From": "2133",
+        "Ln": "",
+        "Size": "8",
+        "To": "2140",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 60",
+        "From": "2141",
+        "Ln": "",
+        "Size": "10",
+        "To": "2150",
+        "Type": "NUM"
+    },
+    {
+        "Class": "71, 141, 211, 281, 351, 421,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 61",
+        "From": "2151",
+        "Ln": "71",
+        "Size": "4",
+        "To": "2154",
+        "Type": "A/N"
+    },
+    {
+        "Class": "491, 561, 631, 701, 771,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 61",
+        "From": "2155",
+        "Ln": "",
+        "Size": "1",
+        "To": "2155",
+        "Type": "A/N"
+    },
+    {
+        "Class": "841, 911, 981",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 61",
+        "From": "2156",
+        "Ln": "",
+        "Size": "10",
+        "To": "2165",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 61",
+        "From": "2166",
+        "Ln": "",
+        "Size": "2",
+        "To": "2167",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 61",
+        "From": "2168",
+        "Ln": "",
+        "Size": "8",
+        "To": "2175",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 61",
+        "From": "2176",
+        "Ln": "",
+        "Size": "10",
+        "To": "2185",
+        "Type": "NUM"
+    },
+    {
+        "Class": "72, 142, 212, 282, 352, 422,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 62",
+        "From": "2186",
+        "Ln": "72",
+        "Size": "4",
+        "To": "2189",
+        "Type": "A/N"
+    },
+    {
+        "Class": "502, 572, 632, 702, 772,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 62",
+        "From": "2190",
+        "Ln": "",
+        "Size": "1",
+        "To": "2190",
+        "Type": "A/N"
+    },
+    {
+        "Class": "842, 912, 982",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 62",
+        "From": "2191",
+        "Ln": "",
+        "Size": "10",
+        "To": "2200",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 62",
+        "From": "2201",
+        "Ln": "",
+        "Size": "2",
+        "To": "2202",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 62",
+        "From": "2203",
+        "Ln": "",
+        "Size": "8",
+        "To": "2210",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 62",
+        "From": "2211",
+        "Ln": "",
+        "Size": "10",
+        "To": "2220",
+        "Type": "NUM"
+    },
+    {
+        "Class": "73, 143, 213, 283, 353, 423,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 63",
+        "From": "2221",
+        "Ln": "73",
+        "Size": "4",
+        "To": "2224",
+        "Type": "A/N"
+    },
+    {
+        "Class": "493, 563, 633, 703, 773,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 63",
+        "From": "2225",
+        "Ln": "",
+        "Size": "1",
+        "To": "2225",
+        "Type": "A/N"
+    },
+    {
+        "Class": "843, 913, 983",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 63",
+        "From": "2226",
+        "Ln": "",
+        "Size": "10",
+        "To": "2235",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 63",
+        "From": "2236",
+        "Ln": "",
+        "Size": "2",
+        "To": "2237",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 63",
+        "From": "2238",
+        "Ln": "",
+        "Size": "8",
+        "To": "2245",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 63",
+        "From": "2246",
+        "Ln": "",
+        "Size": "10",
+        "To": "2255",
+        "Type": "NUM"
+    },
+    {
+        "Class": "74, 144, 214, 284, 354, 424,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 64",
+        "From": "2256",
+        "Ln": "74",
+        "Size": "4",
+        "To": "2259",
+        "Type": "A/N"
+    },
+    {
+        "Class": "494, 564, 634, 704, 774,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 64",
+        "From": "2260",
+        "Ln": "",
+        "Size": "1",
+        "To": "2260",
+        "Type": "A/N"
+    },
+    {
+        "Class": "844, 914, 984",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 64",
+        "From": "2261",
+        "Ln": "",
+        "Size": "10",
+        "To": "2270",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 64",
+        "From": "2271",
+        "Ln": "",
+        "Size": "2",
+        "To": "2272",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 64",
+        "From": "2273",
+        "Ln": "",
+        "Size": "8",
+        "To": "2280",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 64",
+        "From": "2281",
+        "Ln": "",
+        "Size": "10",
+        "To": "2290",
+        "Type": "NUM"
+    },
+    {
+        "Class": "75, 145, 215, 285, 355, 425,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 65",
+        "From": "2291",
+        "Ln": "75",
+        "Size": "4",
+        "To": "2294",
+        "Type": "A/N"
+    },
+    {
+        "Class": "495, 565, 635, 705, 775,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 65",
+        "From": "2295",
+        "Ln": "",
+        "Size": "1",
+        "To": "2295",
+        "Type": "A/N"
+    },
+    {
+        "Class": "845, 915, 985",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 65",
+        "From": "2296",
+        "Ln": "",
+        "Size": "10",
+        "To": "2305",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 65",
+        "From": "2306",
+        "Ln": "",
+        "Size": "2",
+        "To": "2307",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 65",
+        "From": "2308",
+        "Ln": "",
+        "Size": "8",
+        "To": "2315",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 65",
+        "From": "2316",
+        "Ln": "",
+        "Size": "10",
+        "To": "2325",
+        "Type": "NUM"
+    },
+    {
+        "Class": "76, 146, 216, 286, 356, 426,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 66",
+        "From": "2326",
+        "Ln": "76",
+        "Size": "4",
+        "To": "2329",
+        "Type": "A/N"
+    },
+    {
+        "Class": "496, 566, 636, 706, 776,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 66",
+        "From": "2330",
+        "Ln": "",
+        "Size": "1",
+        "To": "2330",
+        "Type": "A/N"
+    },
+    {
+        "Class": "846, 916, 986",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 66",
+        "From": "2331",
+        "Ln": "",
+        "Size": "10",
+        "To": "2340",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 66",
+        "From": "2341",
+        "Ln": "",
+        "Size": "2",
+        "To": "2342",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 66",
+        "From": "2343",
+        "Ln": "",
+        "Size": "8",
+        "To": "2350",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 66",
+        "From": "2351",
+        "Ln": "",
+        "Size": "10",
+        "To": "2360",
+        "Type": "NUM"
+    },
+    {
+        "Class": "77, 147, 217, 287, 357, 427,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 67",
+        "From": "2361",
+        "Ln": "77",
+        "Size": "4",
+        "To": "2364",
+        "Type": "A/N"
+    },
+    {
+        "Class": "497, 567, 637, 707, 777,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 67",
+        "From": "2365",
+        "Ln": "",
+        "Size": "1",
+        "To": "2365",
+        "Type": "A/N"
+    },
+    {
+        "Class": "847, 917, 987",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 67",
+        "From": "2366",
+        "Ln": "",
+        "Size": "10",
+        "To": "2375",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 67",
+        "From": "2376",
+        "Ln": "",
+        "Size": "2",
+        "To": "2377",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 67",
+        "From": "2378",
+        "Ln": "",
+        "Size": "8",
+        "To": "2385",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 67",
+        "From": "2386",
+        "Ln": "",
+        "Size": "10",
+        "To": "2395",
+        "Type": "NUM"
+    },
+    {
+        "Class": "78, 148, 218, 288, 358, 428,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 68",
+        "From": "2396",
+        "Ln": "78",
+        "Size": "4",
+        "To": "2399",
+        "Type": "A/N"
+    },
+    {
+        "Class": "498, 568, 638, 708, 778,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 68",
+        "From": "2400",
+        "Ln": "",
+        "Size": "1",
+        "To": "2400",
+        "Type": "A/N"
+    },
+    {
+        "Class": "848, 918, 988",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 68",
+        "From": "2401",
+        "Ln": "",
+        "Size": "10",
+        "To": "2410",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 68",
+        "From": "2411",
+        "Ln": "",
+        "Size": "2",
+        "To": "2412",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 68",
+        "From": "2413",
+        "Ln": "",
+        "Size": "8",
+        "To": "2420",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 68",
+        "From": "2421",
+        "Ln": "",
+        "Size": "10",
+        "To": "2430",
+        "Type": "NUM"
+    },
+    {
+        "Class": "79, 149, 219, 289, 359, 429,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 69",
+        "From": "2431",
+        "Ln": "79",
+        "Size": "4",
+        "To": "2434",
+        "Type": "A/N"
+    },
+    {
+        "Class": "499, 569, 639, 709, 779,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 69",
+        "From": "2435",
+        "Ln": "",
+        "Size": "1",
+        "To": "2435",
+        "Type": "A/N"
+    },
+    {
+        "Class": "849, 919, 989",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 69",
+        "From": "2436",
+        "Ln": "",
+        "Size": "10",
+        "To": "2445",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 69",
+        "From": "2446",
+        "Ln": "",
+        "Size": "2",
+        "To": "2447",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 69",
+        "From": "2448",
+        "Ln": "",
+        "Size": "8",
+        "To": "2455",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 69",
+        "From": "2456",
+        "Ln": "",
+        "Size": "10",
+        "To": "2465",
+        "Type": "NUM"
+    },
+    {
+        "Class": "80, 150, 220, 290, 360, 430,",
+        "Description (Remarks)": "NUBC Revenue Code",
+        "Field Label": "Revenue Code 70",
+        "From": "2466",
+        "Ln": "80",
+        "Size": "4",
+        "To": "2469",
+        "Type": "A/N"
+    },
+    {
+        "Class": "500, 570, 640, 710, 780,",
+        "Description (Remarks)": "Revenue Type",
+        "Field Label": "Type of Revenue Code 70",
+        "From": "2470",
+        "Ln": "",
+        "Size": "1",
+        "To": "2470",
+        "Type": "A/N"
+    },
+    {
+        "Class": "850, 920, 990",
+        "Description (Remarks)": "Total Charge ",
+        "Field Label": "Charge of Service 70",
+        "From": "2471",
+        "Ln": "",
+        "Size": "10",
+        "To": "2480",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Type",
+        "Field Label": "Type of Unit 70",
+        "From": "2481",
+        "Ln": "",
+        "Size": "2",
+        "To": "2482",
+        "Type": "A/N"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Unit Quantity",
+        "Field Label": "Quantity 70",
+        "From": "2483",
+        "Ln": "",
+        "Size": "8",
+        "To": "2490",
+        "Type": "NUM"
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "Non-covered Charge",
+        "Field Label": "Non-Covered Charge of Service 70",
+        "From": "2491",
+        "Ln": "",
+        "Size": "10",
+        "To": "2500",
+        "Type": "NUM"
+    },
+    {
+        "Class": "Reserved",
+        "Description (Remarks)": "",
+        "Field Label": " 1",
+        "From": "2501",
+        "Ln": "",
+        "Size": "200",
+        "To": "2700",
+        "Type": ""
+    },
+    {
+        "Class": "Encryption",
+        "Description (Remarks)": "",
+        "Field Label": " 2",
+        "From": "2701",
+        "Ln": "",
+        "Size": "2376",
+        "To": "5076",
+        "Type": ""
+    },
+    {
+        "Class": "",
+        "Description (Remarks)": "",
+        "Field Label": " 3",
+        "From": "",
+        "Ln": "",
+        "Size": "",
+        "To": "",
+        "Type": ""
+    }
+]
