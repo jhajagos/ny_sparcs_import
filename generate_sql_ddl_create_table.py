@@ -1,12 +1,13 @@
 __author__ = 'janos'
 import json
+import sys
 
 def main(json_file_name, path_to_import_file, table_name="sparcs_raw_import"):
 
     with open(json_file_name, "r") as fj:
         sparcs_file_layout = json.load(fj)
 
-    with open(json_file_name + ".sql", "w") as fw:
+    with open(table_name + ".sql", "w") as fw:
 
         fw.write('DROP TABLE IF EXISTS "%s";\n\n' % table_name)
 
@@ -48,5 +49,15 @@ CSV HEADER;\n\n''' % (table_name, path_to_import_file)
 
 
 if __name__ == "__main__":
-    main("SPARCS OP Format_LIMITED.csv.json", "/tmp/LIMITEDOP12p1.DAT.primary.csv", "sparcs_raw_import_primary_2012")
-    main("SPARCS OP Format_LIMITED continuation.csv.json", "/tmp/LIMITEDOP12p1.DAT.continuation.csv", "sparcs_raw_import_continuation_2012")
+    #main("SPARCS OP Format_LIMITED.csv.json", "/tmp/LIMITEDOP12p1.DAT.primary.csv", "sparcs_raw_import_primary_2012a")
+    #main("SPARCS OP Format_LIMITED continuation.csv.json", "/tmp/LIMITEDOP12p1.DAT.continuation.csv", "sparcs_raw_import_continuation_2012a")
+    
+    main("SPARCS OP Format_LIMITED.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDOP11p1.DAT.primary.csv", "sparcs_raw_import_primary_2011a")
+    main("SPARCS IP Format_LIMITED.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDIP12.DAT.primary.csv", "sparcs_raw_import_primary_ip_2012")
+    main("SPARCS OP Format_LIMITED.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDOP11p2.DAT.primary.csv", "sparcs_raw_import_primary_2011b")
+
+    main("SPARCS OP Format_LIMITED continuation.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDOP11p1.DAT.continuation.csv", "sparcs_raw_import_continuation_2011a")
+    main("SPARCS OP Format_LIMITED continuation.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDOP11p2.DAT.continuation.csv", "sparcs_raw_import_continuation_2011b")
+    main("SPARCS IP Format_LIMITED continuation.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDIP12.DAT.continuation.csv", "sparcs_raw_import_continuation_ip_2012")
+   
+   #/data/db_to_load/txt/sparcs/LIMITEDOP11p1.DAT.primary.csv 
