@@ -33,10 +33,10 @@ def main(csv_file_name):
 
 
 if __name__ == "__main__":
-    main("SPARCS OP Format_LIMITED.csv")
-    main("SPARCS OP Format_LIMITED continuation.csv")
-    main("SPARCS IP Format_LIMITED.csv")
-    main("SPARCS IP Format_LIMITED_continuation.csv")
-    main("SPARCS IP Format_LIMITED_continuation_2013.csv")
-    main("SPARCS IP Format_LIMITED_2013.csv")
-    main("SPARCS IP Format_LIMITED_EUIP_2013.csv")
+    main("./support_files/SPARCS OP Format_LIMITED.csv")
+    main("./support_files/SPARCS OP Format_LIMITED continuation.csv")
+    main("./support_files/SPARCS IP Format_LIMITED.csv")
+    main("./support_files/SPARCS IP Format_LIMITED_continuation.csv")
+    main("./support_files/SPARCS IP Format_LIMITED_continuation_2013.csv")
+    main("./support_files/SPARCS IP Format_LIMITED_2013.csv")
+    main("./support_files/SPARCS IP Format_LIMITED_EUIP_2013.csv")
