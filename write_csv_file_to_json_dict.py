@@ -3,8 +3,10 @@ import csv
 import json
 
 """
-Converts a CSV file into a quasi-json file
+    Converts a CSV file into a quasi-json file where each line is a JSON
+    dict.
 """
+
 
 def main(csv_file_name):
 
@@ -30,6 +32,14 @@ def main(csv_file_name):
 
                 json.dump(copied_data, fw, sort_keys=True, indent=4, separators=(',', ': '))
                 fw.write("\n")
+
+                i += 1
+                if i % log_every_ith_record == 0:
+                    updated_time = time.time()
+                    time_difference = updated_time - loop_time
+
+                    print("Read %s lines in %s seconds" % (i, time_difference))
+                    loop_time = updated_time
 
 if __name__ == "__main__":
     main("/Volumes/untitled/LIMITEDOP12p1.DAT.sample.sample.csv")

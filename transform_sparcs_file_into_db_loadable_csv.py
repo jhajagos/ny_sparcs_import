@@ -16,6 +16,7 @@ import json
 import sys
 import time
 
+
 def main(sparcs_data_file, sparcs_primary_file_json_structure="SPARCS OP Format_LIMITED.csv.json",
          sparcs_continuation_file_json_structure="SPARCS OP Format_LIMITED continuation.csv.json",
          log_every_ith_record=10000
@@ -51,7 +52,6 @@ def main(sparcs_data_file, sparcs_primary_file_json_structure="SPARCS OP Format_
             # import pprint
             # pprint.pprint(starting_positions_primary)
             # pprint.pprint(starting_primary_position_type)
-
 
             with open(sparcs_continuation_csv_file, "wb") as fwc:
                 csv_writer_continuation = csv.writer(fwc)
@@ -125,7 +125,7 @@ def main(sparcs_data_file, sparcs_primary_file_json_structure="SPARCS OP Format_
 
 if __name__ == "__main__":
     if len(sys.argv) == 1:
-	print('Usage: python transform_sparces_file_into_db_loadable_csv.py /path/to/LIMITEDIP13.DAT "SPARCS IP Format_LIMITED.csv.json" "SPARCS IP Format_LIMITED_continuation.csv.json"')
+	    print('Usage: python transform_sparcs_file_into_db_loadable_csv.py /path/to/LIMITEDIP13.DAT "./support_files/SPARCS IP Format_LIMITED.csv.json" "./support_files/SPARCS IP Format_LIMITED_continuation.csv.json"')
     elif len(sys.argv) == 2:
         main(sys.argv[1])
     else:
