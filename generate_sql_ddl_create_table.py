@@ -52,12 +52,14 @@ if __name__ == "__main__":
     #main("SPARCS OP Format_LIMITED.csv.json", "/tmp/LIMITEDOP12p1.DAT.primary.csv", "sparcs_raw_import_primary_2012a")
     #main("SPARCS OP Format_LIMITED continuation.csv.json", "/tmp/LIMITEDOP12p1.DAT.continuation.csv", "sparcs_raw_import_continuation_2012a")
     
-    main("SPARCS OP Format_LIMITED.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDOP11p1.DAT.primary.csv", "sparcs_raw_import_primary_2011a")
-    main("SPARCS IP Format_LIMITED.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDIP12.DAT.primary.csv", "sparcs_raw_import_primary_ip_2012")
-    main("SPARCS OP Format_LIMITED.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDOP11p2.DAT.primary.csv", "sparcs_raw_import_primary_2011b")
+    #main("SPARCS OP Format_LIMITED.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDOP11p1.DAT.primary.csv", "sparcs_raw_import_primary_2011a")
+    main("SPARCS IP Format_LIMITED.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDIP13.DAT.primary.csv", "sparcs_raw_import_primary_ip_2013")
+    #main("SPARCS IP Format_LIMITED.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDIP12.DAT.primary.csv", "sparcs_raw_import_primary_ip_2012")
+    #main("SPARCS OP Format_LIMITED.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDOP11p2.DAT.primary.csv", "sparcs_raw_import_primary_2011b")
 
-    main("SPARCS OP Format_LIMITED continuation.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDOP11p1.DAT.continuation.csv", "sparcs_raw_import_continuation_2011a")
-    main("SPARCS OP Format_LIMITED continuation.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDOP11p2.DAT.continuation.csv", "sparcs_raw_import_continuation_2011b")
-    main("SPARCS IP Format_LIMITED_continuation.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDIP12.DAT.continuation.csv", "sparcs_raw_import_continuation_ip_2012")
+    #main("SPARCS OP Format_LIMITED continuation.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDOP11p1.DAT.continuation.csv", "sparcs_raw_import_continuation_2011a")
+    #main("SPARCS OP Format_LIMITED continuation.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDOP11p2.DAT.continuation.csv", "sparcs_raw_import_continuation_2011b")
+    #main("SPARCS IP Format_LIMITED continuation.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDIP12.DAT.continuation.csv", "sparcs_raw_import_continuation_ip_2012")
+    main("SPARCS IP Format_LIMITED continuation.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDIP13.DAT.continuation.csv", "sparcs_raw_import_continuation_ip_2013")
    
    #/data/db_to_load/txt/sparcs/LIMITEDOP11p1.DAT.primary.csv 
