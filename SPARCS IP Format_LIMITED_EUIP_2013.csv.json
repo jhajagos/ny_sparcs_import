@@ -1,0 +1,52 @@
+[
+    {
+        "Description (Remarks)": "Sequential number for identifying discharges.",
+        "Field Label": "Discharge Sequential Number",
+        "From": "1",
+        "Ln": "",
+        "SEGMENT": "Common Detail",
+        "Size": "14",
+        "To": "14",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Continuation Type",
+        "Field Label": "Continuation Indicator",
+        "From": "15",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "1",
+        "To": "15",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "The records sequence within the discharge",
+        "Field Label": "Record Sequence Number",
+        "From": "16",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "18",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "Number of Records in the Discharge",
+        "Field Label": "Record Sequence Count",
+        "From": "19",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "3",
+        "To": "21",
+        "Type": "NUM"
+    },
+    {
+        "Description (Remarks)": "",
+        "Field Label": "Encrypted Enhanced Unique Personal Identifier",
+        "From": "22",
+        "Ln": "",
+        "SEGMENT": "",
+        "Size": "44",
+        "To": "65",
+        "Type": ""
+    }
+]

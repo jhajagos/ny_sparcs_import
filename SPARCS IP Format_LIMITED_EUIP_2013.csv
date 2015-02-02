@@ -1,0 +1,6 @@
+SEGMENT,Ln,Field Label,From,To,Size,Type,Description (Remarks)
+Common Detail,,Discharge Sequential Number,1,14,14,NUM,Sequential number for identifying discharges.
+,,Continuation Indicator,15,15,1,NUM,Continuation Type
+,,Record Sequence Number,16,18,3,NUM,The records sequence within the discharge
+,,Record Sequence Count,19,21,3,NUM,Number of Records in the Discharge
+,,Encrypted Enhanced Unique Personal Identifier,22,65,44,,

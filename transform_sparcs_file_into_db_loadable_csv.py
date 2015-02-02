@@ -125,7 +125,7 @@ def main(sparcs_data_file, sparcs_primary_file_json_structure="SPARCS OP Format_
 
 if __name__ == "__main__":
     if len(sys.argv) == 1:
-	print('Usage: python transform_sparces_file_into_db_loadable_csv.py /path/to/LIMITEDIP13.DAT "SPARCS IP Format_LIMITED.csv.json" "SPARCS IP Format_LIMITED continuation.csv.json"')
+	print('Usage: python transform_sparces_file_into_db_loadable_csv.py /path/to/LIMITEDIP13.DAT "SPARCS IP Format_LIMITED.csv.json" "SPARCS IP Format_LIMITED_continuation.csv.json"')
     elif len(sys.argv) == 2:
         main(sys.argv[1])
     else:
