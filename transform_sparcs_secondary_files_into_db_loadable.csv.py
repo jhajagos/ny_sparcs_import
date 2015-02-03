@@ -1,6 +1,9 @@
 """
-    Starting in 2013 SPARCS released secondary files that were initially in the larger record. This included
-    the encrypted identifiers which can be used to follow an individual through a file.
+    Starting for the 2013 release SPARCS started releasing secondary files for the limited data set.
+    Previously certain fields which were encrypted were part of the primary row are now in the secondary tables.
+
+    This program converts the fixed width format that SPARCS files are distributed into a CSV file
+    that can be more easily loaded into a database.
 """
 
 
