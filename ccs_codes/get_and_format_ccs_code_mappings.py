@@ -2,13 +2,12 @@ __author__ = 'janos'
 
 """This is a simple program to download and clean the CSV file made available for CCS codes"""
 
-
-
 CCS_link = "http://www.hcup-us.ahrq.gov/toolssoftware/ccs/Single_Level_CCS_2015.zip"
 import urllib2
 import zipfile
 import os
 import csv
+
 
 def main():
     print("")
@@ -34,7 +33,6 @@ def main():
         file_name_to_write = os.path.join(os.path.curdir, "data", name)
         with open(file_name_to_write, "wb") as fw:
             fw.write(data)
-
             files_written += [file_name_to_write]
 
     for file_name in files_written:
