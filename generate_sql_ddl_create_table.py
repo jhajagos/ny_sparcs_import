@@ -57,10 +57,27 @@ if __name__ == "__main__":
     #main("SPARCS IP Format_LIMITED.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDIP12.DAT.primary.csv", "sparcs_raw_import_primary_ip_2012")
     #main("SPARCS OP Format_LIMITED.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDOP11p2.DAT.primary.csv", "sparcs_raw_import_primary_2011b")
 
-    #main("SPARCS OP Format_LIMITED continuation.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDOP11p1.DAT.continuation.csv", "sparcs_raw_import_continuation_2011a")
-    #main("SPARCS OP Format_LIMITED continuation.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDOP11p2.DAT.continuation.csv", "sparcs_raw_import_continuation_2011b")
     #main("SPARCS IP Format_LIMITED continuation.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDIP12.DAT.continuation.csv", "sparcs_raw_import_continuation_ip_2012")
-    main("./support_files/SPARCS IP Format_LIMITED_2013.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDIP13.DAT.primary.csv", "sparcs_raw_import_primary_ip_2013")
-    main("./support_files/SPARCS IP Format_LIMITED_continuation_2013.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDIP13.DAT.continuation.csv", "sparcs_raw_import_continuation_ip_2013")
-    main("./support_files/SPARCS IP Format_LIMITED_EUIP_2013.csv.json", "/data/db_to_load/txt/sparcs/IP_Enc_EUPID13.DAT.csv", "sparcs_raw_import_enhanced_encrypted_ip_2013")
+    #main("./support_files/SPARCS IP Format_LIMITED_EUIP_2013.csv.json", "/data/db_to_load/txt/sparcs/IP_Enc_EUPID13.DAT.csv", "sparcs_raw_import_enhanced_encrypted_ip_2013")
    #/data/db_to_load/txt/sparcs/LIMITEDOP11p1.DAT.primary.csv 
+
+    #main("./support_files/SPARCS IP Format_LIMITED_continuation_2013.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDIP13.DAT.continuation.csv", "sparcs_raw_import_continuation_ip_2013")
+    #main("./support_files/SPARCS OP Format_LIMITED.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDOP13p1.DAT.primary.csv", "sparcs_raw_import_primary_op_2013_p1")
+    #main("./support_files/SPARCS OP Format_LIMITED.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDOP13p2.DAT.primary.csv", "sparcs_raw_import_primary_op_2013_p2")
+    
+    #main("./support_files/SPARCS OP Format_LIMITED continuation.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDOP13p1.DAT.continuation.csv", "sparcs_raw_import_continuation_op_2013_p1")
+    #main("./support_files/SPARCS OP Format_LIMITED continuation.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDOP13p2.DAT.continuation.csv", "sparcs_raw_import_continuation_op_2013_p2")
+
+    main("./support_files/SPARCS IP Format_LIMITED_2013.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDIP14.DAT.primary.csv", "sparcs_raw_import_ip_2014")
+    main("./support_files/SPARCS IP Format_LIMITED_continuation_2013.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDIP14.DAT.continuation.csv", "sparcs_raw_import_continuation_ip_2014")
+    #main("./support_files/SPARCS IP Format_LIMITED_EUIP_2013.csv.json", "/data/db_to_load/txt/sparcs/IP_Enc_EUPID14.DAT.csv", "sparcs_raw_import_enhanced_encrypted_ip_2014")
+    
+    main("./support_files/SPARCS IP Format_LIMITED_2013.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDIP15.DAT.primary.csv", "sparcs_raw_import_ip_2015")
+    main("./support_files/SPARCS IP Format_LIMITED_continuation_2013.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDIP15.DAT.continuation.csv", "sparcs_raw_import_continuation_ip_2015")
+    #main("./support_files/SPARCS IP Format_LIMITED_EUIP_2013.csv.json", "/data/db_to_load/txt/sparcs/IP_Enc_EUPID15.DAT.csv", "sparcs_raw_import_enhanced_encrypted_ip_2015")
+
+    main("./support_files/SPARCS IP Format_LIMITED_EUIP_2013.csv.json", "/data/db_to_load/txt/sparcs/IP_Enc_EUPID14.DAT.csv", "sparcs_raw_import_enhanced_encrypted_ip_2014")
+    main("./support_files/SPARCS IP Format_LIMITED_EUIP_2013.csv.json", "/data/db_to_load/txt/sparcs/IP_Enc_EUPID15.DAT.csv", "sparcs_raw_import_enhanced_encrypted_ip_2015")
+    
+
+
