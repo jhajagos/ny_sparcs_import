@@ -2,15 +2,14 @@
     Starting for the 2013 release SPARCS started releasing secondary files for the limited data set.
     Previously certain fields which were encrypted were part of the primary row are now in the secondary tables.
 
-    This program converts the fixed width format that SPARCS files are distributed into a CSV file
+    This program transforms the fixed width format that SPARCS files are distributed into a CSV file
     that can be more easily loaded into a database.
 """
 
-
 import csv
 import json
-import sys
 import time
+import argparse
 
 
 def main(sparcs_secondary_data_file, sparcs_secondary_file_json_structure, log_every_ith_record=100000):
@@ -66,7 +65,12 @@ def main(sparcs_secondary_data_file, sparcs_secondary_file_json_structure, log_e
 
 
 if __name__ == "__main__":
-    if len(sys.argv) == 1:
-	    print('Usage: python transform_sparcs_secondary_file_into_db_loadable_csv.py /path/to/SECONDARY.DAT "./support_files/SPARCS IP Format_SECONDARY.csv.json"')
-    elif len(sys.argv) == 3:
-        main(sys.argv[1], sys.argv[2])
+
+    arg_parse_obj = argparse.ArgumentParser(description="Converting encrypted secondary DAT files into CSV")
+
+    arg_parse_obj.add_argument("-f", "--dat-file-name", dest="dat_file_name", required=True)
+    arg_parse_obj.add_argument("-j", "--json-file-name", dest="json_file_name", required=True)
+
+    arg_obj = arg_parse_obj.parse_args()
+
+    main(arg_obj.dat_file_name, arg_obj.json_file_name)

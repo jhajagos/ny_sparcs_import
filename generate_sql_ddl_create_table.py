@@ -1,18 +1,21 @@
 __author__ = 'janos'
 import json
-import sys
+import argparse
+import os
 
-
-def main(json_file_name, path_to_import_file, table_name="sparcs_raw_import"):
+def main(json_file_name, path_to_import_file, schema, table_name):
 
     with open(json_file_name, "r") as fj:
         sparcs_file_layout = json.load(fj)
 
-    with open("./output/" + table_name + ".sql", "w") as fw:
+    directory, file_name = os.path.split(path_to_import_file)
+    load_sql_file = os.path.join(directory, table_name + ".sql")
 
-        fw.write('DROP TABLE IF EXISTS "%s";\n\n' % table_name)
+    with open(load_sql_file + ".sql", "w") as fw:
 
-        sql_file_layout = 'create table "%s" (\n' % table_name
+        fw.write('DROP TABLE IF EXISTS "%s"."%s";\n\n' % (schema, table_name))
+
+        sql_file_layout = 'create table "%s"."%s" (\n' % (schema, table_name)
 
         for layout in sparcs_file_layout:
 
@@ -48,37 +51,21 @@ CSV HEADER;\n\n''' % (table_name, path_to_import_file)
                 fw.write(sql_alter_table)
 
 
-
 if __name__ == "__main__":
-    #main("SPARCS OP Format_LIMITED.csv.json", "/tmp/LIMITEDOP12p1.DAT.primary.csv", "sparcs_raw_import_primary_2012a")
-    #main("SPARCS OP Format_LIMITED continuation.csv.json", "/tmp/LIMITEDOP12p1.DAT.continuation.csv", "sparcs_raw_import_continuation_2012a")
-    
-    #main("SPARCS OP Format_LIMITED.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDOP11p1.DAT.primary.csv", "sparcs_raw_import_primary_2011a")
 
-    #main("SPARCS IP Format_LIMITED.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDIP12.DAT.primary.csv", "sparcs_raw_import_primary_ip_2012")
-    #main("SPARCS OP Format_LIMITED.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDOP11p2.DAT.primary.csv", "sparcs_raw_import_primary_2011b")
+    arg_parse_obj = argparse.ArgumentParser(description="Create a load script for loadable PostGreSQL script")
 
-    #main("SPARCS IP Format_LIMITED continuation.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDIP12.DAT.continuation.csv", "sparcs_raw_import_continuation_ip_2012")
-    #main("./support_files/SPARCS IP Format_LIMITED_EUIP_2013.csv.json", "/data/db_to_load/txt/sparcs/IP_Enc_EUPID13.DAT.csv", "sparcs_raw_import_enhanced_encrypted_ip_2013")
-   #/data/db_to_load/txt/sparcs/LIMITEDOP11p1.DAT.primary.csv 
+    arg_parse_obj.add_argument("-f", "--csv-file-name", dest="csv_file_name", help="CSV file to load", required=True)
+    arg_parse_obj.add_argument("-j", "--json-file-name", dest="json_file_name",
+                               help="JSON file which has field information. See files ./support_files/", required=True)
 
-    #main("./support_files/SPARCS IP Format_LIMITED_continuation_2013.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDIP13.DAT.continuation.csv", "sparcs_raw_import_continuation_ip_2013")
-    #main("./support_files/SPARCS OP Format_LIMITED.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDOP13p1.DAT.primary.csv", "sparcs_raw_import_primary_op_2013_p1")
-    #main("./support_files/SPARCS OP Format_LIMITED.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDOP13p2.DAT.primary.csv", "sparcs_raw_import_primary_op_2013_p2")
-    
-    #main("./support_files/SPARCS OP Format_LIMITED continuation.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDOP13p1.DAT.continuation.csv", "sparcs_raw_import_continuation_op_2013_p1")
-    #main("./support_files/SPARCS OP Format_LIMITED continuation.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDOP13p2.DAT.continuation.csv", "sparcs_raw_import_continuation_op_2013_p2")
+    arg_parse_obj.add_argument("-s", "--schema", dest="schema", help="Database schema name", default="public")
+    arg_parse_obj.add_argument("-t", "--table-name", dest="table_name", help="Database table to load",
+                               default="sparcs_raw_import")
 
-    main("./support_files/SPARCS IP Format_LIMITED_2013.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDIP14.DAT.primary.csv", "sparcs_raw_import_ip_2014")
-    main("./support_files/SPARCS IP Format_LIMITED_continuation_2013.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDIP14.DAT.continuation.csv", "sparcs_raw_import_continuation_ip_2014")
-    #main("./support_files/SPARCS IP Format_LIMITED_EUIP_2013.csv.json", "/data/db_to_load/txt/sparcs/IP_Enc_EUPID14.DAT.csv", "sparcs_raw_import_enhanced_encrypted_ip_2014")
-    
-    main("./support_files/SPARCS IP Format_LIMITED_2013.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDIP15.DAT.primary.csv", "sparcs_raw_import_ip_2015")
-    main("./support_files/SPARCS IP Format_LIMITED_continuation_2013.csv.json", "/data/db_to_load/txt/sparcs/LIMITEDIP15.DAT.continuation.csv", "sparcs_raw_import_continuation_ip_2015")
-    #main("./support_files/SPARCS IP Format_LIMITED_EUIP_2013.csv.json", "/data/db_to_load/txt/sparcs/IP_Enc_EUPID15.DAT.csv", "sparcs_raw_import_enhanced_encrypted_ip_2015")
+    arg_obj = arg_parse_obj.parse_args()
 
-    main("./support_files/SPARCS IP Format_LIMITED_EUIP_2013.csv.json", "/data/db_to_load/txt/sparcs/IP_Enc_EUPID14.DAT.csv", "sparcs_raw_import_enhanced_encrypted_ip_2014")
-    main("./support_files/SPARCS IP Format_LIMITED_EUIP_2013.csv.json", "/data/db_to_load/txt/sparcs/IP_Enc_EUPID15.DAT.csv", "sparcs_raw_import_enhanced_encrypted_ip_2015")
-    
+    main(arg_obj.csv_file_name, arg_obj.json_file_name, arg_obj.schema, arg_obj.table_name)
+
 
 

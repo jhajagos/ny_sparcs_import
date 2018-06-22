@@ -1,7 +1,13 @@
 __author__ = 'janos'
 
+"""
+Convert CSV templates provided by data provider into a JSON format which will
+be used to convert DAT files into CSV and generating a database schema.
+"""
+
 import csv
 import json
+
 
 def main(csv_file_name):
 
@@ -35,8 +41,3 @@ def main(csv_file_name):
 if __name__ == "__main__":
     main("./support_files/2016/Primary_SPARCS_IP_Format_LIMITED.csv")
     main("./support_files/2016/Continuation_SPARCS_IP_Format_LIMITED.csv")
-    # main("./support_files/SPARCS IP Format_LIMITED.csv")
-    # main("./support_files/SPARCS IP Format_LIMITED_continuation.csv")
-    # main("./support_files/SPARCS IP Format_LIMITED_continuation_2013.csv")
-    # main("./support_files/SPARCS IP Format_LIMITED_2013.csv")
-    # main("./support_files/SPARCS IP Format_LIMITED_EUIP_2013.csv")

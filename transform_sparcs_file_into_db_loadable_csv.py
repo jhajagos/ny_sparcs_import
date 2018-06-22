@@ -1,20 +1,31 @@
 """
-The goal is to import SPARCS outpatient DB into a CSV which can be loaded into a
+The goal is to import SPARCS inpatient/outpatient DAT files into CSV files which can be loaded into a
 database.
 
-The file is interleaved with continuation records. The continuation record has a different layout as the primary
-record.
+The file is interleaved with continuation records. The continuation record has a different
+layout compared to the primary record.
 
 Two CSV files are generated from each .DAT file.
 
+Use 'generate_sql_ddl_create_table.py' to import into a PostGreSQL database or modify
+for your target database.
 """
 
 __author__ = 'janos'
 
 import csv
 import json
-import sys
+import argparse
 import time
+import sys
+
+def open_csv_file(file_name, mode="w"):
+
+    ver_info = sys.version_info[0]
+    if ver_info == 2:
+        return open(file_name, mode=mode + "b")
+    else:
+        return open(file_name, newline="", mode=mode)
 
 
 def main(sparcs_data_file, sparcs_primary_file_json_structure="SPARCS OP Format_LIMITED.csv.json",
@@ -40,7 +51,7 @@ def main(sparcs_data_file, sparcs_primary_file_json_structure="SPARCS OP Format_
     sparcs_continuation_csv_file = sparcs_data_file + ".continuation.csv"
 
     with open(sparcs_data_file, "r") as fd:
-        with open(sparcs_primary_csv_file, "wb") as fwp:
+        with open_csv_file(sparcs_primary_csv_file, "w") as fwp:
 
             csv_writer_primary = csv.writer(fwp)
             csv_writer_primary.writerow(header_primary)
@@ -49,9 +60,6 @@ def main(sparcs_data_file, sparcs_primary_file_json_structure="SPARCS OP Format_
             starting_primary_position_type = {}
             for sl in sparcs_primary_layout:
                 starting_primary_position_type[int(sl["From"]) - 1] = sl["Type"]
-            # import pprint
-            # pprint.pprint(starting_positions_primary)
-            # pprint.pprint(starting_primary_position_type)
 
             with open(sparcs_continuation_csv_file, "wb") as fwc:
                 csv_writer_continuation = csv.writer(fwc)
@@ -60,7 +68,6 @@ def main(sparcs_data_file, sparcs_primary_file_json_structure="SPARCS OP Format_
                 starting_continuation_position_type = {}
                 for sl in sparcs_continuation_layout:
                     starting_continuation_position_type[int(sl["From"]) - 1] = sl["Type"]
-
 
                 i = 0
                 row_to_write = []
@@ -77,10 +84,6 @@ def main(sparcs_data_file, sparcs_primary_file_json_structure="SPARCS OP Format_
 
                         for start_pos in starting_positions_primary:
                             raw_value = line[start_pos[0]:(start_pos[0] + start_pos[1])].strip()
-                            # print("******************************************************")
-                            # print(raw_value)
-                            # print(start_pos)
-                            # print(line[start_pos[0]:])
 
                             if starting_primary_position_type[int(start_pos[0])] == "NUM":
                                 if len(raw_value) > 0:
@@ -123,10 +126,15 @@ def main(sparcs_data_file, sparcs_primary_file_json_structure="SPARCS OP Format_
                         print("Read %s lines in %s seconds" % (i, time_difference))
                         loop_time = updated_time
 
+
 if __name__ == "__main__":
-    if len(sys.argv) == 1:
-        print('Usage: python transform_sparcs_file_into_db_loadable_csv.py /path/to/LIMITEDIP13.DAT "./support_files/SPARCS IP Format_LIMITED.csv.json" "./support_files/SPARCS IP Format_LIMITED_continuation.csv.json"')
-    elif len(sys.argv) == 2:
-        main(sys.argv[1])
-    else:
-        main(sys.argv[1], sys.argv[2], sys.argv[3])
+
+    arg_parser_obj = argparse.ArgumentParser(description="Program for converting SPARCS dat files into two CSV files.")
+
+    arg_parser_obj.add_argument("-f", "--dat-file-name", help="DAT file to convert", dest="dat_file_name", required=True)
+    arg_parser_obj.add_argument("-p", "--primary-json-file-name", dest="primary_json_file_name", required=True)
+    arg_parser_obj.add_argument("-c", "--continuation-json-file-name", dest="continuation_json_file_name", required=True)
+
+    arg_obj = arg_parser_obj.parse_args()
+
+    main(arg_obj.dat_file_name, arg_obj.primary_json_file_name, arg_obj.continuation_json_file_name)
