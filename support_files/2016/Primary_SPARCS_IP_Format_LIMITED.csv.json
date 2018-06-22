@@ -6548,35 +6548,5 @@
         "Size": "22",
         "To": "5076",
         "Type": ""
-    },
-    {
-        "Description (Remarks)": "",
-        "Field Label": " 1",
-        "From": "",
-        "Ln": "",
-        "SEGMENT": "",
-        "Size": "",
-        "To": "",
-        "Type": ""
-    },
-    {
-        "Description (Remarks)": "",
-        "Field Label": " 2",
-        "From": "",
-        "Ln": "",
-        "SEGMENT": "",
-        "Size": "",
-        "To": "",
-        "Type": ""
-    },
-    {
-        "Description (Remarks)": "",
-        "Field Label": " 3",
-        "From": "",
-        "Ln": "",
-        "SEGMENT": "",
-        "Size": "5076",
-        "To": "",
-        "Type": "15"
     }
 ]
