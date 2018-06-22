@@ -2,6 +2,7 @@ __author__ = 'janos'
 import json
 import sys
 
+
 def main(json_file_name, path_to_import_file, table_name="sparcs_raw_import"):
 
     with open(json_file_name, "r") as fj:

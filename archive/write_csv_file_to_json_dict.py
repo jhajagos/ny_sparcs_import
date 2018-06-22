@@ -41,5 +41,6 @@ def main(csv_file_name):
                     print("Read %s lines in %s seconds" % (i, time_difference))
                     loop_time = updated_time
 
+
 if __name__ == "__main__":
     main("/Volumes/untitled/LIMITEDOP12p1.DAT.sample.sample.csv")
