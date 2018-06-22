@@ -19,6 +19,7 @@ import argparse
 import time
 import sys
 
+
 def open_csv_file(file_name, mode="w"):
 
     ver_info = sys.version_info[0]
@@ -61,7 +62,7 @@ def main(sparcs_data_file, sparcs_primary_file_json_structure="SPARCS OP Format_
             for sl in sparcs_primary_layout:
                 starting_primary_position_type[int(sl["From"]) - 1] = sl["Type"]
 
-            with open(sparcs_continuation_csv_file, "wb") as fwc:
+            with open_csv_file(sparcs_continuation_csv_file, "w") as fwc:
                 csv_writer_continuation = csv.writer(fwc)
                 csv_writer_continuation.writerow(header_continuation)
                 starting_positions_continuation = [(int(sl["From"]) - 1, int(sl["Size"])) for sl in sparcs_continuation_layout]
