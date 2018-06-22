@@ -65,7 +65,7 @@ if __name__ == "__main__":
 
     arg_obj = arg_parse_obj.parse_args()
 
-    main(arg_obj.csv_file_name, arg_obj.json_file_name, arg_obj.schema, arg_obj.table_name)
+    main(arg_obj.json_file_name, arg_obj.csv_file_name, arg_obj.schema, arg_obj.table_name)
 
 
 
