@@ -10,7 +10,15 @@ import csv
 import json
 import time
 import argparse
+import sys
 
+def open_csv_file(file_name, mode="w"):
+
+    ver_info = sys.version_info[0]
+    if ver_info == 2:
+        return open(file_name, mode=mode + "b")
+    else:
+        return open(file_name, newline="", mode=mode)
 
 def main(sparcs_secondary_data_file, sparcs_secondary_file_json_structure, log_every_ith_record=100000):
     with open(sparcs_secondary_file_json_structure, "r") as fj:
@@ -22,7 +30,7 @@ def main(sparcs_secondary_data_file, sparcs_secondary_file_json_structure, log_e
 
     with open(sparcs_secondary_data_file, "r") as fd:
         sparcs_secondary_data_file_csv = sparcs_secondary_data_file + ".csv"
-        with open(sparcs_secondary_data_file_csv, "wb") as fw:
+        with open_csv_file(sparcs_secondary_data_file_csv, "w") as fw:
 
             csv_writer_secondary = csv.writer(fw)
             csv_writer_secondary.writerow(header_secondary)
